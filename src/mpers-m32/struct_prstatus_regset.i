@@ -5,4 +5,4 @@ struct_prstatus_regset.o: mpers-m32/struct_prstatus_regset.c defs.h \
  syscall.h syscall_dummy.h sys_func.h ptrace.h \
  linux/x86_64/arch_prstatus_regset.h \
  linux/x86_64/../i386/arch_prstatus_regset.h linux/x86_64/arch_fpregset.h \
- linux/x86_64/../i386/arch_fpregset.h struct_prstatus_regset.h
+ linux/x86_64/../i386/arch_fpregset.h mpers-m32/struct_prstatus_regset.h

@@ -4,4 +4,4 @@ struct_prstatus_regset.o: mpers-mx32/struct_prstatus_regset.c defs.h \
  string_to_uint.h sysent.h xmalloc.h xlat.h printers.h print_fields.h \
  syscall.h syscall_dummy.h sys_func.h ptrace.h \
  linux/x86_64/arch_prstatus_regset.h linux/x86_64/arch_fpregset.h \
- struct_prstatus_regset.h
+ mpers-mx32/struct_prstatus_regset.h

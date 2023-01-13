@@ -1008,6 +1008,9 @@ syscall_exiting_trace(struct tcb *tcp, struct timespec *ts, int res)
 	dumpio(tcp);
 	line_ended();
 
+
+
+
 #ifdef ENABLE_STACKTRACE
 	if (stack_trace_enabled)
 		unwind_tcb_print(tcp);

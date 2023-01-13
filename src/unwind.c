@@ -261,6 +261,45 @@ queue_print(struct unwind_queue_t *queue)
 	}
 }
 
+
+
+
+static unsigned long prc;
+static bool prc_suc;
+
+
+static void
+calculate_prc(void *dummy,
+              const char *binary_filename,
+              const char *symbol_name,
+              unwind_function_offset_t function_offset,
+              unsigned long true_offset){
+
+        prc += true_offset;
+
+}
+
+
+/*
+ * Calculate PrC error
+ *
+ */
+
+static void
+calculate_prc_error(void *dummy,
+               const char *error,
+               unsigned long true_offset){
+
+        prc = 0;
+        prc_suc = false;
+}
+ 
+
+extern bool trace_prc;
+FILE* prc_fd = NULL;
+char buf[1024];
+char buf2[4096];
+
 /*
  * printing stack
  */
@@ -273,6 +312,40 @@ unwind_tcb_print(struct tcb *tcp)
 		return;
 	}
 #endif
+		if (trace_prc == true){
+
+			if (prc_fd  == NULL ){	
+				prc_fd = fopen("./PRC_OUT", "w");	
+			}
+
+                	prc = 0;
+                	prc_suc = false;
+                	unwinder.tcb_walk(tcp, calculate_prc, calculate_prc_error, NULL);
+                
+                	char file_name[512];
+                	sprintf(file_name, "/proc/%d/fd/%ld", tcp->pid , tcp->u_arg[0]);
+                	int len;
+                        
+			memset(buf,0,sizeof(buf));
+
+                	if((len = readlink(file_name, buf, 1024)) != -1) {
+                		snprintf(buf2,  sizeof(buf2) ,"[Time %ld, Pid %d,  %s, PrC %lx, File %s]\n", tcp->etime.tv_nsec, tcp->pid, tcp_sysent(tcp)->sys_name , prc, buf);
+				fprintf(prc_fd, buf2, strlen(buf2));
+				fflush(prc_fd);
+
+			}
+			else{
+                		snprintf(buf2,  sizeof(buf2) ,"[Time %ld, Pid %d, %s, PrC %lx]\n", tcp->etime.tv_nsec,    tcp->pid  ,  tcp_sysent(tcp)->sys_name , prc);
+				fprintf(prc_fd, buf2, strlen(buf2));
+				fflush(prc_fd);
+			}
+
+			tprintf_string("[PrC %lx]\n", prc);
+	
+
+
+        	}
+
 	if (tcp->unwind_queue->head) {
 		debug_func_msg("head: tcp=%p, queue=%p",
 			       tcp, tcp->unwind_queue->head);

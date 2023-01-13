@@ -4,4 +4,4 @@ struct_fpregset.o: mpers-mx32/struct_fpregset.c defs.h config.h \
  string_to_uint.h sysent.h xmalloc.h xlat.h printers.h print_fields.h \
  syscall.h syscall_dummy.h sys_func.h ptrace.h \
  linux/x86_64/arch_prstatus_regset.h linux/x86_64/arch_fpregset.h \
- struct_fpregset.h
+ mpers-mx32/struct_fpregset.h

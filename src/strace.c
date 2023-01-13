@@ -79,6 +79,10 @@ static const struct xlat_data xflag_str[] = {
 };
 unsigned int xflag;
 bool debug_flag;
+
+
+bool trace_prc = false;
+
 bool Tflag;
 int Tflag_scale = 1000;
 int Tflag_width = 6;
@@ -2272,8 +2276,11 @@ init(int argc, char *argv[])
 		GETOPT_QUAL_DECODE_FD,
 		GETOPT_QUAL_DECODE_PID,
 		GETOPT_QUAL_SECONTEXT,
+
+		GETOPT_PRC,
 	};
 	static const struct option longopts[] = {
+		{ "prc",            no_argument, 0, GETOPT_PRC },
 		{ "columns",		required_argument, 0, 'a' },
 		{ "output-append-mode",	no_argument,	   0, 'A' },
 		{ "detach-on",		required_argument, 0, 'b' },
@@ -2381,6 +2388,13 @@ init(int argc, char *argv[])
 		case 'D':
 			daemonized_tracer++;
 			break;
+
+                case GETOPT_PRC:
+                        trace_prc = true;
+                        stack_trace_enabled = true;
+                        qflag_short = 2;;
+                        break;
+
 		case GETOPT_DAEMONIZE:
 			daemonized_tracer_long =
 				find_arg_val(optarg, daemonize_str,
@@ -3628,6 +3642,9 @@ next_event_exit:
 	return tcb_wait_tab + tcp->wait_data_idx;
 }
 
+
+       
+
 static int
 trace_syscall(struct tcb *tcp, unsigned int *sig)
 {
@@ -3644,6 +3661,7 @@ trace_syscall(struct tcb *tcp, unsigned int *sig)
 	} else {
 		struct timespec ts = {};
 		int res = syscall_exiting_decode(tcp, &ts);
+
 		if (res != 0) {
 			res = syscall_exiting_trace(tcp, &ts, res);
 		}
