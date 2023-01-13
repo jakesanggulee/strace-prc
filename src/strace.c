@@ -2393,7 +2393,18 @@ init(int argc, char *argv[])
                         trace_prc = true;
                         stack_trace_enabled = true;
                         qflag_short = 2;;
+
+
+			qualify_decode_pid("comm");
+
+                        Tflag = 1;
+                        Tflag_width = 6;
+                        Tflag_scale = str2timescale_optarg(optarg,
+                                                           &Tflag_width);
+                        if (Tflag_scale < 0)
+                                error_opt_arg(c, lopt, optarg);
                         break;
+
 
 		case GETOPT_DAEMONIZE:
 			daemonized_tracer_long =
