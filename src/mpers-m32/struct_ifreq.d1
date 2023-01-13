@@ -9,7 +9,7 @@ Contents of the .debug_info section:
     <c>   DW_AT_producer    : (indirect string, offset: 0x608): GNU C17 9.4.0 -m32 -mtune=generic -march=i686 -gdwarf-2 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection
     <10>   DW_AT_language    : 12	(ANSI C99)
     <11>   DW_AT_name        : (indirect string, offset: 0x32): mpers-m32/struct_ifreq.c
-    <15>   DW_AT_comp_dir    : (indirect string, offset: 0xef3): /root/strace-prc/src
+    <15>   DW_AT_comp_dir    : (indirect string, offset: 0xb8b): /home/femu/strace-prc/src
     <19>   DW_AT_stmt_list   : 0x0
  <1><1d>: Abbrev Number: 2 (DW_TAG_base_type)
     <1e>   DW_AT_byte_size   : 1
@@ -18,7 +18,7 @@ Contents of the .debug_info section:
  <1><24>: Abbrev Number: 2 (DW_TAG_base_type)
     <25>   DW_AT_byte_size   : 2
     <26>   DW_AT_encoding    : 7	(unsigned)
-    <27>   DW_AT_name        : (indirect string, offset: 0x1072): short unsigned int
+    <27>   DW_AT_name        : (indirect string, offset: 0x1070): short unsigned int
  <1><2b>: Abbrev Number: 2 (DW_TAG_base_type)
     <2c>   DW_AT_byte_size   : 4
     <2d>   DW_AT_encoding    : 7	(unsigned)
@@ -42,7 +42,7 @@ Contents of the .debug_info section:
  <1><51>: Abbrev Number: 2 (DW_TAG_base_type)
     <52>   DW_AT_byte_size   : 2
     <53>   DW_AT_encoding    : 5	(signed)
-    <54>   DW_AT_name        : (indirect string, offset: 0xe56): short int
+    <54>   DW_AT_name        : (indirect string, offset: 0xe69): short int
  <1><58>: Abbrev Number: 4 (DW_TAG_typedef)
     <59>   DW_AT_name        : (indirect string, offset: 0x4d1): __uint16_t
     <5d>   DW_AT_decl_file   : 1
@@ -62,7 +62,7 @@ Contents of the .debug_info section:
     <77>   DW_AT_decl_column : 22
     <78>   DW_AT_type        : <0x2b>
  <1><7c>: Abbrev Number: 4 (DW_TAG_typedef)
-    <7d>   DW_AT_name        : (indirect string, offset: 0xf44): __int64_t
+    <7d>   DW_AT_name        : (indirect string, offset: 0xf42): __int64_t
     <81>   DW_AT_decl_file   : 1
     <82>   DW_AT_decl_line   : 47
     <83>   DW_AT_decl_column : 44
@@ -80,9 +80,9 @@ Contents of the .debug_info section:
  <1><9b>: Abbrev Number: 2 (DW_TAG_base_type)
     <9c>   DW_AT_byte_size   : 8
     <9d>   DW_AT_encoding    : 7	(unsigned)
-    <9e>   DW_AT_name        : (indirect string, offset: 0xba5): long long unsigned int
+    <9e>   DW_AT_name        : (indirect string, offset: 0xbb8): long long unsigned int
  <1><a2>: Abbrev Number: 4 (DW_TAG_typedef)
-    <a3>   DW_AT_name        : (indirect string, offset: 0xbe7): __off_t
+    <a3>   DW_AT_name        : (indirect string, offset: 0xbfa): __off_t
     <a7>   DW_AT_decl_file   : 1
     <a8>   DW_AT_decl_line   : 152
     <a9>   DW_AT_decl_column : 25
@@ -92,13 +92,13 @@ Contents of the .debug_info section:
     <b0>   DW_AT_encoding    : 5	(signed)
     <b1>   DW_AT_name        : (indirect string, offset: 0x2e0): long int
  <1><b5>: Abbrev Number: 4 (DW_TAG_typedef)
-    <b6>   DW_AT_name        : (indirect string, offset: 0xd58): __off64_t
+    <b6>   DW_AT_name        : (indirect string, offset: 0xd6b): __off64_t
     <ba>   DW_AT_decl_file   : 1
     <bb>   DW_AT_decl_line   : 153
     <bc>   DW_AT_decl_column : 27
     <bd>   DW_AT_type        : <0x7c>
  <1><c1>: Abbrev Number: 4 (DW_TAG_typedef)
-    <c2>   DW_AT_name        : (indirect string, offset: 0xcc5): __time_t
+    <c2>   DW_AT_name        : (indirect string, offset: 0xcd8): __time_t
     <c6>   DW_AT_decl_file   : 1
     <c7>   DW_AT_decl_line   : 160
     <c8>   DW_AT_decl_column : 26
@@ -135,19 +135,19 @@ Contents of the .debug_info section:
     <105>   DW_AT_decl_column : 19
     <106>   DW_AT_type        : <0x45>
  <1><10a>: Abbrev Number: 4 (DW_TAG_typedef)
-    <10b>   DW_AT_name        : (indirect string, offset: 0xbd2): uint16_t
+    <10b>   DW_AT_name        : (indirect string, offset: 0xbe5): uint16_t
     <10f>   DW_AT_decl_file   : 2
     <110>   DW_AT_decl_line   : 25
     <111>   DW_AT_decl_column : 20
     <112>   DW_AT_type        : <0x58>
  <1><116>: Abbrev Number: 4 (DW_TAG_typedef)
-    <117>   DW_AT_name        : (indirect string, offset: 0xffe): uint32_t
+    <117>   DW_AT_name        : (indirect string, offset: 0xffc): uint32_t
     <11b>   DW_AT_decl_file   : 2
     <11c>   DW_AT_decl_line   : 26
     <11d>   DW_AT_decl_column : 20
     <11e>   DW_AT_type        : <0x70>
  <1><122>: Abbrev Number: 4 (DW_TAG_typedef)
-    <123>   DW_AT_name        : (indirect string, offset: 0xe66): uint64_t
+    <123>   DW_AT_name        : (indirect string, offset: 0xe79): uint64_t
     <127>   DW_AT_decl_file   : 2
     <128>   DW_AT_decl_line   : 27
     <129>   DW_AT_decl_column : 20
@@ -168,14 +168,14 @@ Contents of the .debug_info section:
     <147>   DW_AT_decl_column : 8
     <148>   DW_AT_sibling     : <0x16b>
  <2><14c>: Abbrev Number: 9 (DW_TAG_member)
-    <14d>   DW_AT_name        : (indirect string, offset: 0x114a): tv_sec
+    <14d>   DW_AT_name        : (indirect string, offset: 0x1148): tv_sec
     <151>   DW_AT_decl_file   : 4
     <152>   DW_AT_decl_line   : 12
     <153>   DW_AT_decl_column : 12
     <154>   DW_AT_type        : <0xc1>
     <158>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
  <2><15b>: Abbrev Number: 9 (DW_TAG_member)
-    <15c>   DW_AT_name        : (indirect string, offset: 0xe8c): tv_nsec
+    <15c>   DW_AT_name        : (indirect string, offset: 0xe9f): tv_nsec
     <160>   DW_AT_decl_file   : 4
     <161>   DW_AT_decl_line   : 16
     <162>   DW_AT_decl_column : 21
@@ -189,7 +189,7 @@ Contents of the .debug_info section:
  <1><172>: Abbrev Number: 2 (DW_TAG_base_type)
     <173>   DW_AT_byte_size   : 16
     <174>   DW_AT_encoding    : 4	(float)
-    <175>   DW_AT_name        : (indirect string, offset: 0x1027): _Float128
+    <175>   DW_AT_name        : (indirect string, offset: 0x1025): _Float128
  <1><179>: Abbrev Number: 10 (DW_TAG_variable)
     <17a>   DW_AT_name        : (indirect string, offset: 0x297): __environ
     <17e>   DW_AT_decl_file   : 5
@@ -210,7 +210,7 @@ Contents of the .debug_info section:
     <19b>   DW_AT_external    : 1
     <19c>   DW_AT_declaration : 1
  <1><19d>: Abbrev Number: 11 (DW_TAG_variable)
-    <19e>   DW_AT_name        : (indirect string, offset: 0x1056): optarg
+    <19e>   DW_AT_name        : (indirect string, offset: 0x1054): optarg
     <1a2>   DW_AT_decl_file   : 6
     <1a3>   DW_AT_decl_line   : 36
     <1a4>   DW_AT_decl_column : 14
@@ -226,7 +226,7 @@ Contents of the .debug_info section:
     <1b7>   DW_AT_external    : 1
     <1b8>   DW_AT_declaration : 1
  <1><1b9>: Abbrev Number: 11 (DW_TAG_variable)
-    <1ba>   DW_AT_name        : (indirect string, offset: 0xc9f): opterr
+    <1ba>   DW_AT_name        : (indirect string, offset: 0xcb2): opterr
     <1be>   DW_AT_decl_file   : 6
     <1bf>   DW_AT_decl_line   : 55
     <1c0>   DW_AT_decl_column : 12
@@ -234,7 +234,7 @@ Contents of the .debug_info section:
     <1c5>   DW_AT_external    : 1
     <1c6>   DW_AT_declaration : 1
  <1><1c7>: Abbrev Number: 11 (DW_TAG_variable)
-    <1c8>   DW_AT_name        : (indirect string, offset: 0xb8b): optopt
+    <1c8>   DW_AT_name        : (indirect string, offset: 0x115b): optopt
     <1cc>   DW_AT_decl_file   : 6
     <1cd>   DW_AT_decl_line   : 59
     <1ce>   DW_AT_decl_column : 12
@@ -272,7 +272,7 @@ Contents of the .debug_info section:
     <20b>   DW_AT_type        : <0xec>
     <20f>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
  <2><212>: Abbrev Number: 9 (DW_TAG_member)
-    <213>   DW_AT_name        : (indirect string, offset: 0xf99): _IO_read_end
+    <213>   DW_AT_name        : (indirect string, offset: 0xf97): _IO_read_end
     <217>   DW_AT_decl_file   : 7
     <218>   DW_AT_decl_line   : 55
     <219>   DW_AT_decl_column : 9
@@ -293,7 +293,7 @@ Contents of the .debug_info section:
     <238>   DW_AT_type        : <0xec>
     <23c>   DW_AT_data_member_location: 2 byte block: 23 10 	(DW_OP_plus_uconst: 16)
  <2><23f>: Abbrev Number: 9 (DW_TAG_member)
-    <240>   DW_AT_name        : (indirect string, offset: 0x10b6): _IO_write_ptr
+    <240>   DW_AT_name        : (indirect string, offset: 0x10b4): _IO_write_ptr
     <244>   DW_AT_decl_file   : 7
     <245>   DW_AT_decl_line   : 58
     <246>   DW_AT_decl_column : 9
@@ -314,7 +314,7 @@ Contents of the .debug_info section:
     <265>   DW_AT_type        : <0xec>
     <269>   DW_AT_data_member_location: 2 byte block: 23 1c 	(DW_OP_plus_uconst: 28)
  <2><26c>: Abbrev Number: 9 (DW_TAG_member)
-    <26d>   DW_AT_name        : (indirect string, offset: 0xdf0): _IO_buf_end
+    <26d>   DW_AT_name        : (indirect string, offset: 0xe03): _IO_buf_end
     <271>   DW_AT_decl_file   : 7
     <272>   DW_AT_decl_line   : 61
     <273>   DW_AT_decl_column : 9
@@ -328,7 +328,7 @@ Contents of the .debug_info section:
     <283>   DW_AT_type        : <0xec>
     <287>   DW_AT_data_member_location: 2 byte block: 23 24 	(DW_OP_plus_uconst: 36)
  <2><28a>: Abbrev Number: 9 (DW_TAG_member)
-    <28b>   DW_AT_name        : (indirect string, offset: 0xd17): _IO_backup_base
+    <28b>   DW_AT_name        : (indirect string, offset: 0xd2a): _IO_backup_base
     <28f>   DW_AT_decl_file   : 7
     <290>   DW_AT_decl_line   : 65
     <291>   DW_AT_decl_column : 9
@@ -356,7 +356,7 @@ Contents of the .debug_info section:
     <2bf>   DW_AT_type        : <0x3c8>
     <2c3>   DW_AT_data_member_location: 2 byte block: 23 34 	(DW_OP_plus_uconst: 52)
  <2><2c6>: Abbrev Number: 9 (DW_TAG_member)
-    <2c7>   DW_AT_name        : (indirect string, offset: 0x1012): _fileno
+    <2c7>   DW_AT_name        : (indirect string, offset: 0x1010): _fileno
     <2cb>   DW_AT_decl_file   : 7
     <2cc>   DW_AT_decl_line   : 72
     <2cd>   DW_AT_decl_column : 7
@@ -384,14 +384,14 @@ Contents of the .debug_info section:
     <2fb>   DW_AT_type        : <0x24>
     <2ff>   DW_AT_data_member_location: 2 byte block: 23 44 	(DW_OP_plus_uconst: 68)
  <2><302>: Abbrev Number: 9 (DW_TAG_member)
-    <303>   DW_AT_name        : (indirect string, offset: 0xeb2): _vtable_offset
+    <303>   DW_AT_name        : (indirect string, offset: 0xec5): _vtable_offset
     <307>   DW_AT_decl_file   : 7
     <308>   DW_AT_decl_line   : 78
     <309>   DW_AT_decl_column : 15
     <30a>   DW_AT_type        : <0x3e>
     <30e>   DW_AT_data_member_location: 2 byte block: 23 46 	(DW_OP_plus_uconst: 70)
  <2><311>: Abbrev Number: 9 (DW_TAG_member)
-    <312>   DW_AT_name        : (indirect string, offset: 0xd27): _shortbuf
+    <312>   DW_AT_name        : (indirect string, offset: 0xd3a): _shortbuf
     <316>   DW_AT_decl_file   : 7
     <317>   DW_AT_decl_line   : 79
     <318>   DW_AT_decl_column : 8
@@ -419,7 +419,7 @@ Contents of the .debug_info section:
     <346>   DW_AT_type        : <0x3ea>
     <34a>   DW_AT_data_member_location: 2 byte block: 23 54 	(DW_OP_plus_uconst: 84)
  <2><34d>: Abbrev Number: 9 (DW_TAG_member)
-    <34e>   DW_AT_name        : (indirect string, offset: 0x103a): _wide_data
+    <34e>   DW_AT_name        : (indirect string, offset: 0x1038): _wide_data
     <352>   DW_AT_decl_file   : 7
     <353>   DW_AT_decl_line   : 92
     <354>   DW_AT_decl_column : 25
@@ -433,7 +433,7 @@ Contents of the .debug_info section:
     <364>   DW_AT_type        : <0x3c8>
     <368>   DW_AT_data_member_location: 2 byte block: 23 5c 	(DW_OP_plus_uconst: 92)
  <2><36b>: Abbrev Number: 9 (DW_TAG_member)
-    <36c>   DW_AT_name        : (indirect string, offset: 0xc75): _freeres_buf
+    <36c>   DW_AT_name        : (indirect string, offset: 0xc88): _freeres_buf
     <370>   DW_AT_decl_file   : 7
     <371>   DW_AT_decl_line   : 94
     <372>   DW_AT_decl_column : 9
@@ -522,7 +522,7 @@ Contents of the .debug_info section:
     <41b>   DW_AT_byte_size   : 4
     <41c>   DW_AT_type        : <0x3a8>
  <1><420>: Abbrev Number: 11 (DW_TAG_variable)
-    <421>   DW_AT_name        : (indirect string, offset: 0x1085): stdout
+    <421>   DW_AT_name        : (indirect string, offset: 0x1083): stdout
     <425>   DW_AT_decl_file   : 9
     <426>   DW_AT_decl_line   : 138
     <427>   DW_AT_decl_column : 14
@@ -530,7 +530,7 @@ Contents of the .debug_info section:
     <42c>   DW_AT_external    : 1
     <42d>   DW_AT_declaration : 1
  <1><42e>: Abbrev Number: 11 (DW_TAG_variable)
-    <42f>   DW_AT_name        : (indirect string, offset: 0xe4f): stderr
+    <42f>   DW_AT_name        : (indirect string, offset: 0xe62): stderr
     <433>   DW_AT_decl_file   : 9
     <434>   DW_AT_decl_line   : 139
     <435>   DW_AT_decl_column : 14
@@ -569,7 +569,7 @@ Contents of the .debug_info section:
     <474>   DW_AT_external    : 1
     <475>   DW_AT_declaration : 1
  <1><476>: Abbrev Number: 11 (DW_TAG_variable)
-    <477>   DW_AT_name        : (indirect string, offset: 0xec1): _sys_errlist
+    <477>   DW_AT_name        : (indirect string, offset: 0xed4): _sys_errlist
     <47b>   DW_AT_decl_file   : 10
     <47c>   DW_AT_decl_line   : 31
     <47d>   DW_AT_decl_column : 26
@@ -585,7 +585,7 @@ Contents of the .debug_info section:
     <490>   DW_AT_external    : 1
     <491>   DW_AT_declaration : 1
  <1><492>: Abbrev Number: 11 (DW_TAG_variable)
-    <493>   DW_AT_name        : (indirect string, offset: 0xc12): program_invocation_short_name
+    <493>   DW_AT_name        : (indirect string, offset: 0xc25): program_invocation_short_name
     <497>   DW_AT_decl_file   : 11
     <498>   DW_AT_decl_line   : 46
     <499>   DW_AT_decl_column : 14
@@ -608,7 +608,7 @@ Contents of the .debug_info section:
     <4bc>   DW_AT_external    : 1
     <4bd>   DW_AT_declaration : 1
  <1><4be>: Abbrev Number: 11 (DW_TAG_variable)
-    <4bf>   DW_AT_name        : (indirect string, offset: 0xf2b): __daylight
+    <4bf>   DW_AT_name        : (indirect string, offset: 0xf29): __daylight
     <4c3>   DW_AT_decl_file   : 12
     <4c4>   DW_AT_decl_line   : 160
     <4c5>   DW_AT_decl_column : 12
@@ -632,7 +632,7 @@ Contents of the .debug_info section:
     <4e6>   DW_AT_external    : 1
     <4e7>   DW_AT_declaration : 1
  <1><4e8>: Abbrev Number: 11 (DW_TAG_variable)
-    <4e9>   DW_AT_name        : (indirect string, offset: 0x1100): daylight
+    <4e9>   DW_AT_name        : (indirect string, offset: 0x10fe): daylight
     <4ed>   DW_AT_decl_file   : 12
     <4ee>   DW_AT_decl_line   : 174
     <4ef>   DW_AT_decl_column : 12
@@ -648,7 +648,7 @@ Contents of the .debug_info section:
     <502>   DW_AT_external    : 1
     <503>   DW_AT_declaration : 1
  <1><504>: Abbrev Number: 10 (DW_TAG_variable)
-    <505>   DW_AT_name        : (indirect string, offset: 0xfc9): getdate_err
+    <505>   DW_AT_name        : (indirect string, offset: 0xfc7): getdate_err
     <509>   DW_AT_decl_file   : 12
     <50a>   DW_AT_decl_line   : 274
     <50c>   DW_AT_decl_column : 12
@@ -696,21 +696,21 @@ Contents of the .debug_info section:
  <1><55d>: Abbrev Number: 3 (DW_TAG_const_type)
     <55e>   DW_AT_type        : <0x551>
  <1><562>: Abbrev Number: 8 (DW_TAG_structure_type)
-    <563>   DW_AT_name        : (indirect string, offset: 0xc30): list_item
+    <563>   DW_AT_name        : (indirect string, offset: 0xc43): list_item
     <567>   DW_AT_byte_size   : 8
     <568>   DW_AT_decl_file   : 16
     <569>   DW_AT_decl_line   : 92
     <56a>   DW_AT_decl_column : 8
     <56b>   DW_AT_sibling     : <0x58e>
  <2><56f>: Abbrev Number: 9 (DW_TAG_member)
-    <570>   DW_AT_name        : (indirect string, offset: 0x1145): prev
+    <570>   DW_AT_name        : (indirect string, offset: 0x1143): prev
     <574>   DW_AT_decl_file   : 16
     <575>   DW_AT_decl_line   : 93
     <576>   DW_AT_decl_column : 20
     <577>   DW_AT_type        : <0x58e>
     <57b>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
  <2><57e>: Abbrev Number: 9 (DW_TAG_member)
-    <57f>   DW_AT_name        : (indirect string, offset: 0x113b): next
+    <57f>   DW_AT_name        : (indirect string, offset: 0x1139): next
     <583>   DW_AT_decl_file   : 16
     <584>   DW_AT_decl_line   : 94
     <585>   DW_AT_decl_column : 20
@@ -728,7 +728,7 @@ Contents of the .debug_info section:
     <59c>   DW_AT_decl_column : 16
     <59d>   DW_AT_sibling     : <0x5ed>
  <2><5a1>: Abbrev Number: 9 (DW_TAG_member)
-    <5a2>   DW_AT_name        : (indirect string, offset: 0x109c): nargs
+    <5a2>   DW_AT_name        : (indirect string, offset: 0x109a): nargs
     <5a6>   DW_AT_decl_file   : 17
     <5a7>   DW_AT_decl_line   : 14
     <5a8>   DW_AT_decl_column : 11
@@ -825,7 +825,7 @@ Contents of the .debug_info section:
     <66f>   DW_AT_type        : <0x551>
     <673>   DW_AT_data_member_location: 2 byte block: 23 14 	(DW_OP_plus_uconst: 20)
  <2><676>: Abbrev Number: 22 (DW_TAG_member)
-    <677>   DW_AT_name        : (indirect string, offset: 0xbc8): true_scno
+    <677>   DW_AT_name        : (indirect string, offset: 0xbdb): true_scno
     <67b>   DW_AT_decl_file   : 18
     <67c>   DW_AT_decl_line   : 271
     <67e>   DW_AT_decl_column : 17
@@ -853,7 +853,7 @@ Contents of the .debug_info section:
     <6af>   DW_AT_type        : <0x64>
     <6b3>   DW_AT_data_member_location: 2 byte block: 23 38 	(DW_OP_plus_uconst: 56)
  <2><6b6>: Abbrev Number: 22 (DW_TAG_member)
-    <6b7>   DW_AT_name        : (indirect string, offset: 0xd49): curcol
+    <6b7>   DW_AT_name        : (indirect string, offset: 0xd5c): curcol
     <6bb>   DW_AT_decl_file   : 18
     <6bc>   DW_AT_decl_line   : 275
     <6be>   DW_AT_decl_column : 6
@@ -867,7 +867,7 @@ Contents of the .debug_info section:
     <6cf>   DW_AT_type        : <0x41a>
     <6d3>   DW_AT_data_member_location: 2 byte block: 23 40 	(DW_OP_plus_uconst: 64)
  <2><6d6>: Abbrev Number: 22 (DW_TAG_member)
-    <6d7>   DW_AT_name        : (indirect string, offset: 0xf6a): staged_output_data
+    <6d7>   DW_AT_name        : (indirect string, offset: 0xf68): staged_output_data
     <6db>   DW_AT_decl_file   : 18
     <6dc>   DW_AT_decl_line   : 277
     <6de>   DW_AT_decl_column : 29
@@ -888,7 +888,7 @@ Contents of the .debug_info section:
     <6ff>   DW_AT_type        : <0xcd>
     <703>   DW_AT_data_member_location: 2 byte block: 23 4c 	(DW_OP_plus_uconst: 76)
  <2><706>: Abbrev Number: 22 (DW_TAG_member)
-    <707>   DW_AT_name        : (indirect string, offset: 0xc5d): _free_priv_data
+    <707>   DW_AT_name        : (indirect string, offset: 0xc70): _free_priv_data
     <70b>   DW_AT_decl_file   : 18
     <70c>   DW_AT_decl_line   : 281
     <70e>   DW_AT_decl_column : 9
@@ -930,7 +930,7 @@ Contents of the .debug_info section:
     <75f>   DW_AT_type        : <0x13f>
     <763>   DW_AT_data_member_location: 2 byte block: 23 70 	(DW_OP_plus_uconst: 112)
  <2><766>: Abbrev Number: 22 (DW_TAG_member)
-    <767>   DW_AT_name        : (indirect string, offset: 0x105d): atime
+    <767>   DW_AT_name        : (indirect string, offset: 0x105b): atime
     <76b>   DW_AT_decl_file   : 18
     <76c>   DW_AT_decl_line   : 289
     <76e>   DW_AT_decl_column : 18
@@ -944,7 +944,7 @@ Contents of the .debug_info section:
     <77f>   DW_AT_type        : <0x13f>
     <783>   DW_AT_data_member_location: 3 byte block: 23 80 1 	(DW_OP_plus_uconst: 128)
  <2><787>: Abbrev Number: 22 (DW_TAG_member)
-    <788>   DW_AT_name        : (indirect string, offset: 0xdad): delay_expiration_time
+    <788>   DW_AT_name        : (indirect string, offset: 0xdc0): delay_expiration_time
     <78c>   DW_AT_decl_file   : 18
     <78d>   DW_AT_decl_line   : 291
     <78f>   DW_AT_decl_column : 18
@@ -958,21 +958,21 @@ Contents of the .debug_info section:
     <7a1>   DW_AT_type        : <0x2b>
     <7a5>   DW_AT_data_member_location: 3 byte block: 23 90 1 	(DW_OP_plus_uconst: 144)
  <2><7a9>: Abbrev Number: 22 (DW_TAG_member)
-    <7aa>   DW_AT_name        : (indirect string, offset: 0xfa6): last_dirfd
+    <7aa>   DW_AT_name        : (indirect string, offset: 0xfa4): last_dirfd
     <7ae>   DW_AT_decl_file   : 18
     <7af>   DW_AT_decl_line   : 301
     <7b1>   DW_AT_decl_column : 6
     <7b2>   DW_AT_type        : <0x64>
     <7b6>   DW_AT_data_member_location: 3 byte block: 23 94 1 	(DW_OP_plus_uconst: 148)
  <2><7ba>: Abbrev Number: 22 (DW_TAG_member)
-    <7bb>   DW_AT_name        : (indirect string, offset: 0xfde): mmap_cache
+    <7bb>   DW_AT_name        : (indirect string, offset: 0xfdc): mmap_cache
     <7bf>   DW_AT_decl_file   : 18
     <7c0>   DW_AT_decl_line   : 304
     <7c2>   DW_AT_decl_column : 23
     <7c3>   DW_AT_type        : <0x9c8>
     <7c7>   DW_AT_data_member_location: 3 byte block: 23 98 1 	(DW_OP_plus_uconst: 152)
  <2><7cb>: Abbrev Number: 22 (DW_TAG_member)
-    <7cc>   DW_AT_name        : (indirect string, offset: 0xb92): wait_data_idx
+    <7cc>   DW_AT_name        : (indirect string, offset: 0xba5): wait_data_idx
     <7d0>   DW_AT_decl_file   : 18
     <7d1>   DW_AT_decl_line   : 311
     <7d3>   DW_AT_decl_column : 9
@@ -1000,7 +1000,7 @@ Contents of the .debug_info section:
     <807>   DW_AT_type        : <0x9e0>
     <80b>   DW_AT_data_member_location: 3 byte block: 23 ac 1 	(DW_OP_plus_uconst: 172)
  <2><80f>: Abbrev Number: 22 (DW_TAG_member)
-    <810>   DW_AT_name        : (indirect string, offset: 0xd0c): unwind_ctx
+    <810>   DW_AT_name        : (indirect string, offset: 0xd1f): unwind_ctx
     <814>   DW_AT_decl_file   : 18
     <815>   DW_AT_decl_line   : 322
     <817>   DW_AT_decl_column : 8
@@ -1033,7 +1033,7 @@ Contents of the .debug_info section:
  <1><855>: Abbrev Number: 3 (DW_TAG_const_type)
     <856>   DW_AT_type        : <0x849>
  <1><85a>: Abbrev Number: 11 (DW_TAG_variable)
-    <85b>   DW_AT_name        : (indirect string, offset: 0xd99): current_personality
+    <85b>   DW_AT_name        : (indirect string, offset: 0xdac): current_personality
     <85f>   DW_AT_decl_file   : 18
     <860>   DW_AT_decl_line   : 158
     <861>   DW_AT_decl_column : 17
@@ -1057,21 +1057,21 @@ Contents of the .debug_info section:
     <882>   DW_AT_external    : 1
     <883>   DW_AT_declaration : 1
  <1><884>: Abbrev Number: 8 (DW_TAG_structure_type)
-    <885>   DW_AT_name        : (indirect string, offset: 0xce3): ioctlent
+    <885>   DW_AT_name        : (indirect string, offset: 0xcf6): ioctlent
     <889>   DW_AT_byte_size   : 8
     <88a>   DW_AT_decl_file   : 18
     <88b>   DW_AT_decl_line   : 217
     <88c>   DW_AT_decl_column : 16
     <88d>   DW_AT_sibling     : <0x8b0>
  <2><891>: Abbrev Number: 9 (DW_TAG_member)
-    <892>   DW_AT_name        : (indirect string, offset: 0xf92): symbol
+    <892>   DW_AT_name        : (indirect string, offset: 0xf90): symbol
     <896>   DW_AT_decl_file   : 18
     <897>   DW_AT_decl_line   : 218
     <898>   DW_AT_decl_column : 14
     <899>   DW_AT_type        : <0x1d5>
     <89d>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
  <2><8a0>: Abbrev Number: 9 (DW_TAG_member)
-    <8a1>   DW_AT_name        : (indirect string, offset: 0xd62): code
+    <8a1>   DW_AT_name        : (indirect string, offset: 0xd75): code
     <8a5>   DW_AT_decl_file   : 18
     <8a6>   DW_AT_decl_line   : 219
     <8a7>   DW_AT_decl_column : 15
@@ -1079,7 +1079,7 @@ Contents of the .debug_info section:
     <8ac>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
  <2><8af>: Abbrev Number: 0
  <1><8b0>: Abbrev Number: 4 (DW_TAG_typedef)
-    <8b1>   DW_AT_name        : (indirect string, offset: 0xc8f): struct_ioctlent
+    <8b1>   DW_AT_name        : (indirect string, offset: 0xca2): struct_ioctlent
     <8b5>   DW_AT_decl_file   : 18
     <8b6>   DW_AT_decl_line   : 220
     <8b7>   DW_AT_decl_column : 3
@@ -1115,7 +1115,7 @@ Contents of the .debug_info section:
     <8f4>   DW_AT_type        : <0x10a>
     <8f8>   DW_AT_data_member_location: 2 byte block: 23 2 	(DW_OP_plus_uconst: 2)
  <2><8fb>: Abbrev Number: 9 (DW_TAG_member)
-    <8fc>   DW_AT_name        : (indirect string, offset: 0xd37): delay_idx
+    <8fc>   DW_AT_name        : (indirect string, offset: 0xd4a): delay_idx
     <900>   DW_AT_decl_file   : 18
     <901>   DW_AT_decl_line   : 245
     <902>   DW_AT_decl_column : 11
@@ -1151,7 +1151,7 @@ Contents of the .debug_info section:
     <93e>   DW_AT_type        : <0x10a>
     <942>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
  <2><945>: Abbrev Number: 9 (DW_TAG_member)
-    <946>   DW_AT_name        : (indirect string, offset: 0x116e): last
+    <946>   DW_AT_name        : (indirect string, offset: 0x1173): last
     <94a>   DW_AT_decl_file   : 18
     <94b>   DW_AT_decl_line   : 252
     <94c>   DW_AT_decl_column : 11
@@ -1165,7 +1165,7 @@ Contents of the .debug_info section:
     <95c>   DW_AT_type        : <0x10a>
     <960>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
  <2><963>: Abbrev Number: 9 (DW_TAG_member)
-    <964>   DW_AT_name        : (indirect string, offset: 0x1140): data
+    <964>   DW_AT_name        : (indirect string, offset: 0x113e): data
     <968>   DW_AT_decl_file   : 18
     <969>   DW_AT_decl_line   : 254
     <96a>   DW_AT_decl_column : 21
@@ -1180,7 +1180,7 @@ Contents of the .debug_info section:
     <981>   DW_AT_upper_bound : 5
  <2><982>: Abbrev Number: 0
  <1><983>: Abbrev Number: 14 (DW_TAG_structure_type)
-    <984>   DW_AT_name        : (indirect string, offset: 0xf6a): staged_output_data
+    <984>   DW_AT_name        : (indirect string, offset: 0xf68): staged_output_data
     <988>   DW_AT_declaration : 1
  <1><989>: Abbrev Number: 7 (DW_TAG_pointer_type)
     <98a>   DW_AT_byte_size   : 4
@@ -1228,7 +1228,7 @@ Contents of the .debug_info section:
     <9e1>   DW_AT_byte_size   : 4
     <9e2>   DW_AT_type        : <0x9da>
  <1><9e6>: Abbrev Number: 14 (DW_TAG_structure_type)
-    <9e7>   DW_AT_name        : (indirect string, offset: 0xf4e): unwind_queue_t
+    <9e7>   DW_AT_name        : (indirect string, offset: 0xf4c): unwind_queue_t
     <9eb>   DW_AT_declaration : 1
  <1><9ec>: Abbrev Number: 7 (DW_TAG_pointer_type)
     <9ed>   DW_AT_byte_size   : 4
@@ -1241,7 +1241,7 @@ Contents of the .debug_info section:
     <a00>   DW_AT_upper_bound : 15
  <2><a01>: Abbrev Number: 0
  <1><a02>: Abbrev Number: 10 (DW_TAG_variable)
-    <a03>   DW_AT_name        : (indirect string, offset: 0xbdb): stub_sysent
+    <a03>   DW_AT_name        : (indirect string, offset: 0xbee): stub_sysent
     <a07>   DW_AT_decl_file   : 18
     <a08>   DW_AT_decl_line   : 400
     <a0a>   DW_AT_decl_column : 28
@@ -1249,7 +1249,7 @@ Contents of the .debug_info section:
     <a0f>   DW_AT_external    : 1
     <a10>   DW_AT_declaration : 1
  <1><a11>: Abbrev Number: 25 (DW_TAG_enumeration_type)
-    <a12>   DW_AT_name        : (indirect string, offset: 0x1123): xlat_type
+    <a12>   DW_AT_name        : (indirect string, offset: 0x1121): xlat_type
     <a16>   DW_AT_encoding    : 7	(unsigned)
     <a17>   DW_AT_byte_size   : 4
     <a18>   DW_AT_type        : <0x2b>
@@ -1261,14 +1261,14 @@ Contents of the .debug_info section:
     <a24>   DW_AT_name        : (indirect string, offset: 0x2e9): XT_NORMAL
     <a28>   DW_AT_const_value : 0
  <2><a29>: Abbrev Number: 26 (DW_TAG_enumerator)
-    <a2a>   DW_AT_name        : (indirect string, offset: 0xcb2): XT_SORTED
+    <a2a>   DW_AT_name        : (indirect string, offset: 0xcc5): XT_SORTED
     <a2e>   DW_AT_const_value : 1
  <2><a2f>: Abbrev Number: 26 (DW_TAG_enumerator)
-    <a30>   DW_AT_name        : (indirect string, offset: 0xe31): XT_INDEXED
+    <a30>   DW_AT_name        : (indirect string, offset: 0xe44): XT_INDEXED
     <a34>   DW_AT_const_value : 2
  <2><a35>: Abbrev Number: 0
  <1><a36>: Abbrev Number: 25 (DW_TAG_enumeration_type)
-    <a37>   DW_AT_name        : (indirect string, offset: 0xc07): xlat_style
+    <a37>   DW_AT_name        : (indirect string, offset: 0xc1a): xlat_style
     <a3b>   DW_AT_encoding    : 7	(unsigned)
     <a3c>   DW_AT_byte_size   : 4
     <a3d>   DW_AT_type        : <0x2b>
@@ -1280,10 +1280,10 @@ Contents of the .debug_info section:
     <a49>   DW_AT_name        : (indirect string, offset: 0x102): XLAT_STYLE_DEFAULT
     <a4d>   DW_AT_const_value : 0
  <2><a4e>: Abbrev Number: 26 (DW_TAG_enumerator)
-    <a4f>   DW_AT_name        : (indirect string, offset: 0xc3a): XLAT_STYLE_RAW
+    <a4f>   DW_AT_name        : (indirect string, offset: 0xc4d): XLAT_STYLE_RAW
     <a53>   DW_AT_const_value : 1
  <2><a54>: Abbrev Number: 26 (DW_TAG_enumerator)
-    <a55>   DW_AT_name        : (indirect string, offset: 0x10ee): XLAT_STYLE_ABBREV
+    <a55>   DW_AT_name        : (indirect string, offset: 0x10ec): XLAT_STYLE_ABBREV
     <a59>   DW_AT_const_value : 2
  <2><a5a>: Abbrev Number: 26 (DW_TAG_enumerator)
     <a5b>   DW_AT_name        : (indirect string, offset: 0x306): XLAT_STYLE_VERBOSE
@@ -1295,7 +1295,7 @@ Contents of the .debug_info section:
     <a67>   DW_AT_name        : (indirect string, offset: 0x0): XLAT_STYLE_FMT_U
     <a6b>   DW_AT_const_value : 4
  <2><a6c>: Abbrev Number: 26 (DW_TAG_enumerator)
-    <a6d>   DW_AT_name        : (indirect string, offset: 0x115d): XLAT_STYLE_FMT_D
+    <a6d>   DW_AT_name        : (indirect string, offset: 0x1162): XLAT_STYLE_FMT_D
     <a71>   DW_AT_const_value : 8
  <2><a72>: Abbrev Number: 0
  <1><a73>: Abbrev Number: 8 (DW_TAG_structure_type)
@@ -1330,7 +1330,7 @@ Contents of the .debug_info section:
     <aac>   DW_AT_decl_column : 8
     <aad>   DW_AT_sibling     : <0xafd>
  <2><ab1>: Abbrev Number: 9 (DW_TAG_member)
-    <ab2>   DW_AT_name        : (indirect string, offset: 0x1140): data
+    <ab2>   DW_AT_name        : (indirect string, offset: 0x113e): data
     <ab6>   DW_AT_decl_file   : 19
     <ab7>   DW_AT_decl_line   : 57
     <ab8>   DW_AT_decl_column : 26
@@ -1344,7 +1344,7 @@ Contents of the .debug_info section:
     <ac8>   DW_AT_type        : <0x12e>
     <acc>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
  <2><acf>: Abbrev Number: 9 (DW_TAG_member)
-    <ad0>   DW_AT_name        : (indirect string, offset: 0xba0): size
+    <ad0>   DW_AT_name        : (indirect string, offset: 0xbb3): size
     <ad4>   DW_AT_decl_file   : 19
     <ad5>   DW_AT_decl_line   : 59
     <ad6>   DW_AT_decl_column : 11
@@ -1378,7 +1378,7 @@ Contents of the .debug_info section:
  <1><b13>: Abbrev Number: 3 (DW_TAG_const_type)
     <b14>   DW_AT_type        : <0xb08>
  <1><b18>: Abbrev Number: 10 (DW_TAG_variable)
-    <b19>   DW_AT_name        : (indirect string, offset: 0xe9f): addrfams
+    <b19>   DW_AT_name        : (indirect string, offset: 0xeb2): addrfams
     <b1d>   DW_AT_decl_file   : 18
     <b1e>   DW_AT_decl_line   : 406
     <b20>   DW_AT_decl_column : 26
@@ -1386,7 +1386,7 @@ Contents of the .debug_info section:
     <b25>   DW_AT_external    : 1
     <b26>   DW_AT_declaration : 1
  <1><b27>: Abbrev Number: 10 (DW_TAG_variable)
-    <b28>   DW_AT_name        : (indirect string, offset: 0xd72): arp_hardware_types
+    <b28>   DW_AT_name        : (indirect string, offset: 0xd85): arp_hardware_types
     <b2c>   DW_AT_decl_file   : 18
     <b2d>   DW_AT_decl_line   : 407
     <b2f>   DW_AT_decl_column : 26
@@ -1394,7 +1394,7 @@ Contents of the .debug_info section:
     <b34>   DW_AT_external    : 1
     <b35>   DW_AT_declaration : 1
  <1><b36>: Abbrev Number: 10 (DW_TAG_variable)
-    <b37>   DW_AT_name        : (indirect string, offset: 0x1063): at_flags
+    <b37>   DW_AT_name        : (indirect string, offset: 0x1061): at_flags
     <b3b>   DW_AT_decl_file   : 18
     <b3c>   DW_AT_decl_line   : 408
     <b3e>   DW_AT_decl_column : 26
@@ -1410,7 +1410,7 @@ Contents of the .debug_info section:
     <b52>   DW_AT_external    : 1
     <b53>   DW_AT_declaration : 1
  <1><b54>: Abbrev Number: 10 (DW_TAG_variable)
-    <b55>   DW_AT_name        : (indirect string, offset: 0x101a): dirent_types
+    <b55>   DW_AT_name        : (indirect string, offset: 0x1018): dirent_types
     <b59>   DW_AT_decl_file   : 18
     <b5a>   DW_AT_decl_line   : 410
     <b5c>   DW_AT_decl_column : 26
@@ -1466,7 +1466,7 @@ Contents of the .debug_info section:
     <bbb>   DW_AT_external    : 1
     <bbc>   DW_AT_declaration : 1
  <1><bbd>: Abbrev Number: 10 (DW_TAG_variable)
-    <bbe>   DW_AT_name        : (indirect string, offset: 0xc49): ip_type_of_services
+    <bbe>   DW_AT_name        : (indirect string, offset: 0xc5c): ip_type_of_services
     <bc2>   DW_AT_decl_file   : 18
     <bc3>   DW_AT_decl_line   : 417
     <bc5>   DW_AT_decl_column : 26
@@ -1498,7 +1498,7 @@ Contents of the .debug_info section:
     <bf7>   DW_AT_external    : 1
     <bf8>   DW_AT_declaration : 1
  <1><bf9>: Abbrev Number: 10 (DW_TAG_variable)
-    <bfa>   DW_AT_name        : (indirect string, offset: 0xf7d): nl_bridge_vlan_flags
+    <bfa>   DW_AT_name        : (indirect string, offset: 0xf7b): nl_bridge_vlan_flags
     <bfe>   DW_AT_decl_file   : 18
     <bff>   DW_AT_decl_line   : 421
     <c01>   DW_AT_decl_column : 26
@@ -1506,7 +1506,7 @@ Contents of the .debug_info section:
     <c06>   DW_AT_external    : 1
     <c07>   DW_AT_declaration : 1
  <1><c08>: Abbrev Number: 10 (DW_TAG_variable)
-    <c09>   DW_AT_name        : (indirect string, offset: 0xe1a): nl_netfilter_msg_types
+    <c09>   DW_AT_name        : (indirect string, offset: 0xe2d): nl_netfilter_msg_types
     <c0d>   DW_AT_decl_file   : 18
     <c0e>   DW_AT_decl_line   : 422
     <c10>   DW_AT_decl_column : 26
@@ -1522,7 +1522,7 @@ Contents of the .debug_info section:
     <c24>   DW_AT_external    : 1
     <c25>   DW_AT_declaration : 1
  <1><c26>: Abbrev Number: 10 (DW_TAG_variable)
-    <c27>   DW_AT_name        : (indirect string, offset: 0xed6): open_access_modes
+    <c27>   DW_AT_name        : (indirect string, offset: 0xee9): open_access_modes
     <c2b>   DW_AT_decl_file   : 18
     <c2c>   DW_AT_decl_line   : 424
     <c2e>   DW_AT_decl_column : 26
@@ -1538,7 +1538,7 @@ Contents of the .debug_info section:
     <c42>   DW_AT_external    : 1
     <c43>   DW_AT_declaration : 1
  <1><c44>: Abbrev Number: 10 (DW_TAG_variable)
-    <c45>   DW_AT_name        : (indirect string, offset: 0xc82): perf_type_id
+    <c45>   DW_AT_name        : (indirect string, offset: 0xc95): perf_type_id
     <c49>   DW_AT_decl_file   : 18
     <c4a>   DW_AT_decl_line   : 426
     <c4c>   DW_AT_decl_column : 26
@@ -1546,7 +1546,7 @@ Contents of the .debug_info section:
     <c51>   DW_AT_external    : 1
     <c52>   DW_AT_declaration : 1
  <1><c53>: Abbrev Number: 10 (DW_TAG_variable)
-    <c54>   DW_AT_name        : (indirect string, offset: 0xea8): pollflags
+    <c54>   DW_AT_name        : (indirect string, offset: 0xebb): pollflags
     <c58>   DW_AT_decl_file   : 18
     <c59>   DW_AT_decl_line   : 427
     <c5b>   DW_AT_decl_column : 26
@@ -1578,7 +1578,7 @@ Contents of the .debug_info section:
     <c8d>   DW_AT_external    : 1
     <c8e>   DW_AT_declaration : 1
  <1><c8f>: Abbrev Number: 10 (DW_TAG_variable)
-    <c90>   DW_AT_name        : (indirect string, offset: 0xf08): routing_protocols
+    <c90>   DW_AT_name        : (indirect string, offset: 0xf06): routing_protocols
     <c94>   DW_AT_decl_file   : 18
     <c95>   DW_AT_decl_line   : 431
     <c97>   DW_AT_decl_column : 26
@@ -1594,7 +1594,7 @@ Contents of the .debug_info section:
     <cab>   DW_AT_external    : 1
     <cac>   DW_AT_declaration : 1
  <1><cad>: Abbrev Number: 10 (DW_TAG_variable)
-    <cae>   DW_AT_name        : (indirect string, offset: 0xdfc): routing_table_ids
+    <cae>   DW_AT_name        : (indirect string, offset: 0xe0f): routing_table_ids
     <cb2>   DW_AT_decl_file   : 18
     <cb3>   DW_AT_decl_line   : 433
     <cb5>   DW_AT_decl_column : 26
@@ -1642,7 +1642,7 @@ Contents of the .debug_info section:
     <d05>   DW_AT_external    : 1
     <d06>   DW_AT_declaration : 1
  <1><d07>: Abbrev Number: 10 (DW_TAG_variable)
-    <d08>   DW_AT_name        : (indirect string, offset: 0xe94): sg_io_info
+    <d08>   DW_AT_name        : (indirect string, offset: 0xea7): sg_io_info
     <d0c>   DW_AT_decl_file   : 18
     <d0d>   DW_AT_decl_line   : 439
     <d0f>   DW_AT_decl_column : 26
@@ -1650,7 +1650,7 @@ Contents of the .debug_info section:
     <d14>   DW_AT_external    : 1
     <d15>   DW_AT_declaration : 1
  <1><d16>: Abbrev Number: 10 (DW_TAG_variable)
-    <d17>   DW_AT_name        : (indirect string, offset: 0xbef): socketlayers
+    <d17>   DW_AT_name        : (indirect string, offset: 0xc02): socketlayers
     <d1b>   DW_AT_decl_file   : 18
     <d1c>   DW_AT_decl_line   : 440
     <d1e>   DW_AT_decl_column : 26
@@ -1658,7 +1658,7 @@ Contents of the .debug_info section:
     <d23>   DW_AT_external    : 1
     <d24>   DW_AT_declaration : 1
  <1><d25>: Abbrev Number: 10 (DW_TAG_variable)
-    <d26>   DW_AT_name        : (indirect string, offset: 0xde6): socktypes
+    <d26>   DW_AT_name        : (indirect string, offset: 0xdf9): socktypes
     <d2a>   DW_AT_decl_file   : 18
     <d2b>   DW_AT_decl_line   : 441
     <d2d>   DW_AT_decl_column : 26
@@ -1682,7 +1682,7 @@ Contents of the .debug_info section:
     <d50>   DW_AT_external    : 1
     <d51>   DW_AT_declaration : 1
  <1><d52>: Abbrev Number: 10 (DW_TAG_variable)
-    <d53>   DW_AT_name        : (indirect string, offset: 0x10d1): whence_codes
+    <d53>   DW_AT_name        : (indirect string, offset: 0x10cf): whence_codes
     <d57>   DW_AT_decl_file   : 18
     <d58>   DW_AT_decl_line   : 444
     <d5a>   DW_AT_decl_column : 26
@@ -1704,17 +1704,17 @@ Contents of the .debug_info section:
     <d77>   DW_AT_name        : (indirect string, offset: 0x91c): CFLAG_ONLY_STATS
     <d7b>   DW_AT_const_value : 1
  <2><d7c>: Abbrev Number: 26 (DW_TAG_enumerator)
-    <d7d>   DW_AT_name        : (indirect string, offset: 0xbfc): CFLAG_BOTH
+    <d7d>   DW_AT_name        : (indirect string, offset: 0xc0f): CFLAG_BOTH
     <d81>   DW_AT_const_value : 2
  <2><d82>: Abbrev Number: 0
  <1><d83>: Abbrev Number: 28 (DW_TAG_typedef)
-    <d84>   DW_AT_name        : (indirect string, offset: 0x1173): cflag_t
+    <d84>   DW_AT_name        : (indirect string, offset: 0x1178): cflag_t
     <d88>   DW_AT_decl_file   : 18
     <d89>   DW_AT_decl_line   : 509
     <d8b>   DW_AT_decl_column : 3
     <d8c>   DW_AT_type        : <0xd61>
  <1><d90>: Abbrev Number: 10 (DW_TAG_variable)
-    <d91>   DW_AT_name        : (indirect string, offset: 0xd31): cflag
+    <d91>   DW_AT_name        : (indirect string, offset: 0xd44): cflag
     <d95>   DW_AT_decl_file   : 18
     <d96>   DW_AT_decl_line   : 510
     <d98>   DW_AT_decl_column : 16
@@ -1746,7 +1746,7 @@ Contents of the .debug_info section:
     <dca>   DW_AT_external    : 1
     <dcb>   DW_AT_declaration : 1
  <1><dcc>: Abbrev Number: 10 (DW_TAG_variable)
-    <dcd>   DW_AT_name        : (indirect string, offset: 0xe86): iflag
+    <dcd>   DW_AT_name        : (indirect string, offset: 0xe99): iflag
     <dd1>   DW_AT_decl_file   : 18
     <dd2>   DW_AT_decl_line   : 514
     <dd4>   DW_AT_decl_column : 13
@@ -1791,14 +1791,14 @@ Contents of the .debug_info section:
     <e20>   DW_AT_type        : <0xe48>
     <e24>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
  <2><e27>: Abbrev Number: 22 (DW_TAG_member)
-    <e28>   DW_AT_name        : (indirect string, offset: 0x10c4): num_selected
+    <e28>   DW_AT_name        : (indirect string, offset: 0x10c2): num_selected
     <e2c>   DW_AT_decl_file   : 18
     <e2d>   DW_AT_decl_line   : 524
     <e2f>   DW_AT_decl_column : 9
     <e30>   DW_AT_type        : <0x12e>
     <e34>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
  <2><e37>: Abbrev Number: 22 (DW_TAG_member)
-    <e38>   DW_AT_name        : (indirect string, offset: 0xba0): size
+    <e38>   DW_AT_name        : (indirect string, offset: 0xbb3): size
     <e3c>   DW_AT_decl_file   : 18
     <e3d>   DW_AT_decl_line   : 525
     <e3f>   DW_AT_decl_column : 9
@@ -1809,7 +1809,7 @@ Contents of the .debug_info section:
     <e49>   DW_AT_byte_size   : 4
     <e4a>   DW_AT_type        : <0xdea>
  <1><e4e>: Abbrev Number: 10 (DW_TAG_variable)
-    <e4f>   DW_AT_name        : (indirect string, offset: 0x1113): global_path_set
+    <e4f>   DW_AT_name        : (indirect string, offset: 0x1111): global_path_set
     <e53>   DW_AT_decl_file   : 18
     <e54>   DW_AT_decl_line   : 526
     <e56>   DW_AT_decl_column : 3
@@ -1817,7 +1817,7 @@ Contents of the .debug_info section:
     <e5b>   DW_AT_external    : 1
     <e5c>   DW_AT_declaration : 1
  <1><e5d>: Abbrev Number: 30 (DW_TAG_enumeration_type)
-    <e5e>   DW_AT_name        : (indirect string, offset: 0x1007): xflag_opts
+    <e5e>   DW_AT_name        : (indirect string, offset: 0x1005): xflag_opts
     <e62>   DW_AT_encoding    : 7	(unsigned)
     <e63>   DW_AT_byte_size   : 4
     <e64>   DW_AT_type        : <0x2b>
@@ -1829,7 +1829,7 @@ Contents of the .debug_info section:
     <e71>   DW_AT_name        : (indirect string, offset: 0xa6a): HEXSTR_NONE
     <e75>   DW_AT_const_value : 0
  <2><e76>: Abbrev Number: 26 (DW_TAG_enumerator)
-    <e77>   DW_AT_name        : (indirect string, offset: 0x1045): HEXSTR_NON_ASCII
+    <e77>   DW_AT_name        : (indirect string, offset: 0x1043): HEXSTR_NON_ASCII
     <e7b>   DW_AT_const_value : 1
  <2><e7c>: Abbrev Number: 26 (DW_TAG_enumerator)
     <e7d>   DW_AT_name        : (indirect string, offset: 0x971): HEXSTR_ALL
@@ -1838,11 +1838,11 @@ Contents of the .debug_info section:
     <e83>   DW_AT_name        : (indirect string, offset: 0x6b1): HEXSTR_NON_ASCII_CHARS
     <e87>   DW_AT_const_value : 3
  <2><e88>: Abbrev Number: 26 (DW_TAG_enumerator)
-    <e89>   DW_AT_name        : (indirect string, offset: 0x10de): NUM_HEXSTR_OPTS
+    <e89>   DW_AT_name        : (indirect string, offset: 0x10dc): NUM_HEXSTR_OPTS
     <e8d>   DW_AT_const_value : 4
  <2><e8e>: Abbrev Number: 0
  <1><e8f>: Abbrev Number: 10 (DW_TAG_variable)
-    <e90>   DW_AT_name        : (indirect string, offset: 0xe60): xflag
+    <e90>   DW_AT_name        : (indirect string, offset: 0xe73): xflag
     <e94>   DW_AT_decl_file   : 18
     <e95>   DW_AT_decl_line   : 541
     <e97>   DW_AT_decl_column : 17
@@ -1850,7 +1850,7 @@ Contents of the .debug_info section:
     <e9c>   DW_AT_external    : 1
     <e9d>   DW_AT_declaration : 1
  <1><e9e>: Abbrev Number: 10 (DW_TAG_variable)
-    <e9f>   DW_AT_name        : (indirect string, offset: 0xcec): followfork
+    <e9f>   DW_AT_name        : (indirect string, offset: 0xcff): followfork
     <ea3>   DW_AT_decl_file   : 18
     <ea4>   DW_AT_decl_line   : 542
     <ea6>   DW_AT_decl_column : 13
@@ -1924,11 +1924,11 @@ Contents of the .debug_info section:
     <f27>   DW_AT_name        : (indirect string, offset: 0x41b): PXF_DEFAULT_STR_BIT
     <f2b>   DW_AT_const_value : 7
  <2><f2c>: Abbrev Number: 26 (DW_TAG_enumerator)
-    <f2d>   DW_AT_name        : (indirect string, offset: 0xcce): SPFF_AUXSTR_MODE_BIT
+    <f2d>   DW_AT_name        : (indirect string, offset: 0xce1): SPFF_AUXSTR_MODE_BIT
     <f31>   DW_AT_const_value : 8
  <2><f32>: Abbrev Number: 0
  <1><f33>: Abbrev Number: 30 (DW_TAG_enumeration_type)
-    <f34>   DW_AT_name        : (indirect string, offset: 0xd85): find_xlat_flag_bits
+    <f34>   DW_AT_name        : (indirect string, offset: 0xd98): find_xlat_flag_bits
     <f38>   DW_AT_encoding    : 7	(unsigned)
     <f39>   DW_AT_byte_size   : 4
     <f3a>   DW_AT_type        : <0x2b>
@@ -1965,7 +1965,7 @@ Contents of the .debug_info section:
     <f78>   DW_AT_external    : 1
     <f79>   DW_AT_declaration : 1
  <1><f7a>: Abbrev Number: 10 (DW_TAG_variable)
-    <f7b>   DW_AT_name        : (indirect string, offset: 0xece): nerrnos
+    <f7b>   DW_AT_name        : (indirect string, offset: 0xee1): nerrnos
     <f7f>   DW_AT_decl_file   : 18
     <f80>   DW_AT_decl_line   : 1884
     <f82>   DW_AT_decl_column : 27
@@ -1973,7 +1973,7 @@ Contents of the .debug_info section:
     <f87>   DW_AT_external    : 1
     <f88>   DW_AT_declaration : 1
  <1><f89>: Abbrev Number: 10 (DW_TAG_variable)
-    <f8a>   DW_AT_name        : (indirect string, offset: 0x10ad): nsignals
+    <f8a>   DW_AT_name        : (indirect string, offset: 0x10ab): nsignals
     <f8e>   DW_AT_decl_file   : 18
     <f8f>   DW_AT_decl_line   : 1885
     <f91>   DW_AT_decl_column : 27
@@ -1988,7 +1988,7 @@ Contents of the .debug_info section:
  <1><fa3>: Abbrev Number: 3 (DW_TAG_const_type)
     <fa4>   DW_AT_type        : <0xf98>
  <1><fa8>: Abbrev Number: 10 (DW_TAG_variable)
-    <fa9>   DW_AT_name        : (indirect string, offset: 0xd50): sysent0
+    <fa9>   DW_AT_name        : (indirect string, offset: 0xd63): sysent0
     <fad>   DW_AT_decl_file   : 18
     <fae>   DW_AT_decl_line   : 1887
     <fb0>   DW_AT_decl_column : 28
@@ -2003,7 +2003,7 @@ Contents of the .debug_info section:
  <1><fc2>: Abbrev Number: 3 (DW_TAG_const_type)
     <fc3>   DW_AT_type        : <0xfb7>
  <1><fc7>: Abbrev Number: 10 (DW_TAG_variable)
-    <fc8>   DW_AT_name        : (indirect string, offset: 0x1109): ioctlent0
+    <fc8>   DW_AT_name        : (indirect string, offset: 0x1107): ioctlent0
     <fcc>   DW_AT_decl_file   : 18
     <fcd>   DW_AT_decl_line   : 1888
     <fcf>   DW_AT_decl_column : 30
@@ -2027,7 +2027,7 @@ Contents of the .debug_info section:
     <ff2>   DW_AT_external    : 1
     <ff3>   DW_AT_declaration : 1
  <1><ff4>: Abbrev Number: 10 (DW_TAG_variable)
-    <ff5>   DW_AT_name        : (indirect string, offset: 0xce3): ioctlent
+    <ff5>   DW_AT_name        : (indirect string, offset: 0xcf6): ioctlent
     <ff9>   DW_AT_decl_file   : 18
     <ffa>   DW_AT_decl_line   : 1894
     <ffc>   DW_AT_decl_column : 31
@@ -2046,7 +2046,7 @@ Contents of the .debug_info section:
     <1016>   DW_AT_external    : 1
     <1017>   DW_AT_declaration : 1
  <1><1018>: Abbrev Number: 10 (DW_TAG_variable)
-    <1019>   DW_AT_name        : (indirect string, offset: 0xee8): nioctlents
+    <1019>   DW_AT_name        : (indirect string, offset: 0xefb): nioctlents
     <101d>   DW_AT_decl_file   : 18
     <101e>   DW_AT_decl_line   : 1901
     <1020>   DW_AT_decl_column : 17
@@ -2063,7 +2063,7 @@ Contents of the .debug_info section:
  <1><1037>: Abbrev Number: 3 (DW_TAG_const_type)
     <1038>   DW_AT_type        : <0x1027>
  <1><103c>: Abbrev Number: 10 (DW_TAG_variable)
-    <103d>   DW_AT_name        : (indirect string, offset: 0xf5d): nsyscall_vec
+    <103d>   DW_AT_name        : (indirect string, offset: 0xf5b): nsyscall_vec
     <1041>   DW_AT_decl_file   : 18
     <1042>   DW_AT_decl_line   : 1903
     <1044>   DW_AT_decl_column : 27
@@ -2096,7 +2096,7 @@ Contents of the .debug_info section:
     <107c>   DW_AT_external    : 1
     <107d>   DW_AT_declaration : 1
  <1><107e>: Abbrev Number: 29 (DW_TAG_structure_type)
-    <107f>   DW_AT_name        : (indirect string, offset: 0xdd9): audit_arch_t
+    <107f>   DW_AT_name        : (indirect string, offset: 0xdec): audit_arch_t
     <1083>   DW_AT_byte_size   : 8
     <1084>   DW_AT_decl_file   : 18
     <1085>   DW_AT_decl_line   : 1907
@@ -2185,7 +2185,7 @@ Contents of the .debug_info section:
     <1132>   DW_AT_type        : <0x13d6>
     <1136>   DW_AT_data_member_location: 2 byte block: 23 14 	(DW_OP_plus_uconst: 20)
  <2><1139>: Abbrev Number: 9 (DW_TAG_member)
-    <113a>   DW_AT_name        : (indirect string, offset: 0xcf7): fetch_struct_flock64
+    <113a>   DW_AT_name        : (indirect string, offset: 0xd0a): fetch_struct_flock64
     <113e>   DW_AT_decl_file   : 20
     <113f>   DW_AT_decl_line   : 21
     <1140>   DW_AT_decl_column : 10
@@ -2213,7 +2213,7 @@ Contents of the .debug_info section:
     <116e>   DW_AT_type        : <0x1422>
     <1172>   DW_AT_data_member_location: 2 byte block: 23 24 	(DW_OP_plus_uconst: 36)
  <2><1175>: Abbrev Number: 9 (DW_TAG_member)
-    <1176>   DW_AT_name        : (indirect string, offset: 0xdc3): sizeof_struct_mmsghdr
+    <1176>   DW_AT_name        : (indirect string, offset: 0xdd6): sizeof_struct_mmsghdr
     <117a>   DW_AT_decl_file   : 20
     <117b>   DW_AT_decl_line   : 33
     <117c>   DW_AT_decl_column : 17
@@ -2290,7 +2290,7 @@ Contents of the .debug_info section:
     <1213>   DW_AT_type        : <0x13aa>
     <1217>   DW_AT_data_member_location: 2 byte block: 23 50 	(DW_OP_plus_uconst: 80)
  <2><121a>: Abbrev Number: 9 (DW_TAG_member)
-    <121b>   DW_AT_name        : (indirect string, offset: 0xd67): perf_ioctl
+    <121b>   DW_AT_name        : (indirect string, offset: 0xd7a): perf_ioctl
     <121f>   DW_AT_decl_file   : 20
     <1220>   DW_AT_decl_line   : 66
     <1221>   DW_AT_decl_column : 8
@@ -2311,14 +2311,14 @@ Contents of the .debug_info section:
     <1240>   DW_AT_type        : <0x151c>
     <1244>   DW_AT_data_member_location: 2 byte block: 23 5c 	(DW_OP_plus_uconst: 92)
  <2><1247>: Abbrev Number: 9 (DW_TAG_member)
-    <1248>   DW_AT_name        : (indirect string, offset: 0xe7a): printmqattr
+    <1248>   DW_AT_name        : (indirect string, offset: 0xe8d): printmqattr
     <124c>   DW_AT_decl_file   : 20
     <124d>   DW_AT_decl_line   : 75
     <124e>   DW_AT_decl_column : 9
     <124f>   DW_AT_type        : <0x1538>
     <1253>   DW_AT_data_member_location: 2 byte block: 23 60 	(DW_OP_plus_uconst: 96)
  <2><1256>: Abbrev Number: 9 (DW_TAG_member)
-    <1257>   DW_AT_name        : (indirect string, offset: 0xf36): tprint_msgbuf
+    <1257>   DW_AT_name        : (indirect string, offset: 0xf34): tprint_msgbuf
     <125b>   DW_AT_decl_file   : 20
     <125c>   DW_AT_decl_line   : 78
     <125d>   DW_AT_decl_column : 9
@@ -2353,21 +2353,21 @@ Contents of the .debug_info section:
     <129a>   DW_AT_type        : <0x15b3>
     <129e>   DW_AT_data_member_location: 2 byte block: 23 74 	(DW_OP_plus_uconst: 116)
  <2><12a1>: Abbrev Number: 9 (DW_TAG_member)
-    <12a2>   DW_AT_name        : (indirect string, offset: 0xe41): print_timeval
+    <12a2>   DW_AT_name        : (indirect string, offset: 0xe54): print_timeval
     <12a6>   DW_AT_decl_file   : 20
     <12a7>   DW_AT_decl_line   : 93
     <12a8>   DW_AT_decl_column : 8
     <12a9>   DW_AT_type        : <0x156f>
     <12ad>   DW_AT_data_member_location: 2 byte block: 23 78 	(DW_OP_plus_uconst: 120)
  <2><12b0>: Abbrev Number: 9 (DW_TAG_member)
-    <12b1>   DW_AT_name        : (indirect string, offset: 0xfe9): print_timeval_utimes
+    <12b1>   DW_AT_name        : (indirect string, offset: 0xfe7): print_timeval_utimes
     <12b5>   DW_AT_decl_file   : 20
     <12b6>   DW_AT_decl_line   : 96
     <12b7>   DW_AT_decl_column : 8
     <12b8>   DW_AT_type        : <0x156f>
     <12bc>   DW_AT_data_member_location: 2 byte block: 23 7c 	(DW_OP_plus_uconst: 124)
  <2><12bf>: Abbrev Number: 9 (DW_TAG_member)
-    <12c0>   DW_AT_name        : (indirect string, offset: 0xfb1): sprint_timeval
+    <12c0>   DW_AT_name        : (indirect string, offset: 0xfaf): sprint_timeval
     <12c4>   DW_AT_decl_file   : 20
     <12c5>   DW_AT_decl_line   : 99
     <12c6>   DW_AT_decl_column : 17
@@ -2437,14 +2437,14 @@ Contents of the .debug_info section:
     <1357>   DW_AT_type        : <0x13aa>
     <135b>   DW_AT_data_member_location: 3 byte block: 23 a4 1 	(DW_OP_plus_uconst: 164)
  <2><135f>: Abbrev Number: 9 (DW_TAG_member)
-    <1360>   DW_AT_name        : (indirect string, offset: 0x108c): decode_sg_io_v3
+    <1360>   DW_AT_name        : (indirect string, offset: 0x108a): decode_sg_io_v3
     <1364>   DW_AT_decl_file   : 20
     <1365>   DW_AT_decl_line   : 129
     <1366>   DW_AT_decl_column : 8
     <1367>   DW_AT_type        : <0x156f>
     <136b>   DW_AT_data_member_location: 3 byte block: 23 a8 1 	(DW_OP_plus_uconst: 168)
  <2><136f>: Abbrev Number: 9 (DW_TAG_member)
-    <1370>   DW_AT_name        : (indirect string, offset: 0xe6f): sock_ioctl
+    <1370>   DW_AT_name        : (indirect string, offset: 0xe82): sock_ioctl
     <1374>   DW_AT_decl_file   : 20
     <1375>   DW_AT_decl_line   : 132
     <1376>   DW_AT_decl_column : 8
@@ -2543,7 +2543,7 @@ Contents of the .debug_info section:
  <1><1448>: Abbrev Number: 3 (DW_TAG_const_type)
     <1449>   DW_AT_type        : <0x1442>
  <1><144d>: Abbrev Number: 14 (DW_TAG_structure_type)
-    <144e>   DW_AT_name        : (indirect string, offset: 0x1151): strace_stat
+    <144e>   DW_AT_name        : (indirect string, offset: 0x114f): strace_stat
     <1452>   DW_AT_declaration : 1
  <1><1453>: Abbrev Number: 7 (DW_TAG_pointer_type)
     <1454>   DW_AT_byte_size   : 4
@@ -2565,7 +2565,7 @@ Contents of the .debug_info section:
  <1><1479>: Abbrev Number: 3 (DW_TAG_const_type)
     <147a>   DW_AT_type        : <0x1473>
  <1><147e>: Abbrev Number: 14 (DW_TAG_structure_type)
-    <147f>   DW_AT_name        : (indirect string, offset: 0x112d): strace_statfs
+    <147f>   DW_AT_name        : (indirect string, offset: 0x112b): strace_statfs
     <1483>   DW_AT_declaration : 1
  <1><1484>: Abbrev Number: 7 (DW_TAG_pointer_type)
     <1485>   DW_AT_byte_size   : 4
@@ -2740,13 +2740,13 @@ Contents of the .debug_info section:
     <15f4>   DW_AT_byte_size   : 4
     <15f5>   DW_AT_type        : <0x15e0>
  <1><15f9>: Abbrev Number: 4 (DW_TAG_typedef)
-    <15fa>   DW_AT_name        : (indirect string, offset: 0xbbc): sa_family_t
+    <15fa>   DW_AT_name        : (indirect string, offset: 0xbcf): sa_family_t
     <15fe>   DW_AT_decl_file   : 21
     <15ff>   DW_AT_decl_line   : 28
     <1600>   DW_AT_decl_column : 28
     <1601>   DW_AT_type        : <0x24>
  <1><1605>: Abbrev Number: 8 (DW_TAG_structure_type)
-    <1606>   DW_AT_name        : (indirect string, offset: 0xcbc): sockaddr
+    <1606>   DW_AT_name        : (indirect string, offset: 0xccf): sockaddr
     <160a>   DW_AT_byte_size   : 16
     <160b>   DW_AT_decl_file   : 22
     <160c>   DW_AT_decl_line   : 178
@@ -2760,7 +2760,7 @@ Contents of the .debug_info section:
     <161a>   DW_AT_type        : <0x15f9>
     <161e>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
  <2><1621>: Abbrev Number: 9 (DW_TAG_member)
-    <1622>   DW_AT_name        : (indirect string, offset: 0xc6d): sa_data
+    <1622>   DW_AT_name        : (indirect string, offset: 0xc80): sa_data
     <1626>   DW_AT_decl_file   : 22
     <1627>   DW_AT_decl_line   : 181
     <1628>   DW_AT_decl_column : 10
@@ -2775,7 +2775,7 @@ Contents of the .debug_info section:
     <163f>   DW_AT_upper_bound : 13
  <2><1640>: Abbrev Number: 0
  <1><1641>: Abbrev Number: 8 (DW_TAG_structure_type)
-    <1642>   DW_AT_name        : (indirect string, offset: 0x106c): ifmap
+    <1642>   DW_AT_name        : (indirect string, offset: 0x106a): ifmap
     <1646>   DW_AT_byte_size   : 16
     <1647>   DW_AT_decl_file   : 23
     <1648>   DW_AT_decl_line   : 111
@@ -2789,7 +2789,7 @@ Contents of the .debug_info section:
     <1656>   DW_AT_type        : <0x37>
     <165a>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
  <2><165d>: Abbrev Number: 9 (DW_TAG_member)
-    <165e>   DW_AT_name        : (indirect string, offset: 0xd41): mem_end
+    <165e>   DW_AT_name        : (indirect string, offset: 0xd54): mem_end
     <1662>   DW_AT_decl_file   : 23
     <1663>   DW_AT_decl_line   : 114
     <1664>   DW_AT_decl_column : 23
@@ -2817,7 +2817,7 @@ Contents of the .debug_info section:
     <1692>   DW_AT_type        : <0x1d>
     <1696>   DW_AT_data_member_location: 2 byte block: 23 b 	(DW_OP_plus_uconst: 11)
  <2><1699>: Abbrev Number: 9 (DW_TAG_member)
-    <169a>   DW_AT_name        : (indirect string, offset: 0xe3c): port
+    <169a>   DW_AT_name        : (indirect string, offset: 0xe4f): port
     <169e>   DW_AT_decl_file   : 23
     <169f>   DW_AT_decl_line   : 118
     <16a0>   DW_AT_decl_column : 19
@@ -2868,25 +2868,25 @@ Contents of the .debug_info section:
     <16f3>   DW_AT_decl_column : 18
     <16f4>   DW_AT_type        : <0x1605>
  <2><16f8>: Abbrev Number: 34 (DW_TAG_member)
-    <16f9>   DW_AT_name        : (indirect string, offset: 0xe0e): ifru_hwaddr
+    <16f9>   DW_AT_name        : (indirect string, offset: 0xe21): ifru_hwaddr
     <16fd>   DW_AT_decl_file   : 23
     <16fe>   DW_AT_decl_line   : 141
     <16ff>   DW_AT_decl_column : 18
     <1700>   DW_AT_type        : <0x1605>
  <2><1704>: Abbrev Number: 34 (DW_TAG_member)
-    <1705>   DW_AT_name        : (indirect string, offset: 0x10a2): ifru_flags
+    <1705>   DW_AT_name        : (indirect string, offset: 0x10a0): ifru_flags
     <1709>   DW_AT_decl_file   : 23
     <170a>   DW_AT_decl_line   : 142
     <170b>   DW_AT_decl_column : 12
     <170c>   DW_AT_type        : <0x51>
  <2><1710>: Abbrev Number: 34 (DW_TAG_member)
-    <1711>   DW_AT_name        : (indirect string, offset: 0xca6): ifru_ivalue
+    <1711>   DW_AT_name        : (indirect string, offset: 0xcb9): ifru_ivalue
     <1715>   DW_AT_decl_file   : 23
     <1716>   DW_AT_decl_line   : 143
     <1717>   DW_AT_decl_column : 6
     <1718>   DW_AT_type        : <0x64>
  <2><171c>: Abbrev Number: 34 (DW_TAG_member)
-    <171d>   DW_AT_name        : (indirect string, offset: 0x1031): ifru_mtu
+    <171d>   DW_AT_name        : (indirect string, offset: 0x102f): ifru_mtu
     <1721>   DW_AT_decl_file   : 23
     <1722>   DW_AT_decl_line   : 144
     <1723>   DW_AT_decl_column : 6
@@ -2924,14 +2924,14 @@ Contents of the .debug_info section:
     <1761>   DW_AT_decl_column : 8
     <1762>   DW_AT_sibling     : <0x1785>
  <2><1766>: Abbrev Number: 9 (DW_TAG_member)
-    <1767>   DW_AT_name        : (indirect string, offset: 0xfc0): ifr_ifrn
+    <1767>   DW_AT_name        : (indirect string, offset: 0xfbe): ifr_ifrn
     <176b>   DW_AT_decl_file   : 23
     <176c>   DW_AT_decl_line   : 133
     <176d>   DW_AT_decl_column : 9
     <176e>   DW_AT_type        : <0x16a9>
     <1772>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
  <2><1775>: Abbrev Number: 9 (DW_TAG_member)
-    <1776>   DW_AT_name        : (indirect string, offset: 0xfd5): ifr_ifru
+    <1776>   DW_AT_name        : (indirect string, offset: 0xfd3): ifr_ifru
     <177a>   DW_AT_decl_file   : 23
     <177b>   DW_AT_decl_line   : 149
     <177c>   DW_AT_decl_column : 9
@@ -2945,7 +2945,7 @@ Contents of the .debug_info section:
     <178c>   DW_AT_decl_column : 22
     <178d>   DW_AT_type        : <0x1759>
  <1><1791>: Abbrev Number: 35 (DW_TAG_variable)
-    <1792>   DW_AT_name        : (indirect string, offset: 0xf1a): mpers_target_var
+    <1792>   DW_AT_name        : (indirect string, offset: 0xf18): mpers_target_var
     <1796>   DW_AT_decl_file   : 24
     <1797>   DW_AT_decl_line   : 18
     <1798>   DW_AT_decl_column : 14

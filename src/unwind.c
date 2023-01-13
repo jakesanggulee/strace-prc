@@ -329,13 +329,13 @@ unwind_tcb_print(struct tcb *tcp)
 			memset(buf,0,sizeof(buf));
 
                 	if((len = readlink(file_name, buf, 1024)) != -1) {
-                		snprintf(buf2,  sizeof(buf2) ,"[Time %ld, Pid %d,  %s, PrC %lx, File %s]\n", tcp->etime.tv_nsec, tcp->pid, tcp_sysent(tcp)->sys_name , prc, buf);
+                		snprintf(buf2,  sizeof(buf2) ,"[Name %s, Time %ld, Pid %d,  %s, PrC %lx, File %s]\n", tcp->comm, tcp->etime.tv_nsec, tcp->pid, tcp_sysent(tcp)->sys_name , prc, buf);
 				fprintf(prc_fd, buf2, strlen(buf2));
 				fflush(prc_fd);
 
 			}
 			else{
-                		snprintf(buf2,  sizeof(buf2) ,"[Time %ld, Pid %d, %s, PrC %lx]\n", tcp->etime.tv_nsec,    tcp->pid  ,  tcp_sysent(tcp)->sys_name , prc);
+                		snprintf(buf2,  sizeof(buf2) ,"[Name %s, Time %ld, Pid %d, %s, PrC %lx]\n", tcp->comm, tcp->etime.tv_nsec,    tcp->pid  ,  tcp_sysent(tcp)->sys_name , prc);
 				fprintf(prc_fd, buf2, strlen(buf2));
 				fflush(prc_fd);
 			}
