@@ -1,0 +1,1 @@
+../tests/accept_compat.h

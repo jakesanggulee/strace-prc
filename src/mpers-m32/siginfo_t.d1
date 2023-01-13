@@ -1,0 +1,3153 @@
+Contents of the .debug_info section:
+
+  Compilation Unit @ offset 0x0:
+   Length:        0x191d (32-bit)
+   Version:       2
+   Abbrev Offset: 0x0
+   Pointer Size:  4
+ <0><b>: Abbrev Number: 1 (DW_TAG_compile_unit)
+    <c>   DW_AT_producer    : (indirect string, offset: 0x5fc): GNU C17 9.4.0 -m32 -mtune=generic -march=i686 -gdwarf-2 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection
+    <10>   DW_AT_language    : 12	(ANSI C99)
+    <11>   DW_AT_name        : (indirect string, offset: 0xcc2): mpers-m32/siginfo_t.c
+    <15>   DW_AT_comp_dir    : (indirect string, offset: 0xf3d): /root/strace-prc/src
+    <19>   DW_AT_stmt_list   : 0x0
+ <1><1d>: Abbrev Number: 2 (DW_TAG_base_type)
+    <1e>   DW_AT_byte_size   : 1
+    <1f>   DW_AT_encoding    : 8	(unsigned char)
+    <20>   DW_AT_name        : (indirect string, offset: 0x3c5): unsigned char
+ <1><24>: Abbrev Number: 2 (DW_TAG_base_type)
+    <25>   DW_AT_byte_size   : 2
+    <26>   DW_AT_encoding    : 7	(unsigned)
+    <27>   DW_AT_name        : (indirect string, offset: 0x10c5): short unsigned int
+ <1><2b>: Abbrev Number: 2 (DW_TAG_base_type)
+    <2c>   DW_AT_byte_size   : 4
+    <2d>   DW_AT_encoding    : 7	(unsigned)
+    <2e>   DW_AT_name        : (indirect string, offset: 0x9e2): unsigned int
+ <1><32>: Abbrev Number: 3 (DW_TAG_const_type)
+    <33>   DW_AT_type        : <0x2b>
+ <1><37>: Abbrev Number: 2 (DW_TAG_base_type)
+    <38>   DW_AT_byte_size   : 4
+    <39>   DW_AT_encoding    : 7	(unsigned)
+    <3a>   DW_AT_name        : (indirect string, offset: 0x7bc): long unsigned int
+ <1><3e>: Abbrev Number: 2 (DW_TAG_base_type)
+    <3f>   DW_AT_byte_size   : 1
+    <40>   DW_AT_encoding    : 6	(signed char)
+    <41>   DW_AT_name        : (indirect string, offset: 0x34d): signed char
+ <1><45>: Abbrev Number: 4 (DW_TAG_typedef)
+    <46>   DW_AT_name        : (indirect string, offset: 0x263): __uint8_t
+    <4a>   DW_AT_decl_file   : 1
+    <4b>   DW_AT_decl_line   : 38
+    <4c>   DW_AT_decl_column : 23
+    <4d>   DW_AT_type        : <0x1d>
+ <1><51>: Abbrev Number: 2 (DW_TAG_base_type)
+    <52>   DW_AT_byte_size   : 2
+    <53>   DW_AT_encoding    : 5	(signed)
+    <54>   DW_AT_name        : (indirect string, offset: 0xe86): short int
+ <1><58>: Abbrev Number: 4 (DW_TAG_typedef)
+    <59>   DW_AT_name        : (indirect string, offset: 0x4a8): __uint16_t
+    <5d>   DW_AT_decl_file   : 1
+    <5e>   DW_AT_decl_line   : 40
+    <5f>   DW_AT_decl_column : 28
+    <60>   DW_AT_type        : <0x24>
+ <1><64>: Abbrev Number: 5 (DW_TAG_base_type)
+    <65>   DW_AT_byte_size   : 4
+    <66>   DW_AT_encoding    : 5	(signed)
+    <67>   DW_AT_name        : int
+ <1><6b>: Abbrev Number: 3 (DW_TAG_const_type)
+    <6c>   DW_AT_type        : <0x64>
+ <1><70>: Abbrev Number: 4 (DW_TAG_typedef)
+    <71>   DW_AT_name        : (indirect string, offset: 0x8c2): __uint32_t
+    <75>   DW_AT_decl_file   : 1
+    <76>   DW_AT_decl_line   : 42
+    <77>   DW_AT_decl_column : 22
+    <78>   DW_AT_type        : <0x2b>
+ <1><7c>: Abbrev Number: 4 (DW_TAG_typedef)
+    <7d>   DW_AT_name        : (indirect string, offset: 0xf9e): __int64_t
+    <81>   DW_AT_decl_file   : 1
+    <82>   DW_AT_decl_line   : 47
+    <83>   DW_AT_decl_column : 44
+    <84>   DW_AT_type        : <0x88>
+ <1><88>: Abbrev Number: 2 (DW_TAG_base_type)
+    <89>   DW_AT_byte_size   : 8
+    <8a>   DW_AT_encoding    : 5	(signed)
+    <8b>   DW_AT_name        : (indirect string, offset: 0x8fb): long long int
+ <1><8f>: Abbrev Number: 4 (DW_TAG_typedef)
+    <90>   DW_AT_name        : (indirect string, offset: 0x7b1): __uint64_t
+    <94>   DW_AT_decl_file   : 1
+    <95>   DW_AT_decl_line   : 48
+    <96>   DW_AT_decl_column : 46
+    <97>   DW_AT_type        : <0x9b>
+ <1><9b>: Abbrev Number: 2 (DW_TAG_base_type)
+    <9c>   DW_AT_byte_size   : 8
+    <9d>   DW_AT_encoding    : 7	(unsigned)
+    <9e>   DW_AT_name        : (indirect string, offset: 0xbd6): long long unsigned int
+ <1><a2>: Abbrev Number: 4 (DW_TAG_typedef)
+    <a3>   DW_AT_name        : (indirect string, offset: 0xffe): __uid_t
+    <a7>   DW_AT_decl_file   : 1
+    <a8>   DW_AT_decl_line   : 146
+    <a9>   DW_AT_decl_column : 25
+    <aa>   DW_AT_type        : <0x2b>
+ <1><ae>: Abbrev Number: 4 (DW_TAG_typedef)
+    <af>   DW_AT_name        : (indirect string, offset: 0xc0c): __off_t
+    <b3>   DW_AT_decl_file   : 1
+    <b4>   DW_AT_decl_line   : 152
+    <b5>   DW_AT_decl_column : 25
+    <b6>   DW_AT_type        : <0xba>
+ <1><ba>: Abbrev Number: 2 (DW_TAG_base_type)
+    <bb>   DW_AT_byte_size   : 4
+    <bc>   DW_AT_encoding    : 5	(signed)
+    <bd>   DW_AT_name        : (indirect string, offset: 0x2c9): long int
+ <1><c1>: Abbrev Number: 4 (DW_TAG_typedef)
+    <c2>   DW_AT_name        : (indirect string, offset: 0xd84): __off64_t
+    <c6>   DW_AT_decl_file   : 1
+    <c7>   DW_AT_decl_line   : 153
+    <c8>   DW_AT_decl_column : 27
+    <c9>   DW_AT_type        : <0x7c>
+ <1><cd>: Abbrev Number: 4 (DW_TAG_typedef)
+    <ce>   DW_AT_name        : (indirect string, offset: 0xb67): __pid_t
+    <d2>   DW_AT_decl_file   : 1
+    <d3>   DW_AT_decl_line   : 154
+    <d4>   DW_AT_decl_column : 25
+    <d5>   DW_AT_type        : <0x64>
+ <1><d9>: Abbrev Number: 4 (DW_TAG_typedef)
+    <da>   DW_AT_name        : (indirect string, offset: 0xa96): __clock_t
+    <de>   DW_AT_decl_file   : 1
+    <df>   DW_AT_decl_line   : 156
+    <e0>   DW_AT_decl_column : 27
+    <e1>   DW_AT_type        : <0xba>
+ <1><e5>: Abbrev Number: 4 (DW_TAG_typedef)
+    <e6>   DW_AT_name        : (indirect string, offset: 0xcf9): __time_t
+    <ea>   DW_AT_decl_file   : 1
+    <eb>   DW_AT_decl_line   : 160
+    <ec>   DW_AT_decl_column : 26
+    <ed>   DW_AT_type        : <0xba>
+ <1><f1>: Abbrev Number: 6 (DW_TAG_pointer_type)
+    <f2>   DW_AT_byte_size   : 4
+ <1><f3>: Abbrev Number: 3 (DW_TAG_const_type)
+    <f4>   DW_AT_type        : <0xf1>
+ <1><f8>: Abbrev Number: 4 (DW_TAG_typedef)
+    <f9>   DW_AT_name        : (indirect string, offset: 0x411): __syscall_slong_t
+    <fd>   DW_AT_decl_file   : 1
+    <fe>   DW_AT_decl_line   : 196
+    <ff>   DW_AT_decl_column : 33
+    <100>   DW_AT_type        : <0xba>
+ <1><104>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <105>   DW_AT_byte_size   : 4
+    <106>   DW_AT_type        : <0x10a>
+ <1><10a>: Abbrev Number: 2 (DW_TAG_base_type)
+    <10b>   DW_AT_byte_size   : 1
+    <10c>   DW_AT_encoding    : 6	(signed char)
+    <10d>   DW_AT_name        : (indirect string, offset: 0x45d): char
+ <1><111>: Abbrev Number: 3 (DW_TAG_const_type)
+    <112>   DW_AT_type        : <0x10a>
+ <1><116>: Abbrev Number: 4 (DW_TAG_typedef)
+    <117>   DW_AT_name        : (indirect string, offset: 0x359): uint8_t
+    <11b>   DW_AT_decl_file   : 2
+    <11c>   DW_AT_decl_line   : 24
+    <11d>   DW_AT_decl_column : 19
+    <11e>   DW_AT_type        : <0x45>
+ <1><122>: Abbrev Number: 4 (DW_TAG_typedef)
+    <123>   DW_AT_name        : (indirect string, offset: 0xbf7): uint16_t
+    <127>   DW_AT_decl_file   : 2
+    <128>   DW_AT_decl_line   : 25
+    <129>   DW_AT_decl_column : 20
+    <12a>   DW_AT_type        : <0x58>
+ <1><12e>: Abbrev Number: 4 (DW_TAG_typedef)
+    <12f>   DW_AT_name        : (indirect string, offset: 0x1060): uint32_t
+    <133>   DW_AT_decl_file   : 2
+    <134>   DW_AT_decl_line   : 26
+    <135>   DW_AT_decl_column : 20
+    <136>   DW_AT_type        : <0x70>
+ <1><13a>: Abbrev Number: 4 (DW_TAG_typedef)
+    <13b>   DW_AT_name        : (indirect string, offset: 0xe96): uint64_t
+    <13f>   DW_AT_decl_file   : 2
+    <140>   DW_AT_decl_line   : 27
+    <141>   DW_AT_decl_column : 20
+    <142>   DW_AT_type        : <0x8f>
+ <1><146>: Abbrev Number: 4 (DW_TAG_typedef)
+    <147>   DW_AT_name        : (indirect string, offset: 0x39): size_t
+    <14b>   DW_AT_decl_file   : 3
+    <14c>   DW_AT_decl_line   : 209
+    <14d>   DW_AT_decl_column : 23
+    <14e>   DW_AT_type        : <0x2b>
+ <1><152>: Abbrev Number: 3 (DW_TAG_const_type)
+    <153>   DW_AT_type        : <0x146>
+ <1><157>: Abbrev Number: 8 (DW_TAG_structure_type)
+    <158>   DW_AT_name        : (indirect string, offset: 0xb7f): timespec
+    <15c>   DW_AT_byte_size   : 8
+    <15d>   DW_AT_decl_file   : 4
+    <15e>   DW_AT_decl_line   : 10
+    <15f>   DW_AT_decl_column : 8
+    <160>   DW_AT_sibling     : <0x183>
+ <2><164>: Abbrev Number: 9 (DW_TAG_member)
+    <165>   DW_AT_name        : (indirect string, offset: 0x1192): tv_sec
+    <169>   DW_AT_decl_file   : 4
+    <16a>   DW_AT_decl_line   : 12
+    <16b>   DW_AT_decl_column : 12
+    <16c>   DW_AT_type        : <0xe5>
+    <170>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><173>: Abbrev Number: 9 (DW_TAG_member)
+    <174>   DW_AT_name        : (indirect string, offset: 0xec3): tv_nsec
+    <178>   DW_AT_decl_file   : 4
+    <179>   DW_AT_decl_line   : 16
+    <17a>   DW_AT_decl_column : 21
+    <17b>   DW_AT_type        : <0xf8>
+    <17f>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><182>: Abbrev Number: 0
+ <1><183>: Abbrev Number: 2 (DW_TAG_base_type)
+    <184>   DW_AT_byte_size   : 12
+    <185>   DW_AT_encoding    : 4	(float)
+    <186>   DW_AT_name        : (indirect string, offset: 0xb3c): long double
+ <1><18a>: Abbrev Number: 2 (DW_TAG_base_type)
+    <18b>   DW_AT_byte_size   : 16
+    <18c>   DW_AT_encoding    : 4	(float)
+    <18d>   DW_AT_name        : (indirect string, offset: 0x1089): _Float128
+ <1><191>: Abbrev Number: 10 (DW_TAG_variable)
+    <192>   DW_AT_name        : (indirect string, offset: 0x280): __environ
+    <196>   DW_AT_decl_file   : 5
+    <197>   DW_AT_decl_line   : 543
+    <199>   DW_AT_decl_column : 15
+    <19a>   DW_AT_type        : <0x1a0>
+    <19e>   DW_AT_external    : 1
+    <19f>   DW_AT_declaration : 1
+ <1><1a0>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <1a1>   DW_AT_byte_size   : 4
+    <1a2>   DW_AT_type        : <0x104>
+ <1><1a6>: Abbrev Number: 10 (DW_TAG_variable)
+    <1a7>   DW_AT_name        : (indirect string, offset: 0x3b3): environ
+    <1ab>   DW_AT_decl_file   : 5
+    <1ac>   DW_AT_decl_line   : 545
+    <1ae>   DW_AT_decl_column : 15
+    <1af>   DW_AT_type        : <0x1a0>
+    <1b3>   DW_AT_external    : 1
+    <1b4>   DW_AT_declaration : 1
+ <1><1b5>: Abbrev Number: 11 (DW_TAG_variable)
+    <1b6>   DW_AT_name        : (indirect string, offset: 0x10af): optarg
+    <1ba>   DW_AT_decl_file   : 6
+    <1bb>   DW_AT_decl_line   : 36
+    <1bc>   DW_AT_decl_column : 14
+    <1bd>   DW_AT_type        : <0x104>
+    <1c1>   DW_AT_external    : 1
+    <1c2>   DW_AT_declaration : 1
+ <1><1c3>: Abbrev Number: 11 (DW_TAG_variable)
+    <1c4>   DW_AT_name        : (indirect string, offset: 0x784): optind
+    <1c8>   DW_AT_decl_file   : 6
+    <1c9>   DW_AT_decl_line   : 50
+    <1ca>   DW_AT_decl_column : 12
+    <1cb>   DW_AT_type        : <0x64>
+    <1cf>   DW_AT_external    : 1
+    <1d0>   DW_AT_declaration : 1
+ <1><1d1>: Abbrev Number: 11 (DW_TAG_variable)
+    <1d2>   DW_AT_name        : (indirect string, offset: 0xce8): opterr
+    <1d6>   DW_AT_decl_file   : 6
+    <1d7>   DW_AT_decl_line   : 55
+    <1d8>   DW_AT_decl_column : 12
+    <1d9>   DW_AT_type        : <0x64>
+    <1dd>   DW_AT_external    : 1
+    <1de>   DW_AT_declaration : 1
+ <1><1df>: Abbrev Number: 11 (DW_TAG_variable)
+    <1e0>   DW_AT_name        : (indirect string, offset: 0xbbc): optopt
+    <1e4>   DW_AT_decl_file   : 6
+    <1e5>   DW_AT_decl_line   : 59
+    <1e6>   DW_AT_decl_column : 12
+    <1e7>   DW_AT_type        : <0x64>
+    <1eb>   DW_AT_external    : 1
+    <1ec>   DW_AT_declaration : 1
+ <1><1ed>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <1ee>   DW_AT_byte_size   : 4
+    <1ef>   DW_AT_type        : <0x111>
+ <1><1f3>: Abbrev Number: 3 (DW_TAG_const_type)
+    <1f4>   DW_AT_type        : <0x1ed>
+ <1><1f8>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <1f9>   DW_AT_byte_size   : 4
+    <1fa>   DW_AT_type        : <0x1fe>
+ <1><1fe>: Abbrev Number: 12 (DW_TAG_const_type)
+ <1><1ff>: Abbrev Number: 8 (DW_TAG_structure_type)
+    <200>   DW_AT_name        : (indirect string, offset: 0x361): _IO_FILE
+    <204>   DW_AT_byte_size   : 148
+    <205>   DW_AT_decl_file   : 7
+    <206>   DW_AT_decl_line   : 49
+    <207>   DW_AT_decl_column : 8
+    <208>   DW_AT_sibling     : <0x3c0>
+ <2><20c>: Abbrev Number: 9 (DW_TAG_member)
+    <20d>   DW_AT_name        : (indirect string, offset: 0xa84): _flags
+    <211>   DW_AT_decl_file   : 7
+    <212>   DW_AT_decl_line   : 51
+    <213>   DW_AT_decl_column : 7
+    <214>   DW_AT_type        : <0x64>
+    <218>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><21b>: Abbrev Number: 9 (DW_TAG_member)
+    <21c>   DW_AT_name        : (indirect string, offset: 0x500): _IO_read_ptr
+    <220>   DW_AT_decl_file   : 7
+    <221>   DW_AT_decl_line   : 54
+    <222>   DW_AT_decl_column : 9
+    <223>   DW_AT_type        : <0x104>
+    <227>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><22a>: Abbrev Number: 9 (DW_TAG_member)
+    <22b>   DW_AT_name        : (indirect string, offset: 0x1006): _IO_read_end
+    <22f>   DW_AT_decl_file   : 7
+    <230>   DW_AT_decl_line   : 55
+    <231>   DW_AT_decl_column : 9
+    <232>   DW_AT_type        : <0x104>
+    <236>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><239>: Abbrev Number: 9 (DW_TAG_member)
+    <23a>   DW_AT_name        : (indirect string, offset: 0x7f3): _IO_read_base
+    <23e>   DW_AT_decl_file   : 7
+    <23f>   DW_AT_decl_line   : 56
+    <240>   DW_AT_decl_column : 9
+    <241>   DW_AT_type        : <0x104>
+    <245>   DW_AT_data_member_location: 2 byte block: 23 c 	(DW_OP_plus_uconst: 12)
+ <2><248>: Abbrev Number: 9 (DW_TAG_member)
+    <249>   DW_AT_name        : (indirect string, offset: 0x137): _IO_write_base
+    <24d>   DW_AT_decl_file   : 7
+    <24e>   DW_AT_decl_line   : 57
+    <24f>   DW_AT_decl_column : 9
+    <250>   DW_AT_type        : <0x104>
+    <254>   DW_AT_data_member_location: 2 byte block: 23 10 	(DW_OP_plus_uconst: 16)
+ <2><257>: Abbrev Number: 9 (DW_TAG_member)
+    <258>   DW_AT_name        : (indirect string, offset: 0x10fe): _IO_write_ptr
+    <25c>   DW_AT_decl_file   : 7
+    <25d>   DW_AT_decl_line   : 58
+    <25e>   DW_AT_decl_column : 9
+    <25f>   DW_AT_type        : <0x104>
+    <263>   DW_AT_data_member_location: 2 byte block: 23 14 	(DW_OP_plus_uconst: 20)
+ <2><266>: Abbrev Number: 9 (DW_TAG_member)
+    <267>   DW_AT_name        : (indirect string, offset: 0x947): _IO_write_end
+    <26b>   DW_AT_decl_file   : 7
+    <26c>   DW_AT_decl_line   : 59
+    <26d>   DW_AT_decl_column : 9
+    <26e>   DW_AT_type        : <0x104>
+    <272>   DW_AT_data_member_location: 2 byte block: 23 18 	(DW_OP_plus_uconst: 24)
+ <2><275>: Abbrev Number: 9 (DW_TAG_member)
+    <276>   DW_AT_name        : (indirect string, offset: 0x9c4): _IO_buf_base
+    <27a>   DW_AT_decl_file   : 7
+    <27b>   DW_AT_decl_line   : 60
+    <27c>   DW_AT_decl_column : 9
+    <27d>   DW_AT_type        : <0x104>
+    <281>   DW_AT_data_member_location: 2 byte block: 23 1c 	(DW_OP_plus_uconst: 28)
+ <2><284>: Abbrev Number: 9 (DW_TAG_member)
+    <285>   DW_AT_name        : (indirect string, offset: 0xe31): _IO_buf_end
+    <289>   DW_AT_decl_file   : 7
+    <28a>   DW_AT_decl_line   : 61
+    <28b>   DW_AT_decl_column : 9
+    <28c>   DW_AT_type        : <0x104>
+    <290>   DW_AT_data_member_location: 2 byte block: 23 20 	(DW_OP_plus_uconst: 32)
+ <2><293>: Abbrev Number: 9 (DW_TAG_member)
+    <294>   DW_AT_name        : (indirect string, offset: 0x1d8): _IO_save_base
+    <298>   DW_AT_decl_file   : 7
+    <299>   DW_AT_decl_line   : 64
+    <29a>   DW_AT_decl_column : 9
+    <29b>   DW_AT_type        : <0x104>
+    <29f>   DW_AT_data_member_location: 2 byte block: 23 24 	(DW_OP_plus_uconst: 36)
+ <2><2a2>: Abbrev Number: 9 (DW_TAG_member)
+    <2a3>   DW_AT_name        : (indirect string, offset: 0xd4b): _IO_backup_base
+    <2a7>   DW_AT_decl_file   : 7
+    <2a8>   DW_AT_decl_line   : 65
+    <2a9>   DW_AT_decl_column : 9
+    <2aa>   DW_AT_type        : <0x104>
+    <2ae>   DW_AT_data_member_location: 2 byte block: 23 28 	(DW_OP_plus_uconst: 40)
+ <2><2b1>: Abbrev Number: 9 (DW_TAG_member)
+    <2b2>   DW_AT_name        : (indirect string, offset: 0xac): _IO_save_end
+    <2b6>   DW_AT_decl_file   : 7
+    <2b7>   DW_AT_decl_line   : 66
+    <2b8>   DW_AT_decl_column : 9
+    <2b9>   DW_AT_type        : <0x104>
+    <2bd>   DW_AT_data_member_location: 2 byte block: 23 2c 	(DW_OP_plus_uconst: 44)
+ <2><2c0>: Abbrev Number: 9 (DW_TAG_member)
+    <2c1>   DW_AT_name        : (indirect string, offset: 0x5a8): _markers
+    <2c5>   DW_AT_decl_file   : 7
+    <2c6>   DW_AT_decl_line   : 68
+    <2c7>   DW_AT_decl_column : 22
+    <2c8>   DW_AT_type        : <0x3da>
+    <2cc>   DW_AT_data_member_location: 2 byte block: 23 30 	(DW_OP_plus_uconst: 48)
+ <2><2cf>: Abbrev Number: 9 (DW_TAG_member)
+    <2d0>   DW_AT_name        : (indirect string, offset: 0x21b): _chain
+    <2d4>   DW_AT_decl_file   : 7
+    <2d5>   DW_AT_decl_line   : 70
+    <2d6>   DW_AT_decl_column : 20
+    <2d7>   DW_AT_type        : <0x3e0>
+    <2db>   DW_AT_data_member_location: 2 byte block: 23 34 	(DW_OP_plus_uconst: 52)
+ <2><2de>: Abbrev Number: 9 (DW_TAG_member)
+    <2df>   DW_AT_name        : (indirect string, offset: 0x1074): _fileno
+    <2e3>   DW_AT_decl_file   : 7
+    <2e4>   DW_AT_decl_line   : 72
+    <2e5>   DW_AT_decl_column : 7
+    <2e6>   DW_AT_type        : <0x64>
+    <2ea>   DW_AT_data_member_location: 2 byte block: 23 38 	(DW_OP_plus_uconst: 56)
+ <2><2ed>: Abbrev Number: 9 (DW_TAG_member)
+    <2ee>   DW_AT_name        : (indirect string, offset: 0x7df): _flags2
+    <2f2>   DW_AT_decl_file   : 7
+    <2f3>   DW_AT_decl_line   : 73
+    <2f4>   DW_AT_decl_column : 7
+    <2f5>   DW_AT_type        : <0x64>
+    <2f9>   DW_AT_data_member_location: 2 byte block: 23 3c 	(DW_OP_plus_uconst: 60)
+ <2><2fc>: Abbrev Number: 9 (DW_TAG_member)
+    <2fd>   DW_AT_name        : (indirect string, offset: 0x86e): _old_offset
+    <301>   DW_AT_decl_file   : 7
+    <302>   DW_AT_decl_line   : 74
+    <303>   DW_AT_decl_column : 11
+    <304>   DW_AT_type        : <0xae>
+    <308>   DW_AT_data_member_location: 2 byte block: 23 40 	(DW_OP_plus_uconst: 64)
+ <2><30b>: Abbrev Number: 9 (DW_TAG_member)
+    <30c>   DW_AT_name        : (indirect string, offset: 0x24e): _cur_column
+    <310>   DW_AT_decl_file   : 7
+    <311>   DW_AT_decl_line   : 77
+    <312>   DW_AT_decl_column : 18
+    <313>   DW_AT_type        : <0x24>
+    <317>   DW_AT_data_member_location: 2 byte block: 23 44 	(DW_OP_plus_uconst: 68)
+ <2><31a>: Abbrev Number: 9 (DW_TAG_member)
+    <31b>   DW_AT_name        : (indirect string, offset: 0xee9): _vtable_offset
+    <31f>   DW_AT_decl_file   : 7
+    <320>   DW_AT_decl_line   : 78
+    <321>   DW_AT_decl_column : 15
+    <322>   DW_AT_type        : <0x3e>
+    <326>   DW_AT_data_member_location: 2 byte block: 23 46 	(DW_OP_plus_uconst: 70)
+ <2><329>: Abbrev Number: 9 (DW_TAG_member)
+    <32a>   DW_AT_name        : (indirect string, offset: 0xd5b): _shortbuf
+    <32e>   DW_AT_decl_file   : 7
+    <32f>   DW_AT_decl_line   : 79
+    <330>   DW_AT_decl_column : 8
+    <331>   DW_AT_type        : <0x3e6>
+    <335>   DW_AT_data_member_location: 2 byte block: 23 47 	(DW_OP_plus_uconst: 71)
+ <2><338>: Abbrev Number: 9 (DW_TAG_member)
+    <339>   DW_AT_name        : (indirect string, offset: 0x178): _lock
+    <33d>   DW_AT_decl_file   : 7
+    <33e>   DW_AT_decl_line   : 81
+    <33f>   DW_AT_decl_column : 15
+    <340>   DW_AT_type        : <0x3f6>
+    <344>   DW_AT_data_member_location: 2 byte block: 23 48 	(DW_OP_plus_uconst: 72)
+ <2><347>: Abbrev Number: 9 (DW_TAG_member)
+    <348>   DW_AT_name        : (indirect string, offset: 0x712): _offset
+    <34c>   DW_AT_decl_file   : 7
+    <34d>   DW_AT_decl_line   : 89
+    <34e>   DW_AT_decl_column : 13
+    <34f>   DW_AT_type        : <0xc1>
+    <353>   DW_AT_data_member_location: 2 byte block: 23 4c 	(DW_OP_plus_uconst: 76)
+ <2><356>: Abbrev Number: 9 (DW_TAG_member)
+    <357>   DW_AT_name        : (indirect string, offset: 0xace): _codecvt
+    <35b>   DW_AT_decl_file   : 7
+    <35c>   DW_AT_decl_line   : 91
+    <35d>   DW_AT_decl_column : 23
+    <35e>   DW_AT_type        : <0x402>
+    <362>   DW_AT_data_member_location: 2 byte block: 23 54 	(DW_OP_plus_uconst: 84)
+ <2><365>: Abbrev Number: 9 (DW_TAG_member)
+    <366>   DW_AT_name        : (indirect string, offset: 0x1093): _wide_data
+    <36a>   DW_AT_decl_file   : 7
+    <36b>   DW_AT_decl_line   : 92
+    <36c>   DW_AT_decl_column : 25
+    <36d>   DW_AT_type        : <0x40e>
+    <371>   DW_AT_data_member_location: 2 byte block: 23 58 	(DW_OP_plus_uconst: 88)
+ <2><374>: Abbrev Number: 9 (DW_TAG_member)
+    <375>   DW_AT_name        : (indirect string, offset: 0x3e1): _freeres_list
+    <379>   DW_AT_decl_file   : 7
+    <37a>   DW_AT_decl_line   : 93
+    <37b>   DW_AT_decl_column : 20
+    <37c>   DW_AT_type        : <0x3e0>
+    <380>   DW_AT_data_member_location: 2 byte block: 23 5c 	(DW_OP_plus_uconst: 92)
+ <2><383>: Abbrev Number: 9 (DW_TAG_member)
+    <384>   DW_AT_name        : (indirect string, offset: 0xca8): _freeres_buf
+    <388>   DW_AT_decl_file   : 7
+    <389>   DW_AT_decl_line   : 94
+    <38a>   DW_AT_decl_column : 9
+    <38b>   DW_AT_type        : <0xf1>
+    <38f>   DW_AT_data_member_location: 2 byte block: 23 60 	(DW_OP_plus_uconst: 96)
+ <2><392>: Abbrev Number: 9 (DW_TAG_member)
+    <393>   DW_AT_name        : (indirect string, offset: 0xa33): __pad5
+    <397>   DW_AT_decl_file   : 7
+    <398>   DW_AT_decl_line   : 95
+    <399>   DW_AT_decl_column : 10
+    <39a>   DW_AT_type        : <0x146>
+    <39e>   DW_AT_data_member_location: 2 byte block: 23 64 	(DW_OP_plus_uconst: 100)
+ <2><3a1>: Abbrev Number: 9 (DW_TAG_member)
+    <3a2>   DW_AT_name        : (indirect string, offset: 0xab2): _mode
+    <3a6>   DW_AT_decl_file   : 7
+    <3a7>   DW_AT_decl_line   : 96
+    <3a8>   DW_AT_decl_column : 7
+    <3a9>   DW_AT_type        : <0x64>
+    <3ad>   DW_AT_data_member_location: 2 byte block: 23 68 	(DW_OP_plus_uconst: 104)
+ <2><3b0>: Abbrev Number: 9 (DW_TAG_member)
+    <3b1>   DW_AT_name        : (indirect string, offset: 0x80d): _unused2
+    <3b5>   DW_AT_decl_file   : 7
+    <3b6>   DW_AT_decl_line   : 98
+    <3b7>   DW_AT_decl_column : 8
+    <3b8>   DW_AT_type        : <0x414>
+    <3bc>   DW_AT_data_member_location: 2 byte block: 23 6c 	(DW_OP_plus_uconst: 108)
+ <2><3bf>: Abbrev Number: 0
+ <1><3c0>: Abbrev Number: 4 (DW_TAG_typedef)
+    <3c1>   DW_AT_name        : (indirect string, offset: 0xb62): FILE
+    <3c5>   DW_AT_decl_file   : 8
+    <3c6>   DW_AT_decl_line   : 7
+    <3c7>   DW_AT_decl_column : 25
+    <3c8>   DW_AT_type        : <0x1ff>
+ <1><3cc>: Abbrev Number: 13 (DW_TAG_typedef)
+    <3cd>   DW_AT_name        : (indirect string, offset: 0x49d): _IO_lock_t
+    <3d1>   DW_AT_decl_file   : 7
+    <3d2>   DW_AT_decl_line   : 43
+    <3d3>   DW_AT_decl_column : 14
+ <1><3d4>: Abbrev Number: 14 (DW_TAG_structure_type)
+    <3d5>   DW_AT_name        : (indirect string, offset: 0x30b): _IO_marker
+    <3d9>   DW_AT_declaration : 1
+ <1><3da>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <3db>   DW_AT_byte_size   : 4
+    <3dc>   DW_AT_type        : <0x3d4>
+ <1><3e0>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <3e1>   DW_AT_byte_size   : 4
+    <3e2>   DW_AT_type        : <0x1ff>
+ <1><3e6>: Abbrev Number: 15 (DW_TAG_array_type)
+    <3e7>   DW_AT_type        : <0x10a>
+    <3eb>   DW_AT_sibling     : <0x3f6>
+ <2><3ef>: Abbrev Number: 16 (DW_TAG_subrange_type)
+    <3f0>   DW_AT_type        : <0x2b>
+    <3f4>   DW_AT_upper_bound : 0
+ <2><3f5>: Abbrev Number: 0
+ <1><3f6>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <3f7>   DW_AT_byte_size   : 4
+    <3f8>   DW_AT_type        : <0x3cc>
+ <1><3fc>: Abbrev Number: 14 (DW_TAG_structure_type)
+    <3fd>   DW_AT_name        : (indirect string, offset: 0x6f): _IO_codecvt
+    <401>   DW_AT_declaration : 1
+ <1><402>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <403>   DW_AT_byte_size   : 4
+    <404>   DW_AT_type        : <0x3fc>
+ <1><408>: Abbrev Number: 14 (DW_TAG_structure_type)
+    <409>   DW_AT_name        : (indirect string, offset: 0x375): _IO_wide_data
+    <40d>   DW_AT_declaration : 1
+ <1><40e>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <40f>   DW_AT_byte_size   : 4
+    <410>   DW_AT_type        : <0x408>
+ <1><414>: Abbrev Number: 15 (DW_TAG_array_type)
+    <415>   DW_AT_type        : <0x10a>
+    <419>   DW_AT_sibling     : <0x424>
+ <2><41d>: Abbrev Number: 16 (DW_TAG_subrange_type)
+    <41e>   DW_AT_type        : <0x2b>
+    <422>   DW_AT_upper_bound : 39
+ <2><423>: Abbrev Number: 0
+ <1><424>: Abbrev Number: 11 (DW_TAG_variable)
+    <425>   DW_AT_name        : (indirect string, offset: 0x568): stdin
+    <429>   DW_AT_decl_file   : 9
+    <42a>   DW_AT_decl_line   : 137
+    <42b>   DW_AT_decl_column : 14
+    <42c>   DW_AT_type        : <0x432>
+    <430>   DW_AT_external    : 1
+    <431>   DW_AT_declaration : 1
+ <1><432>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <433>   DW_AT_byte_size   : 4
+    <434>   DW_AT_type        : <0x3c0>
+ <1><438>: Abbrev Number: 11 (DW_TAG_variable)
+    <439>   DW_AT_name        : (indirect string, offset: 0x10d8): stdout
+    <43d>   DW_AT_decl_file   : 9
+    <43e>   DW_AT_decl_line   : 138
+    <43f>   DW_AT_decl_column : 14
+    <440>   DW_AT_type        : <0x432>
+    <444>   DW_AT_external    : 1
+    <445>   DW_AT_declaration : 1
+ <1><446>: Abbrev Number: 11 (DW_TAG_variable)
+    <447>   DW_AT_name        : (indirect string, offset: 0xe7f): stderr
+    <44b>   DW_AT_decl_file   : 9
+    <44c>   DW_AT_decl_line   : 139
+    <44d>   DW_AT_decl_column : 14
+    <44e>   DW_AT_type        : <0x432>
+    <452>   DW_AT_external    : 1
+    <453>   DW_AT_declaration : 1
+ <1><454>: Abbrev Number: 11 (DW_TAG_variable)
+    <455>   DW_AT_name        : (indirect string, offset: 0x25a): sys_nerr
+    <459>   DW_AT_decl_file   : 10
+    <45a>   DW_AT_decl_line   : 26
+    <45b>   DW_AT_decl_column : 12
+    <45c>   DW_AT_type        : <0x64>
+    <460>   DW_AT_external    : 1
+    <461>   DW_AT_declaration : 1
+ <1><462>: Abbrev Number: 15 (DW_TAG_array_type)
+    <463>   DW_AT_type        : <0x1f3>
+    <467>   DW_AT_sibling     : <0x46d>
+ <2><46b>: Abbrev Number: 17 (DW_TAG_subrange_type)
+ <2><46c>: Abbrev Number: 0
+ <1><46d>: Abbrev Number: 3 (DW_TAG_const_type)
+    <46e>   DW_AT_type        : <0x462>
+ <1><472>: Abbrev Number: 11 (DW_TAG_variable)
+    <473>   DW_AT_name        : (indirect string, offset: 0x577): sys_errlist
+    <477>   DW_AT_decl_file   : 10
+    <478>   DW_AT_decl_line   : 27
+    <479>   DW_AT_decl_column : 26
+    <47a>   DW_AT_type        : <0x46d>
+    <47e>   DW_AT_external    : 1
+    <47f>   DW_AT_declaration : 1
+ <1><480>: Abbrev Number: 11 (DW_TAG_variable)
+    <481>   DW_AT_name        : (indirect string, offset: 0x26d): _sys_nerr
+    <485>   DW_AT_decl_file   : 10
+    <486>   DW_AT_decl_line   : 30
+    <487>   DW_AT_decl_column : 12
+    <488>   DW_AT_type        : <0x64>
+    <48c>   DW_AT_external    : 1
+    <48d>   DW_AT_declaration : 1
+ <1><48e>: Abbrev Number: 11 (DW_TAG_variable)
+    <48f>   DW_AT_name        : (indirect string, offset: 0xef8): _sys_errlist
+    <493>   DW_AT_decl_file   : 10
+    <494>   DW_AT_decl_line   : 31
+    <495>   DW_AT_decl_column : 26
+    <496>   DW_AT_type        : <0x46d>
+    <49a>   DW_AT_external    : 1
+    <49b>   DW_AT_declaration : 1
+ <1><49c>: Abbrev Number: 11 (DW_TAG_variable)
+    <49d>   DW_AT_name        : (indirect string, offset: 0x6eb): program_invocation_name
+    <4a1>   DW_AT_decl_file   : 11
+    <4a2>   DW_AT_decl_line   : 45
+    <4a3>   DW_AT_decl_column : 14
+    <4a4>   DW_AT_type        : <0x104>
+    <4a8>   DW_AT_external    : 1
+    <4a9>   DW_AT_declaration : 1
+ <1><4aa>: Abbrev Number: 11 (DW_TAG_variable)
+    <4ab>   DW_AT_name        : (indirect string, offset: 0xc46): program_invocation_short_name
+    <4af>   DW_AT_decl_file   : 11
+    <4b0>   DW_AT_decl_line   : 46
+    <4b1>   DW_AT_decl_column : 14
+    <4b2>   DW_AT_type        : <0x104>
+    <4b6>   DW_AT_external    : 1
+    <4b7>   DW_AT_declaration : 1
+ <1><4b8>: Abbrev Number: 15 (DW_TAG_array_type)
+    <4b9>   DW_AT_type        : <0x104>
+    <4bd>   DW_AT_sibling     : <0x4c8>
+ <2><4c1>: Abbrev Number: 16 (DW_TAG_subrange_type)
+    <4c2>   DW_AT_type        : <0x2b>
+    <4c6>   DW_AT_upper_bound : 1
+ <2><4c7>: Abbrev Number: 0
+ <1><4c8>: Abbrev Number: 11 (DW_TAG_variable)
+    <4c9>   DW_AT_name        : (indirect string, offset: 0x1c5): __tzname
+    <4cd>   DW_AT_decl_file   : 12
+    <4ce>   DW_AT_decl_line   : 159
+    <4cf>   DW_AT_decl_column : 14
+    <4d0>   DW_AT_type        : <0x4b8>
+    <4d4>   DW_AT_external    : 1
+    <4d5>   DW_AT_declaration : 1
+ <1><4d6>: Abbrev Number: 11 (DW_TAG_variable)
+    <4d7>   DW_AT_name        : (indirect string, offset: 0xf85): __daylight
+    <4db>   DW_AT_decl_file   : 12
+    <4dc>   DW_AT_decl_line   : 160
+    <4dd>   DW_AT_decl_column : 12
+    <4de>   DW_AT_type        : <0x64>
+    <4e2>   DW_AT_external    : 1
+    <4e3>   DW_AT_declaration : 1
+ <1><4e4>: Abbrev Number: 11 (DW_TAG_variable)
+    <4e5>   DW_AT_name        : (indirect string, offset: 0x36a): __timezone
+    <4e9>   DW_AT_decl_file   : 12
+    <4ea>   DW_AT_decl_line   : 161
+    <4eb>   DW_AT_decl_column : 17
+    <4ec>   DW_AT_type        : <0xba>
+    <4f0>   DW_AT_external    : 1
+    <4f1>   DW_AT_declaration : 1
+ <1><4f2>: Abbrev Number: 11 (DW_TAG_variable)
+    <4f3>   DW_AT_name        : (indirect string, offset: 0xa23): tzname
+    <4f7>   DW_AT_decl_file   : 12
+    <4f8>   DW_AT_decl_line   : 166
+    <4f9>   DW_AT_decl_column : 14
+    <4fa>   DW_AT_type        : <0x4b8>
+    <4fe>   DW_AT_external    : 1
+    <4ff>   DW_AT_declaration : 1
+ <1><500>: Abbrev Number: 11 (DW_TAG_variable)
+    <501>   DW_AT_name        : (indirect string, offset: 0x1148): daylight
+    <505>   DW_AT_decl_file   : 12
+    <506>   DW_AT_decl_line   : 174
+    <507>   DW_AT_decl_column : 12
+    <508>   DW_AT_type        : <0x64>
+    <50c>   DW_AT_external    : 1
+    <50d>   DW_AT_declaration : 1
+ <1><50e>: Abbrev Number: 11 (DW_TAG_variable)
+    <50f>   DW_AT_name        : (indirect string, offset: 0x4e2): timezone
+    <513>   DW_AT_decl_file   : 12
+    <514>   DW_AT_decl_line   : 175
+    <515>   DW_AT_decl_column : 17
+    <516>   DW_AT_type        : <0xba>
+    <51a>   DW_AT_external    : 1
+    <51b>   DW_AT_declaration : 1
+ <1><51c>: Abbrev Number: 10 (DW_TAG_variable)
+    <51d>   DW_AT_name        : (indirect string, offset: 0x102d): getdate_err
+    <521>   DW_AT_decl_file   : 12
+    <522>   DW_AT_decl_line   : 274
+    <524>   DW_AT_decl_column : 12
+    <525>   DW_AT_type        : <0x64>
+    <529>   DW_AT_external    : 1
+    <52a>   DW_AT_declaration : 1
+ <1><52b>: Abbrev Number: 11 (DW_TAG_variable)
+    <52c>   DW_AT_name        : (indirect string, offset: 0xa3f): debug_flag
+    <530>   DW_AT_decl_file   : 13
+    <531>   DW_AT_decl_line   : 20
+    <532>   DW_AT_decl_column : 13
+    <533>   DW_AT_type        : <0x539>
+    <537>   DW_AT_external    : 1
+    <538>   DW_AT_declaration : 1
+ <1><539>: Abbrev Number: 2 (DW_TAG_base_type)
+    <53a>   DW_AT_byte_size   : 1
+    <53b>   DW_AT_encoding    : 2	(boolean)
+    <53c>   DW_AT_name        : (indirect string, offset: 0x423): _Bool
+ <1><540>: Abbrev Number: 3 (DW_TAG_const_type)
+    <541>   DW_AT_type        : <0x539>
+ <1><545>: Abbrev Number: 4 (DW_TAG_typedef)
+    <546>   DW_AT_name        : (indirect string, offset: 0xb12): __kernel_long_t
+    <54a>   DW_AT_decl_file   : 14
+    <54b>   DW_AT_decl_line   : 15
+    <54c>   DW_AT_decl_column : 15
+    <54d>   DW_AT_type        : <0xba>
+ <1><551>: Abbrev Number: 4 (DW_TAG_typedef)
+    <552>   DW_AT_name        : (indirect string, offset: 0x557): __kernel_ulong_t
+    <556>   DW_AT_decl_file   : 14
+    <557>   DW_AT_decl_line   : 16
+    <558>   DW_AT_decl_column : 23
+    <559>   DW_AT_type        : <0x37>
+ <1><55d>: Abbrev Number: 4 (DW_TAG_typedef)
+    <55e>   DW_AT_name        : (indirect string, offset: 0x3ef): kernel_long_t
+    <562>   DW_AT_decl_file   : 15
+    <563>   DW_AT_decl_line   : 16
+    <564>   DW_AT_decl_column : 25
+    <565>   DW_AT_type        : <0x545>
+ <1><569>: Abbrev Number: 4 (DW_TAG_typedef)
+    <56a>   DW_AT_name        : (indirect string, offset: 0x8ec): kernel_ulong_t
+    <56e>   DW_AT_decl_file   : 15
+    <56f>   DW_AT_decl_line   : 17
+    <570>   DW_AT_decl_column : 26
+    <571>   DW_AT_type        : <0x551>
+ <1><575>: Abbrev Number: 3 (DW_TAG_const_type)
+    <576>   DW_AT_type        : <0x569>
+ <1><57a>: Abbrev Number: 8 (DW_TAG_structure_type)
+    <57b>   DW_AT_name        : (indirect string, offset: 0xc64): list_item
+    <57f>   DW_AT_byte_size   : 8
+    <580>   DW_AT_decl_file   : 16
+    <581>   DW_AT_decl_line   : 92
+    <582>   DW_AT_decl_column : 8
+    <583>   DW_AT_sibling     : <0x5a6>
+ <2><587>: Abbrev Number: 9 (DW_TAG_member)
+    <588>   DW_AT_name        : (indirect string, offset: 0x118d): prev
+    <58c>   DW_AT_decl_file   : 16
+    <58d>   DW_AT_decl_line   : 93
+    <58e>   DW_AT_decl_column : 20
+    <58f>   DW_AT_type        : <0x5a6>
+    <593>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><596>: Abbrev Number: 9 (DW_TAG_member)
+    <597>   DW_AT_name        : (indirect string, offset: 0x1183): next
+    <59b>   DW_AT_decl_file   : 16
+    <59c>   DW_AT_decl_line   : 94
+    <59d>   DW_AT_decl_column : 20
+    <59e>   DW_AT_type        : <0x5a6>
+    <5a2>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><5a5>: Abbrev Number: 0
+ <1><5a6>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <5a7>   DW_AT_byte_size   : 4
+    <5a8>   DW_AT_type        : <0x57a>
+ <1><5ac>: Abbrev Number: 8 (DW_TAG_structure_type)
+    <5ad>   DW_AT_name        : (indirect string, offset: 0x8bb): sysent
+    <5b1>   DW_AT_byte_size   : 20
+    <5b2>   DW_AT_decl_file   : 17
+    <5b3>   DW_AT_decl_line   : 13
+    <5b4>   DW_AT_decl_column : 16
+    <5b5>   DW_AT_sibling     : <0x605>
+ <2><5b9>: Abbrev Number: 9 (DW_TAG_member)
+    <5ba>   DW_AT_name        : (indirect string, offset: 0x10ef): nargs
+    <5be>   DW_AT_decl_file   : 17
+    <5bf>   DW_AT_decl_line   : 14
+    <5c0>   DW_AT_decl_column : 11
+    <5c1>   DW_AT_type        : <0x2b>
+    <5c5>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><5c8>: Abbrev Number: 9 (DW_TAG_member)
+    <5c9>   DW_AT_name        : (indirect string, offset: 0x9d8): sys_flags
+    <5cd>   DW_AT_decl_file   : 17
+    <5ce>   DW_AT_decl_line   : 15
+    <5cf>   DW_AT_decl_column : 6
+    <5d0>   DW_AT_type        : <0x64>
+    <5d4>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><5d7>: Abbrev Number: 18 (DW_TAG_member)
+    <5d8>   DW_AT_name        : sen
+    <5dc>   DW_AT_decl_file   : 17
+    <5dd>   DW_AT_decl_line   : 16
+    <5de>   DW_AT_decl_column : 6
+    <5df>   DW_AT_type        : <0x64>
+    <5e3>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><5e6>: Abbrev Number: 9 (DW_TAG_member)
+    <5e7>   DW_AT_name        : (indirect string, offset: 0x302): sys_func
+    <5eb>   DW_AT_decl_file   : 17
+    <5ec>   DW_AT_decl_line   : 17
+    <5ed>   DW_AT_decl_column : 8
+    <5ee>   DW_AT_type        : <0x85b>
+    <5f2>   DW_AT_data_member_location: 2 byte block: 23 c 	(DW_OP_plus_uconst: 12)
+ <2><5f5>: Abbrev Number: 9 (DW_TAG_member)
+    <5f6>   DW_AT_name        : (indirect string, offset: 0x277): sys_name
+    <5fa>   DW_AT_decl_file   : 17
+    <5fb>   DW_AT_decl_line   : 18
+    <5fc>   DW_AT_decl_column : 14
+    <5fd>   DW_AT_type        : <0x1ed>
+    <601>   DW_AT_data_member_location: 2 byte block: 23 10 	(DW_OP_plus_uconst: 16)
+ <2><604>: Abbrev Number: 0
+ <1><605>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <606>   DW_AT_prototyped  : 1
+    <607>   DW_AT_type        : <0x64>
+    <60b>   DW_AT_sibling     : <0x615>
+ <2><60f>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <610>   DW_AT_type        : <0x615>
+ <2><614>: Abbrev Number: 0
+ <1><615>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <616>   DW_AT_byte_size   : 4
+    <617>   DW_AT_type        : <0x620>
+ <1><61b>: Abbrev Number: 3 (DW_TAG_const_type)
+    <61c>   DW_AT_type        : <0x615>
+ <1><620>: Abbrev Number: 21 (DW_TAG_structure_type)
+    <621>   DW_AT_name        : tcb
+    <625>   DW_AT_byte_size   : 200
+    <626>   DW_AT_decl_file   : 18
+    <627>   DW_AT_decl_line   : 262
+    <629>   DW_AT_decl_column : 8
+    <62a>   DW_AT_sibling     : <0x85b>
+ <2><62e>: Abbrev Number: 22 (DW_TAG_member)
+    <62f>   DW_AT_name        : (indirect string, offset: 0x4fa): flags
+    <633>   DW_AT_decl_file   : 18
+    <634>   DW_AT_decl_line   : 263
+    <636>   DW_AT_decl_column : 6
+    <637>   DW_AT_type        : <0x64>
+    <63b>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><63e>: Abbrev Number: 23 (DW_TAG_member)
+    <63f>   DW_AT_name        : pid
+    <643>   DW_AT_decl_file   : 18
+    <644>   DW_AT_decl_line   : 264
+    <646>   DW_AT_decl_column : 6
+    <647>   DW_AT_type        : <0x64>
+    <64b>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><64e>: Abbrev Number: 22 (DW_TAG_member)
+    <64f>   DW_AT_name        : (indirect string, offset: 0x4e): qual_flg
+    <653>   DW_AT_decl_file   : 18
+    <654>   DW_AT_decl_line   : 265
+    <656>   DW_AT_decl_column : 6
+    <657>   DW_AT_type        : <0x64>
+    <65b>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><65e>: Abbrev Number: 22 (DW_TAG_member)
+    <65f>   DW_AT_name        : (indirect string, offset: 0x397): currpers
+    <663>   DW_AT_decl_file   : 18
+    <664>   DW_AT_decl_line   : 267
+    <666>   DW_AT_decl_column : 15
+    <667>   DW_AT_type        : <0x2b>
+    <66b>   DW_AT_data_member_location: 2 byte block: 23 c 	(DW_OP_plus_uconst: 12)
+ <2><66e>: Abbrev Number: 22 (DW_TAG_member)
+    <66f>   DW_AT_name        : (indirect string, offset: 0xbb4): u_error
+    <673>   DW_AT_decl_file   : 18
+    <674>   DW_AT_decl_line   : 269
+    <676>   DW_AT_decl_column : 16
+    <677>   DW_AT_type        : <0x37>
+    <67b>   DW_AT_data_member_location: 2 byte block: 23 10 	(DW_OP_plus_uconst: 16)
+ <2><67e>: Abbrev Number: 22 (DW_TAG_member)
+    <67f>   DW_AT_name        : (indirect string, offset: 0x1a5): scno
+    <683>   DW_AT_decl_file   : 18
+    <684>   DW_AT_decl_line   : 270
+    <686>   DW_AT_decl_column : 17
+    <687>   DW_AT_type        : <0x569>
+    <68b>   DW_AT_data_member_location: 2 byte block: 23 14 	(DW_OP_plus_uconst: 20)
+ <2><68e>: Abbrev Number: 22 (DW_TAG_member)
+    <68f>   DW_AT_name        : (indirect string, offset: 0xbed): true_scno
+    <693>   DW_AT_decl_file   : 18
+    <694>   DW_AT_decl_line   : 271
+    <696>   DW_AT_decl_column : 17
+    <697>   DW_AT_type        : <0x569>
+    <69b>   DW_AT_data_member_location: 2 byte block: 23 18 	(DW_OP_plus_uconst: 24)
+ <2><69e>: Abbrev Number: 22 (DW_TAG_member)
+    <69f>   DW_AT_name        : (indirect string, offset: 0x1af): u_arg
+    <6a3>   DW_AT_decl_file   : 18
+    <6a4>   DW_AT_decl_line   : 272
+    <6a6>   DW_AT_decl_column : 17
+    <6a7>   DW_AT_type        : <0x98b>
+    <6ab>   DW_AT_data_member_location: 2 byte block: 23 1c 	(DW_OP_plus_uconst: 28)
+ <2><6ae>: Abbrev Number: 22 (DW_TAG_member)
+    <6af>   DW_AT_name        : (indirect string, offset: 0x9ef): u_rval
+    <6b3>   DW_AT_decl_file   : 18
+    <6b4>   DW_AT_decl_line   : 273
+    <6b6>   DW_AT_decl_column : 16
+    <6b7>   DW_AT_type        : <0x55d>
+    <6bb>   DW_AT_data_member_location: 2 byte block: 23 34 	(DW_OP_plus_uconst: 52)
+ <2><6be>: Abbrev Number: 22 (DW_TAG_member)
+    <6bf>   DW_AT_name        : (indirect string, offset: 0xb2e): sys_func_rval
+    <6c3>   DW_AT_decl_file   : 18
+    <6c4>   DW_AT_decl_line   : 274
+    <6c6>   DW_AT_decl_column : 6
+    <6c7>   DW_AT_type        : <0x64>
+    <6cb>   DW_AT_data_member_location: 2 byte block: 23 38 	(DW_OP_plus_uconst: 56)
+ <2><6ce>: Abbrev Number: 22 (DW_TAG_member)
+    <6cf>   DW_AT_name        : (indirect string, offset: 0xd75): curcol
+    <6d3>   DW_AT_decl_file   : 18
+    <6d4>   DW_AT_decl_line   : 275
+    <6d6>   DW_AT_decl_column : 6
+    <6d7>   DW_AT_type        : <0x64>
+    <6db>   DW_AT_data_member_location: 2 byte block: 23 3c 	(DW_OP_plus_uconst: 60)
+ <2><6de>: Abbrev Number: 22 (DW_TAG_member)
+    <6df>   DW_AT_name        : (indirect string, offset: 0xa01): outf
+    <6e3>   DW_AT_decl_file   : 18
+    <6e4>   DW_AT_decl_line   : 276
+    <6e6>   DW_AT_decl_column : 8
+    <6e7>   DW_AT_type        : <0x432>
+    <6eb>   DW_AT_data_member_location: 2 byte block: 23 40 	(DW_OP_plus_uconst: 64)
+ <2><6ee>: Abbrev Number: 22 (DW_TAG_member)
+    <6ef>   DW_AT_name        : (indirect string, offset: 0xfc4): staged_output_data
+    <6f3>   DW_AT_decl_file   : 18
+    <6f4>   DW_AT_decl_line   : 277
+    <6f6>   DW_AT_decl_column : 29
+    <6f7>   DW_AT_type        : <0x9a1>
+    <6fb>   DW_AT_data_member_location: 2 byte block: 23 44 	(DW_OP_plus_uconst: 68)
+ <2><6fe>: Abbrev Number: 22 (DW_TAG_member)
+    <6ff>   DW_AT_name        : (indirect string, offset: 0xaf9): auxstr
+    <703>   DW_AT_decl_file   : 18
+    <704>   DW_AT_decl_line   : 279
+    <706>   DW_AT_decl_column : 14
+    <707>   DW_AT_type        : <0x1ed>
+    <70b>   DW_AT_data_member_location: 2 byte block: 23 48 	(DW_OP_plus_uconst: 72)
+ <2><70e>: Abbrev Number: 22 (DW_TAG_member)
+    <70f>   DW_AT_name        : (indirect string, offset: 0x17e): _priv_data
+    <713>   DW_AT_decl_file   : 18
+    <714>   DW_AT_decl_line   : 280
+    <716>   DW_AT_decl_column : 8
+    <717>   DW_AT_type        : <0xf1>
+    <71b>   DW_AT_data_member_location: 2 byte block: 23 4c 	(DW_OP_plus_uconst: 76)
+ <2><71e>: Abbrev Number: 22 (DW_TAG_member)
+    <71f>   DW_AT_name        : (indirect string, offset: 0xc91): _free_priv_data
+    <723>   DW_AT_decl_file   : 18
+    <724>   DW_AT_decl_line   : 281
+    <726>   DW_AT_decl_column : 9
+    <727>   DW_AT_type        : <0x9b3>
+    <72b>   DW_AT_data_member_location: 2 byte block: 23 50 	(DW_OP_plus_uconst: 80)
+ <2><72e>: Abbrev Number: 22 (DW_TAG_member)
+    <72f>   DW_AT_name        : (indirect string, offset: 0x18f): s_ent
+    <733>   DW_AT_decl_file   : 18
+    <734>   DW_AT_decl_line   : 282
+    <736>   DW_AT_decl_column : 23
+    <737>   DW_AT_type        : <0x9b9>
+    <73b>   DW_AT_data_member_location: 2 byte block: 23 54 	(DW_OP_plus_uconst: 84)
+ <2><73e>: Abbrev Number: 22 (DW_TAG_member)
+    <73f>   DW_AT_name        : (indirect string, offset: 0x27): s_prev_ent
+    <743>   DW_AT_decl_file   : 18
+    <744>   DW_AT_decl_line   : 285
+    <746>   DW_AT_decl_column : 23
+    <747>   DW_AT_type        : <0x9b9>
+    <74b>   DW_AT_data_member_location: 2 byte block: 23 58 	(DW_OP_plus_uconst: 88)
+ <2><74e>: Abbrev Number: 22 (DW_TAG_member)
+    <74f>   DW_AT_name        : (indirect string, offset: 0x38c): inject_vec
+    <753>   DW_AT_decl_file   : 18
+    <754>   DW_AT_decl_line   : 286
+    <756>   DW_AT_decl_column : 22
+    <757>   DW_AT_type        : <0x9c4>
+    <75b>   DW_AT_data_member_location: 2 byte block: 23 5c 	(DW_OP_plus_uconst: 92)
+ <2><75e>: Abbrev Number: 22 (DW_TAG_member)
+    <75f>   DW_AT_name        : (indirect string, offset: 0x822): stime
+    <763>   DW_AT_decl_file   : 18
+    <764>   DW_AT_decl_line   : 287
+    <766>   DW_AT_decl_column : 18
+    <767>   DW_AT_type        : <0x157>
+    <76b>   DW_AT_data_member_location: 2 byte block: 23 68 	(DW_OP_plus_uconst: 104)
+ <2><76e>: Abbrev Number: 22 (DW_TAG_member)
+    <76f>   DW_AT_name        : (indirect string, offset: 0x3a0): ltime
+    <773>   DW_AT_decl_file   : 18
+    <774>   DW_AT_decl_line   : 288
+    <776>   DW_AT_decl_column : 18
+    <777>   DW_AT_type        : <0x157>
+    <77b>   DW_AT_data_member_location: 2 byte block: 23 70 	(DW_OP_plus_uconst: 112)
+ <2><77e>: Abbrev Number: 22 (DW_TAG_member)
+    <77f>   DW_AT_name        : (indirect string, offset: 0x10b6): atime
+    <783>   DW_AT_decl_file   : 18
+    <784>   DW_AT_decl_line   : 289
+    <786>   DW_AT_decl_column : 18
+    <787>   DW_AT_type        : <0x157>
+    <78b>   DW_AT_data_member_location: 2 byte block: 23 78 	(DW_OP_plus_uconst: 120)
+ <2><78e>: Abbrev Number: 22 (DW_TAG_member)
+    <78f>   DW_AT_name        : (indirect string, offset: 0x4eb): etime
+    <793>   DW_AT_decl_file   : 18
+    <794>   DW_AT_decl_line   : 290
+    <796>   DW_AT_decl_column : 18
+    <797>   DW_AT_type        : <0x157>
+    <79b>   DW_AT_data_member_location: 3 byte block: 23 80 1 	(DW_OP_plus_uconst: 128)
+ <2><79f>: Abbrev Number: 22 (DW_TAG_member)
+    <7a0>   DW_AT_name        : (indirect string, offset: 0xdee): delay_expiration_time
+    <7a4>   DW_AT_decl_file   : 18
+    <7a5>   DW_AT_decl_line   : 291
+    <7a7>   DW_AT_decl_column : 18
+    <7a8>   DW_AT_type        : <0x157>
+    <7ac>   DW_AT_data_member_location: 3 byte block: 23 88 1 	(DW_OP_plus_uconst: 136)
+ <2><7b0>: Abbrev Number: 22 (DW_TAG_member)
+    <7b1>   DW_AT_name        : (indirect string, offset: 0x32): pid_ns
+    <7b5>   DW_AT_decl_file   : 18
+    <7b6>   DW_AT_decl_line   : 298
+    <7b8>   DW_AT_decl_column : 15
+    <7b9>   DW_AT_type        : <0x2b>
+    <7bd>   DW_AT_data_member_location: 3 byte block: 23 90 1 	(DW_OP_plus_uconst: 144)
+ <2><7c1>: Abbrev Number: 22 (DW_TAG_member)
+    <7c2>   DW_AT_name        : (indirect string, offset: 0x1013): last_dirfd
+    <7c6>   DW_AT_decl_file   : 18
+    <7c7>   DW_AT_decl_line   : 301
+    <7c9>   DW_AT_decl_column : 6
+    <7ca>   DW_AT_type        : <0x64>
+    <7ce>   DW_AT_data_member_location: 3 byte block: 23 94 1 	(DW_OP_plus_uconst: 148)
+ <2><7d2>: Abbrev Number: 22 (DW_TAG_member)
+    <7d3>   DW_AT_name        : (indirect string, offset: 0x1039): mmap_cache
+    <7d7>   DW_AT_decl_file   : 18
+    <7d8>   DW_AT_decl_line   : 304
+    <7da>   DW_AT_decl_column : 23
+    <7db>   DW_AT_type        : <0x9e0>
+    <7df>   DW_AT_data_member_location: 3 byte block: 23 98 1 	(DW_OP_plus_uconst: 152)
+ <2><7e3>: Abbrev Number: 22 (DW_TAG_member)
+    <7e4>   DW_AT_name        : (indirect string, offset: 0xbc3): wait_data_idx
+    <7e8>   DW_AT_decl_file   : 18
+    <7e9>   DW_AT_decl_line   : 311
+    <7eb>   DW_AT_decl_column : 9
+    <7ec>   DW_AT_type        : <0x146>
+    <7f0>   DW_AT_data_member_location: 3 byte block: 23 9c 1 	(DW_OP_plus_uconst: 156)
+ <2><7f4>: Abbrev Number: 22 (DW_TAG_member)
+    <7f5>   DW_AT_name        : (indirect string, offset: 0xb00): delayed_wait_data
+    <7f9>   DW_AT_decl_file   : 18
+    <7fa>   DW_AT_decl_line   : 313
+    <7fc>   DW_AT_decl_column : 24
+    <7fd>   DW_AT_type        : <0x9ec>
+    <801>   DW_AT_data_member_location: 3 byte block: 23 a0 1 	(DW_OP_plus_uconst: 160)
+ <2><805>: Abbrev Number: 22 (DW_TAG_member)
+    <806>   DW_AT_name        : (indirect string, offset: 0xb75): wait_list
+    <80a>   DW_AT_decl_file   : 18
+    <80b>   DW_AT_decl_line   : 314
+    <80d>   DW_AT_decl_column : 19
+    <80e>   DW_AT_type        : <0x57a>
+    <812>   DW_AT_data_member_location: 3 byte block: 23 a4 1 	(DW_OP_plus_uconst: 164)
+ <2><816>: Abbrev Number: 22 (DW_TAG_member)
+    <817>   DW_AT_name        : (indirect string, offset: 0x703): vcpu_info_list
+    <81b>   DW_AT_decl_file   : 18
+    <81c>   DW_AT_decl_line   : 318
+    <81e>   DW_AT_decl_column : 20
+    <81f>   DW_AT_type        : <0x9f8>
+    <823>   DW_AT_data_member_location: 3 byte block: 23 ac 1 	(DW_OP_plus_uconst: 172)
+ <2><827>: Abbrev Number: 22 (DW_TAG_member)
+    <828>   DW_AT_name        : (indirect string, offset: 0xd40): unwind_ctx
+    <82c>   DW_AT_decl_file   : 18
+    <82d>   DW_AT_decl_line   : 322
+    <82f>   DW_AT_decl_column : 8
+    <830>   DW_AT_type        : <0xf1>
+    <834>   DW_AT_data_member_location: 3 byte block: 23 b0 1 	(DW_OP_plus_uconst: 176)
+ <2><838>: Abbrev Number: 22 (DW_TAG_member)
+    <839>   DW_AT_name        : (indirect string, offset: 0x4d5): unwind_queue
+    <83d>   DW_AT_decl_file   : 18
+    <83e>   DW_AT_decl_line   : 323
+    <840>   DW_AT_decl_column : 25
+    <841>   DW_AT_type        : <0xa04>
+    <845>   DW_AT_data_member_location: 3 byte block: 23 b4 1 	(DW_OP_plus_uconst: 180)
+ <2><849>: Abbrev Number: 22 (DW_TAG_member)
+    <84a>   DW_AT_name        : (indirect string, offset: 0x173): comm
+    <84e>   DW_AT_decl_file   : 18
+    <84f>   DW_AT_decl_line   : 327
+    <851>   DW_AT_decl_column : 7
+    <852>   DW_AT_type        : <0xa0a>
+    <856>   DW_AT_data_member_location: 3 byte block: 23 b8 1 	(DW_OP_plus_uconst: 184)
+ <2><85a>: Abbrev Number: 0
+ <1><85b>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <85c>   DW_AT_byte_size   : 4
+    <85d>   DW_AT_type        : <0x605>
+ <1><861>: Abbrev Number: 4 (DW_TAG_typedef)
+    <862>   DW_AT_name        : (indirect string, offset: 0x549): struct_sysent
+    <866>   DW_AT_decl_file   : 17
+    <867>   DW_AT_decl_line   : 19
+    <868>   DW_AT_decl_column : 3
+    <869>   DW_AT_type        : <0x5ac>
+ <1><86d>: Abbrev Number: 3 (DW_TAG_const_type)
+    <86e>   DW_AT_type        : <0x861>
+ <1><872>: Abbrev Number: 11 (DW_TAG_variable)
+    <873>   DW_AT_name        : (indirect string, offset: 0xdda): current_personality
+    <877>   DW_AT_decl_file   : 18
+    <878>   DW_AT_decl_line   : 158
+    <879>   DW_AT_decl_column : 17
+    <87a>   DW_AT_type        : <0x2b>
+    <87e>   DW_AT_external    : 1
+    <87f>   DW_AT_declaration : 1
+ <1><880>: Abbrev Number: 11 (DW_TAG_variable)
+    <881>   DW_AT_name        : (indirect string, offset: 0x853): current_wordsize
+    <885>   DW_AT_decl_file   : 18
+    <886>   DW_AT_decl_line   : 171
+    <887>   DW_AT_decl_column : 17
+    <888>   DW_AT_type        : <0x2b>
+    <88c>   DW_AT_external    : 1
+    <88d>   DW_AT_declaration : 1
+ <1><88e>: Abbrev Number: 11 (DW_TAG_variable)
+    <88f>   DW_AT_name        : (indirect string, offset: 0xad7): current_klongsize
+    <893>   DW_AT_decl_file   : 18
+    <894>   DW_AT_decl_line   : 176
+    <895>   DW_AT_decl_column : 17
+    <896>   DW_AT_type        : <0x2b>
+    <89a>   DW_AT_external    : 1
+    <89b>   DW_AT_declaration : 1
+ <1><89c>: Abbrev Number: 8 (DW_TAG_structure_type)
+    <89d>   DW_AT_name        : (indirect string, offset: 0xd17): ioctlent
+    <8a1>   DW_AT_byte_size   : 8
+    <8a2>   DW_AT_decl_file   : 18
+    <8a3>   DW_AT_decl_line   : 217
+    <8a4>   DW_AT_decl_column : 16
+    <8a5>   DW_AT_sibling     : <0x8c8>
+ <2><8a9>: Abbrev Number: 9 (DW_TAG_member)
+    <8aa>   DW_AT_name        : (indirect string, offset: 0xff7): symbol
+    <8ae>   DW_AT_decl_file   : 18
+    <8af>   DW_AT_decl_line   : 218
+    <8b0>   DW_AT_decl_column : 14
+    <8b1>   DW_AT_type        : <0x1ed>
+    <8b5>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><8b8>: Abbrev Number: 9 (DW_TAG_member)
+    <8b9>   DW_AT_name        : (indirect string, offset: 0xd99): code
+    <8bd>   DW_AT_decl_file   : 18
+    <8be>   DW_AT_decl_line   : 219
+    <8bf>   DW_AT_decl_column : 15
+    <8c0>   DW_AT_type        : <0x2b>
+    <8c4>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><8c7>: Abbrev Number: 0
+ <1><8c8>: Abbrev Number: 4 (DW_TAG_typedef)
+    <8c9>   DW_AT_name        : (indirect string, offset: 0xcd8): struct_ioctlent
+    <8cd>   DW_AT_decl_file   : 18
+    <8ce>   DW_AT_decl_line   : 220
+    <8cf>   DW_AT_decl_column : 3
+    <8d0>   DW_AT_type        : <0x89c>
+ <1><8d4>: Abbrev Number: 3 (DW_TAG_const_type)
+    <8d5>   DW_AT_type        : <0x8c8>
+ <1><8d9>: Abbrev Number: 8 (DW_TAG_structure_type)
+    <8da>   DW_AT_name        : (indirect string, offset: 0x847): inject_data
+    <8de>   DW_AT_byte_size   : 10
+    <8df>   DW_AT_decl_file   : 18
+    <8e0>   DW_AT_decl_line   : 241
+    <8e1>   DW_AT_decl_column : 8
+    <8e2>   DW_AT_sibling     : <0x941>
+ <2><8e6>: Abbrev Number: 9 (DW_TAG_member)
+    <8e7>   DW_AT_name        : (indirect string, offset: 0x4fa): flags
+    <8eb>   DW_AT_decl_file   : 18
+    <8ec>   DW_AT_decl_line   : 242
+    <8ed>   DW_AT_decl_column : 10
+    <8ee>   DW_AT_type        : <0x116>
+    <8f2>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><8f5>: Abbrev Number: 9 (DW_TAG_member)
+    <8f6>   DW_AT_name        : (indirect string, offset: 0x979): signo
+    <8fa>   DW_AT_decl_file   : 18
+    <8fb>   DW_AT_decl_line   : 243
+    <8fc>   DW_AT_decl_column : 10
+    <8fd>   DW_AT_type        : <0x116>
+    <901>   DW_AT_data_member_location: 2 byte block: 23 1 	(DW_OP_plus_uconst: 1)
+ <2><904>: Abbrev Number: 9 (DW_TAG_member)
+    <905>   DW_AT_name        : (indirect string, offset: 0x105): rval_idx
+    <909>   DW_AT_decl_file   : 18
+    <90a>   DW_AT_decl_line   : 244
+    <90b>   DW_AT_decl_column : 11
+    <90c>   DW_AT_type        : <0x122>
+    <910>   DW_AT_data_member_location: 2 byte block: 23 2 	(DW_OP_plus_uconst: 2)
+ <2><913>: Abbrev Number: 9 (DW_TAG_member)
+    <914>   DW_AT_name        : (indirect string, offset: 0xd6b): delay_idx
+    <918>   DW_AT_decl_file   : 18
+    <919>   DW_AT_decl_line   : 245
+    <91a>   DW_AT_decl_column : 11
+    <91b>   DW_AT_type        : <0x122>
+    <91f>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><922>: Abbrev Number: 9 (DW_TAG_member)
+    <923>   DW_AT_name        : (indirect string, offset: 0x59a): poke_idx
+    <927>   DW_AT_decl_file   : 18
+    <928>   DW_AT_decl_line   : 246
+    <929>   DW_AT_decl_column : 11
+    <92a>   DW_AT_type        : <0x122>
+    <92e>   DW_AT_data_member_location: 2 byte block: 23 6 	(DW_OP_plus_uconst: 6)
+ <2><931>: Abbrev Number: 9 (DW_TAG_member)
+    <932>   DW_AT_name        : (indirect string, offset: 0x1a5): scno
+    <936>   DW_AT_decl_file   : 18
+    <937>   DW_AT_decl_line   : 247
+    <938>   DW_AT_decl_column : 11
+    <939>   DW_AT_type        : <0x122>
+    <93d>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><940>: Abbrev Number: 0
+ <1><941>: Abbrev Number: 8 (DW_TAG_structure_type)
+    <942>   DW_AT_name        : (indirect string, offset: 0xd3): inject_opts
+    <946>   DW_AT_byte_size   : 16
+    <947>   DW_AT_decl_file   : 18
+    <948>   DW_AT_decl_line   : 250
+    <949>   DW_AT_decl_column : 8
+    <94a>   DW_AT_sibling     : <0x98b>
+ <2><94e>: Abbrev Number: 9 (DW_TAG_member)
+    <94f>   DW_AT_name        : (indirect string, offset: 0xaac): first
+    <953>   DW_AT_decl_file   : 18
+    <954>   DW_AT_decl_line   : 251
+    <955>   DW_AT_decl_column : 11
+    <956>   DW_AT_type        : <0x122>
+    <95a>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><95d>: Abbrev Number: 9 (DW_TAG_member)
+    <95e>   DW_AT_name        : (indirect string, offset: 0x11bf): last
+    <962>   DW_AT_decl_file   : 18
+    <963>   DW_AT_decl_line   : 252
+    <964>   DW_AT_decl_column : 11
+    <965>   DW_AT_type        : <0x122>
+    <969>   DW_AT_data_member_location: 2 byte block: 23 2 	(DW_OP_plus_uconst: 2)
+ <2><96c>: Abbrev Number: 9 (DW_TAG_member)
+    <96d>   DW_AT_name        : (indirect string, offset: 0x3a6): step
+    <971>   DW_AT_decl_file   : 18
+    <972>   DW_AT_decl_line   : 253
+    <973>   DW_AT_decl_column : 11
+    <974>   DW_AT_type        : <0x122>
+    <978>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><97b>: Abbrev Number: 9 (DW_TAG_member)
+    <97c>   DW_AT_name        : (indirect string, offset: 0x1188): data
+    <980>   DW_AT_decl_file   : 18
+    <981>   DW_AT_decl_line   : 254
+    <982>   DW_AT_decl_column : 21
+    <983>   DW_AT_type        : <0x8d9>
+    <987>   DW_AT_data_member_location: 2 byte block: 23 6 	(DW_OP_plus_uconst: 6)
+ <2><98a>: Abbrev Number: 0
+ <1><98b>: Abbrev Number: 15 (DW_TAG_array_type)
+    <98c>   DW_AT_type        : <0x569>
+    <990>   DW_AT_sibling     : <0x99b>
+ <2><994>: Abbrev Number: 16 (DW_TAG_subrange_type)
+    <995>   DW_AT_type        : <0x2b>
+    <999>   DW_AT_upper_bound : 5
+ <2><99a>: Abbrev Number: 0
+ <1><99b>: Abbrev Number: 14 (DW_TAG_structure_type)
+    <99c>   DW_AT_name        : (indirect string, offset: 0xfc4): staged_output_data
+    <9a0>   DW_AT_declaration : 1
+ <1><9a1>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <9a2>   DW_AT_byte_size   : 4
+    <9a3>   DW_AT_type        : <0x99b>
+ <1><9a7>: Abbrev Number: 24 (DW_TAG_subroutine_type)
+    <9a8>   DW_AT_prototyped  : 1
+    <9a9>   DW_AT_sibling     : <0x9b3>
+ <2><9ad>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <9ae>   DW_AT_type        : <0xf1>
+ <2><9b2>: Abbrev Number: 0
+ <1><9b3>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <9b4>   DW_AT_byte_size   : 4
+    <9b5>   DW_AT_type        : <0x9a7>
+ <1><9b9>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <9ba>   DW_AT_byte_size   : 4
+    <9bb>   DW_AT_type        : <0x86d>
+ <1><9bf>: Abbrev Number: 3 (DW_TAG_const_type)
+    <9c0>   DW_AT_type        : <0x9b9>
+ <1><9c4>: Abbrev Number: 15 (DW_TAG_array_type)
+    <9c5>   DW_AT_type        : <0x9d4>
+    <9c9>   DW_AT_sibling     : <0x9d4>
+ <2><9cd>: Abbrev Number: 16 (DW_TAG_subrange_type)
+    <9ce>   DW_AT_type        : <0x2b>
+    <9d2>   DW_AT_upper_bound : 2
+ <2><9d3>: Abbrev Number: 0
+ <1><9d4>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <9d5>   DW_AT_byte_size   : 4
+    <9d6>   DW_AT_type        : <0x941>
+ <1><9da>: Abbrev Number: 14 (DW_TAG_structure_type)
+    <9db>   DW_AT_name        : (indirect string, offset: 0x9f): mmap_cache_t
+    <9df>   DW_AT_declaration : 1
+ <1><9e0>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <9e1>   DW_AT_byte_size   : 4
+    <9e2>   DW_AT_type        : <0x9da>
+ <1><9e6>: Abbrev Number: 14 (DW_TAG_structure_type)
+    <9e7>   DW_AT_name        : (indirect string, offset: 0x3d3): tcb_wait_data
+    <9eb>   DW_AT_declaration : 1
+ <1><9ec>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <9ed>   DW_AT_byte_size   : 4
+    <9ee>   DW_AT_type        : <0x9e6>
+ <1><9f2>: Abbrev Number: 14 (DW_TAG_structure_type)
+    <9f3>   DW_AT_name        : (indirect string, offset: 0x169): vcpu_info
+    <9f7>   DW_AT_declaration : 1
+ <1><9f8>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <9f9>   DW_AT_byte_size   : 4
+    <9fa>   DW_AT_type        : <0x9f2>
+ <1><9fe>: Abbrev Number: 14 (DW_TAG_structure_type)
+    <9ff>   DW_AT_name        : (indirect string, offset: 0xfa8): unwind_queue_t
+    <a03>   DW_AT_declaration : 1
+ <1><a04>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <a05>   DW_AT_byte_size   : 4
+    <a06>   DW_AT_type        : <0x9fe>
+ <1><a0a>: Abbrev Number: 15 (DW_TAG_array_type)
+    <a0b>   DW_AT_type        : <0x10a>
+    <a0f>   DW_AT_sibling     : <0xa1a>
+ <2><a13>: Abbrev Number: 16 (DW_TAG_subrange_type)
+    <a14>   DW_AT_type        : <0x2b>
+    <a18>   DW_AT_upper_bound : 15
+ <2><a19>: Abbrev Number: 0
+ <1><a1a>: Abbrev Number: 10 (DW_TAG_variable)
+    <a1b>   DW_AT_name        : (indirect string, offset: 0xc00): stub_sysent
+    <a1f>   DW_AT_decl_file   : 18
+    <a20>   DW_AT_decl_line   : 400
+    <a22>   DW_AT_decl_column : 28
+    <a23>   DW_AT_type        : <0x86d>
+    <a27>   DW_AT_external    : 1
+    <a28>   DW_AT_declaration : 1
+ <1><a29>: Abbrev Number: 25 (DW_TAG_enumeration_type)
+    <a2a>   DW_AT_name        : (indirect string, offset: 0x116b): xlat_type
+    <a2e>   DW_AT_encoding    : 7	(unsigned)
+    <a2f>   DW_AT_byte_size   : 4
+    <a30>   DW_AT_type        : <0x2b>
+    <a34>   DW_AT_decl_file   : 19
+    <a35>   DW_AT_decl_line   : 13
+    <a36>   DW_AT_decl_column : 6
+    <a37>   DW_AT_sibling     : <0xa4e>
+ <2><a3b>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <a3c>   DW_AT_name        : (indirect string, offset: 0x2d2): XT_NORMAL
+    <a40>   DW_AT_const_value : 0
+ <2><a41>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <a42>   DW_AT_name        : (indirect string, offset: 0xcef): XT_SORTED
+    <a46>   DW_AT_const_value : 1
+ <2><a47>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <a48>   DW_AT_name        : (indirect string, offset: 0xe66): XT_INDEXED
+    <a4c>   DW_AT_const_value : 2
+ <2><a4d>: Abbrev Number: 0
+ <1><a4e>: Abbrev Number: 25 (DW_TAG_enumeration_type)
+    <a4f>   DW_AT_name        : (indirect string, offset: 0xc3b): xlat_style
+    <a53>   DW_AT_encoding    : 7	(unsigned)
+    <a54>   DW_AT_byte_size   : 4
+    <a55>   DW_AT_type        : <0x2b>
+    <a59>   DW_AT_decl_file   : 19
+    <a5a>   DW_AT_decl_line   : 19
+    <a5b>   DW_AT_decl_column : 6
+    <a5c>   DW_AT_sibling     : <0xa8b>
+ <2><a60>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <a61>   DW_AT_name        : (indirect string, offset: 0xdf): XLAT_STYLE_DEFAULT
+    <a65>   DW_AT_const_value : 0
+ <2><a66>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <a67>   DW_AT_name        : (indirect string, offset: 0xc6e): XLAT_STYLE_RAW
+    <a6b>   DW_AT_const_value : 1
+ <2><a6c>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <a6d>   DW_AT_name        : (indirect string, offset: 0x1136): XLAT_STYLE_ABBREV
+    <a71>   DW_AT_const_value : 2
+ <2><a72>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <a73>   DW_AT_name        : (indirect string, offset: 0x2ef): XLAT_STYLE_VERBOSE
+    <a77>   DW_AT_const_value : 3
+ <2><a78>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <a79>   DW_AT_name        : (indirect string, offset: 0x11): XLAT_STYLE_FMT_X
+    <a7d>   DW_AT_const_value : 0
+ <2><a7e>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <a7f>   DW_AT_name        : (indirect string, offset: 0x0): XLAT_STYLE_FMT_U
+    <a83>   DW_AT_const_value : 4
+ <2><a84>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <a85>   DW_AT_name        : (indirect string, offset: 0x11a5): XLAT_STYLE_FMT_D
+    <a89>   DW_AT_const_value : 8
+ <2><a8a>: Abbrev Number: 0
+ <1><a8b>: Abbrev Number: 8 (DW_TAG_structure_type)
+    <a8c>   DW_AT_name        : (indirect string, offset: 0x320): xlat_data
+    <a90>   DW_AT_byte_size   : 12
+    <a91>   DW_AT_decl_file   : 19
+    <a92>   DW_AT_decl_line   : 51
+    <a93>   DW_AT_decl_column : 8
+    <a94>   DW_AT_sibling     : <0xab7>
+ <2><a98>: Abbrev Number: 18 (DW_TAG_member)
+    <a99>   DW_AT_name        : val
+    <a9d>   DW_AT_decl_file   : 19
+    <a9e>   DW_AT_decl_line   : 52
+    <a9f>   DW_AT_decl_column : 11
+    <aa0>   DW_AT_type        : <0x13a>
+    <aa4>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><aa7>: Abbrev Number: 18 (DW_TAG_member)
+    <aa8>   DW_AT_name        : str
+    <aac>   DW_AT_decl_file   : 19
+    <aad>   DW_AT_decl_line   : 53
+    <aae>   DW_AT_decl_column : 14
+    <aaf>   DW_AT_type        : <0x1ed>
+    <ab3>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><ab6>: Abbrev Number: 0
+ <1><ab7>: Abbrev Number: 3 (DW_TAG_const_type)
+    <ab8>   DW_AT_type        : <0xa8b>
+ <1><abc>: Abbrev Number: 8 (DW_TAG_structure_type)
+    <abd>   DW_AT_name        : (indirect string, offset: 0x22): xlat
+    <ac1>   DW_AT_byte_size   : 24
+    <ac2>   DW_AT_decl_file   : 19
+    <ac3>   DW_AT_decl_line   : 56
+    <ac4>   DW_AT_decl_column : 8
+    <ac5>   DW_AT_sibling     : <0xb15>
+ <2><ac9>: Abbrev Number: 9 (DW_TAG_member)
+    <aca>   DW_AT_name        : (indirect string, offset: 0x1188): data
+    <ace>   DW_AT_decl_file   : 19
+    <acf>   DW_AT_decl_line   : 57
+    <ad0>   DW_AT_decl_column : 26
+    <ad1>   DW_AT_type        : <0xb1a>
+    <ad5>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><ad8>: Abbrev Number: 9 (DW_TAG_member)
+    <ad9>   DW_AT_name        : (indirect string, offset: 0x8af): flags_strsz
+    <add>   DW_AT_decl_file   : 19
+    <ade>   DW_AT_decl_line   : 58
+    <adf>   DW_AT_decl_column : 9
+    <ae0>   DW_AT_type        : <0x146>
+    <ae4>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><ae7>: Abbrev Number: 9 (DW_TAG_member)
+    <ae8>   DW_AT_name        : (indirect string, offset: 0xbd1): size
+    <aec>   DW_AT_decl_file   : 19
+    <aed>   DW_AT_decl_line   : 59
+    <aee>   DW_AT_decl_column : 11
+    <aef>   DW_AT_type        : <0x12e>
+    <af3>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><af6>: Abbrev Number: 9 (DW_TAG_member)
+    <af7>   DW_AT_name        : (indirect string, offset: 0x1aa): type
+    <afb>   DW_AT_decl_file   : 19
+    <afc>   DW_AT_decl_line   : 60
+    <afd>   DW_AT_decl_column : 17
+    <afe>   DW_AT_type        : <0xa29>
+    <b02>   DW_AT_data_member_location: 2 byte block: 23 c 	(DW_OP_plus_uconst: 12)
+ <2><b05>: Abbrev Number: 9 (DW_TAG_member)
+    <b06>   DW_AT_name        : (indirect string, offset: 0x761): flags_mask
+    <b0a>   DW_AT_decl_file   : 19
+    <b0b>   DW_AT_decl_line   : 61
+    <b0c>   DW_AT_decl_column : 11
+    <b0d>   DW_AT_type        : <0x13a>
+    <b11>   DW_AT_data_member_location: 2 byte block: 23 10 	(DW_OP_plus_uconst: 16)
+ <2><b14>: Abbrev Number: 0
+ <1><b15>: Abbrev Number: 3 (DW_TAG_const_type)
+    <b16>   DW_AT_type        : <0xabc>
+ <1><b1a>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <b1b>   DW_AT_byte_size   : 4
+    <b1c>   DW_AT_type        : <0xab7>
+ <1><b20>: Abbrev Number: 15 (DW_TAG_array_type)
+    <b21>   DW_AT_type        : <0xb15>
+    <b25>   DW_AT_sibling     : <0xb2b>
+ <2><b29>: Abbrev Number: 17 (DW_TAG_subrange_type)
+ <2><b2a>: Abbrev Number: 0
+ <1><b2b>: Abbrev Number: 3 (DW_TAG_const_type)
+    <b2c>   DW_AT_type        : <0xb20>
+ <1><b30>: Abbrev Number: 10 (DW_TAG_variable)
+    <b31>   DW_AT_name        : (indirect string, offset: 0xed6): addrfams
+    <b35>   DW_AT_decl_file   : 18
+    <b36>   DW_AT_decl_line   : 406
+    <b38>   DW_AT_decl_column : 26
+    <b39>   DW_AT_type        : <0xb2b>
+    <b3d>   DW_AT_external    : 1
+    <b3e>   DW_AT_declaration : 1
+ <1><b3f>: Abbrev Number: 10 (DW_TAG_variable)
+    <b40>   DW_AT_name        : (indirect string, offset: 0xda9): arp_hardware_types
+    <b44>   DW_AT_decl_file   : 18
+    <b45>   DW_AT_decl_line   : 407
+    <b47>   DW_AT_decl_column : 26
+    <b48>   DW_AT_type        : <0xb2b>
+    <b4c>   DW_AT_external    : 1
+    <b4d>   DW_AT_declaration : 1
+ <1><b4e>: Abbrev Number: 10 (DW_TAG_variable)
+    <b4f>   DW_AT_name        : (indirect string, offset: 0x10bc): at_flags
+    <b53>   DW_AT_decl_file   : 18
+    <b54>   DW_AT_decl_line   : 408
+    <b56>   DW_AT_decl_column : 26
+    <b57>   DW_AT_type        : <0xb2b>
+    <b5b>   DW_AT_external    : 1
+    <b5c>   DW_AT_declaration : 1
+ <1><b5d>: Abbrev Number: 10 (DW_TAG_variable)
+    <b5e>   DW_AT_name        : (indirect string, offset: 0x4b3): clocknames
+    <b62>   DW_AT_decl_file   : 18
+    <b63>   DW_AT_decl_line   : 409
+    <b65>   DW_AT_decl_column : 26
+    <b66>   DW_AT_type        : <0xb2b>
+    <b6a>   DW_AT_external    : 1
+    <b6b>   DW_AT_declaration : 1
+ <1><b6c>: Abbrev Number: 10 (DW_TAG_variable)
+    <b6d>   DW_AT_name        : (indirect string, offset: 0x107c): dirent_types
+    <b71>   DW_AT_decl_file   : 18
+    <b72>   DW_AT_decl_line   : 410
+    <b74>   DW_AT_decl_column : 26
+    <b75>   DW_AT_type        : <0xb2b>
+    <b79>   DW_AT_external    : 1
+    <b7a>   DW_AT_declaration : 1
+ <1><b7b>: Abbrev Number: 10 (DW_TAG_variable)
+    <b7c>   DW_AT_name        : (indirect string, offset: 0x909): ethernet_protocols
+    <b80>   DW_AT_decl_file   : 18
+    <b81>   DW_AT_decl_line   : 411
+    <b83>   DW_AT_decl_column : 26
+    <b84>   DW_AT_type        : <0xb2b>
+    <b88>   DW_AT_external    : 1
+    <b89>   DW_AT_declaration : 1
+ <1><b8a>: Abbrev Number: 10 (DW_TAG_variable)
+    <b8b>   DW_AT_name        : (indirect string, offset: 0x5ed): inet_protocols
+    <b8f>   DW_AT_decl_file   : 18
+    <b90>   DW_AT_decl_line   : 412
+    <b92>   DW_AT_decl_column : 26
+    <b93>   DW_AT_type        : <0xb2b>
+    <b97>   DW_AT_external    : 1
+    <b98>   DW_AT_declaration : 1
+ <1><b99>: Abbrev Number: 10 (DW_TAG_variable)
+    <b9a>   DW_AT_name        : (indirect string, offset: 0x2bf): evdev_abs
+    <b9e>   DW_AT_decl_file   : 18
+    <b9f>   DW_AT_decl_line   : 413
+    <ba1>   DW_AT_decl_column : 26
+    <ba2>   DW_AT_type        : <0xb2b>
+    <ba6>   DW_AT_external    : 1
+    <ba7>   DW_AT_declaration : 1
+ <1><ba8>: Abbrev Number: 10 (DW_TAG_variable)
+    <ba9>   DW_AT_name        : (indirect string, offset: 0x756): audit_arch
+    <bad>   DW_AT_decl_file   : 18
+    <bae>   DW_AT_decl_line   : 414
+    <bb0>   DW_AT_decl_column : 26
+    <bb1>   DW_AT_type        : <0xb2b>
+    <bb5>   DW_AT_external    : 1
+    <bb6>   DW_AT_declaration : 1
+ <1><bb7>: Abbrev Number: 10 (DW_TAG_variable)
+    <bb8>   DW_AT_name        : (indirect string, offset: 0x8b): evdev_ev
+    <bbc>   DW_AT_decl_file   : 18
+    <bbd>   DW_AT_decl_line   : 415
+    <bbf>   DW_AT_decl_column : 26
+    <bc0>   DW_AT_type        : <0xb2b>
+    <bc4>   DW_AT_external    : 1
+    <bc5>   DW_AT_declaration : 1
+ <1><bc6>: Abbrev Number: 10 (DW_TAG_variable)
+    <bc7>   DW_AT_name        : (indirect string, offset: 0x494): iffflags
+    <bcb>   DW_AT_decl_file   : 18
+    <bcc>   DW_AT_decl_line   : 416
+    <bce>   DW_AT_decl_column : 26
+    <bcf>   DW_AT_type        : <0xb2b>
+    <bd3>   DW_AT_external    : 1
+    <bd4>   DW_AT_declaration : 1
+ <1><bd5>: Abbrev Number: 10 (DW_TAG_variable)
+    <bd6>   DW_AT_name        : (indirect string, offset: 0xc7d): ip_type_of_services
+    <bda>   DW_AT_decl_file   : 18
+    <bdb>   DW_AT_decl_line   : 417
+    <bdd>   DW_AT_decl_column : 26
+    <bde>   DW_AT_type        : <0xb2b>
+    <be2>   DW_AT_external    : 1
+    <be3>   DW_AT_declaration : 1
+ <1><be4>: Abbrev Number: 10 (DW_TAG_variable)
+    <be5>   DW_AT_name        : (indirect string, offset: 0x6df): ipc_private
+    <be9>   DW_AT_decl_file   : 18
+    <bea>   DW_AT_decl_line   : 418
+    <bec>   DW_AT_decl_column : 26
+    <bed>   DW_AT_type        : <0xb2b>
+    <bf1>   DW_AT_external    : 1
+    <bf2>   DW_AT_declaration : 1
+ <1><bf3>: Abbrev Number: 10 (DW_TAG_variable)
+    <bf4>   DW_AT_name        : (indirect string, offset: 0x316): msg_flags
+    <bf8>   DW_AT_decl_file   : 18
+    <bf9>   DW_AT_decl_line   : 419
+    <bfb>   DW_AT_decl_column : 26
+    <bfc>   DW_AT_type        : <0xb2b>
+    <c00>   DW_AT_external    : 1
+    <c01>   DW_AT_declaration : 1
+ <1><c02>: Abbrev Number: 10 (DW_TAG_variable)
+    <c03>   DW_AT_name        : (indirect string, offset: 0x10e): netlink_protocols
+    <c07>   DW_AT_decl_file   : 18
+    <c08>   DW_AT_decl_line   : 420
+    <c0a>   DW_AT_decl_column : 26
+    <c0b>   DW_AT_type        : <0xb2b>
+    <c0f>   DW_AT_external    : 1
+    <c10>   DW_AT_declaration : 1
+ <1><c11>: Abbrev Number: 10 (DW_TAG_variable)
+    <c12>   DW_AT_name        : (indirect string, offset: 0xfd7): nl_bridge_vlan_flags
+    <c16>   DW_AT_decl_file   : 18
+    <c17>   DW_AT_decl_line   : 421
+    <c19>   DW_AT_decl_column : 26
+    <c1a>   DW_AT_type        : <0xb2b>
+    <c1e>   DW_AT_external    : 1
+    <c1f>   DW_AT_declaration : 1
+ <1><c20>: Abbrev Number: 10 (DW_TAG_variable)
+    <c21>   DW_AT_name        : (indirect string, offset: 0xe4f): nl_netfilter_msg_types
+    <c25>   DW_AT_decl_file   : 18
+    <c26>   DW_AT_decl_line   : 422
+    <c28>   DW_AT_decl_column : 26
+    <c29>   DW_AT_type        : <0xb2b>
+    <c2d>   DW_AT_external    : 1
+    <c2e>   DW_AT_declaration : 1
+ <1><c2f>: Abbrev Number: 10 (DW_TAG_variable)
+    <c30>   DW_AT_name        : (indirect string, offset: 0x22b): nl_route_types
+    <c34>   DW_AT_decl_file   : 18
+    <c35>   DW_AT_decl_line   : 423
+    <c37>   DW_AT_decl_column : 26
+    <c38>   DW_AT_type        : <0xb2b>
+    <c3c>   DW_AT_external    : 1
+    <c3d>   DW_AT_declaration : 1
+ <1><c3e>: Abbrev Number: 10 (DW_TAG_variable)
+    <c3f>   DW_AT_name        : (indirect string, offset: 0xf14): open_access_modes
+    <c43>   DW_AT_decl_file   : 18
+    <c44>   DW_AT_decl_line   : 424
+    <c46>   DW_AT_decl_column : 26
+    <c47>   DW_AT_type        : <0xb2b>
+    <c4b>   DW_AT_external    : 1
+    <c4c>   DW_AT_declaration : 1
+ <1><c4d>: Abbrev Number: 10 (DW_TAG_variable)
+    <c4e>   DW_AT_name        : (indirect string, offset: 0x7b): open_mode_flags
+    <c52>   DW_AT_decl_file   : 18
+    <c53>   DW_AT_decl_line   : 425
+    <c55>   DW_AT_decl_column : 26
+    <c56>   DW_AT_type        : <0xb2b>
+    <c5a>   DW_AT_external    : 1
+    <c5b>   DW_AT_declaration : 1
+ <1><c5c>: Abbrev Number: 10 (DW_TAG_variable)
+    <c5d>   DW_AT_name        : (indirect string, offset: 0xcb5): perf_type_id
+    <c61>   DW_AT_decl_file   : 18
+    <c62>   DW_AT_decl_line   : 426
+    <c64>   DW_AT_decl_column : 26
+    <c65>   DW_AT_type        : <0xb2b>
+    <c69>   DW_AT_external    : 1
+    <c6a>   DW_AT_declaration : 1
+ <1><c6b>: Abbrev Number: 10 (DW_TAG_variable)
+    <c6c>   DW_AT_name        : (indirect string, offset: 0xedf): pollflags
+    <c70>   DW_AT_decl_file   : 18
+    <c71>   DW_AT_decl_line   : 427
+    <c73>   DW_AT_decl_column : 26
+    <c74>   DW_AT_type        : <0xb2b>
+    <c78>   DW_AT_external    : 1
+    <c79>   DW_AT_declaration : 1
+ <1><c7a>: Abbrev Number: 10 (DW_TAG_variable)
+    <c7b>   DW_AT_name        : (indirect string, offset: 0x58e): ptrace_cmds
+    <c7f>   DW_AT_decl_file   : 18
+    <c80>   DW_AT_decl_line   : 428
+    <c82>   DW_AT_decl_column : 26
+    <c83>   DW_AT_type        : <0xb2b>
+    <c87>   DW_AT_external    : 1
+    <c88>   DW_AT_declaration : 1
+ <1><c89>: Abbrev Number: 10 (DW_TAG_variable)
+    <c8a>   DW_AT_name        : (indirect string, offset: 0x838): resource_flags
+    <c8e>   DW_AT_decl_file   : 18
+    <c8f>   DW_AT_decl_line   : 429
+    <c91>   DW_AT_decl_column : 26
+    <c92>   DW_AT_type        : <0xb2b>
+    <c96>   DW_AT_external    : 1
+    <c97>   DW_AT_declaration : 1
+ <1><c98>: Abbrev Number: 10 (DW_TAG_variable)
+    <c99>   DW_AT_name        : (indirect string, offset: 0x295): route_nexthop_flags
+    <c9d>   DW_AT_decl_file   : 18
+    <c9e>   DW_AT_decl_line   : 430
+    <ca0>   DW_AT_decl_column : 26
+    <ca1>   DW_AT_type        : <0xb2b>
+    <ca5>   DW_AT_external    : 1
+    <ca6>   DW_AT_declaration : 1
+ <1><ca7>: Abbrev Number: 10 (DW_TAG_variable)
+    <ca8>   DW_AT_name        : (indirect string, offset: 0xf52): routing_protocols
+    <cac>   DW_AT_decl_file   : 18
+    <cad>   DW_AT_decl_line   : 431
+    <caf>   DW_AT_decl_column : 26
+    <cb0>   DW_AT_type        : <0xb2b>
+    <cb4>   DW_AT_external    : 1
+    <cb5>   DW_AT_declaration : 1
+ <1><cb6>: Abbrev Number: 10 (DW_TAG_variable)
+    <cb7>   DW_AT_name        : (indirect string, offset: 0x485): routing_scopes
+    <cbb>   DW_AT_decl_file   : 18
+    <cbc>   DW_AT_decl_line   : 432
+    <cbe>   DW_AT_decl_column : 26
+    <cbf>   DW_AT_type        : <0xb2b>
+    <cc3>   DW_AT_external    : 1
+    <cc4>   DW_AT_declaration : 1
+ <1><cc5>: Abbrev Number: 10 (DW_TAG_variable)
+    <cc6>   DW_AT_name        : (indirect string, offset: 0xe3d): routing_table_ids
+    <cca>   DW_AT_decl_file   : 18
+    <ccb>   DW_AT_decl_line   : 433
+    <ccd>   DW_AT_decl_column : 26
+    <cce>   DW_AT_type        : <0xb2b>
+    <cd2>   DW_AT_external    : 1
+    <cd3>   DW_AT_declaration : 1
+ <1><cd4>: Abbrev Number: 10 (DW_TAG_variable)
+    <cd5>   DW_AT_name        : (indirect string, offset: 0x6bc): routing_types
+    <cd9>   DW_AT_decl_file   : 18
+    <cda>   DW_AT_decl_line   : 434
+    <cdc>   DW_AT_decl_column : 26
+    <cdd>   DW_AT_type        : <0xb2b>
+    <ce1>   DW_AT_external    : 1
+    <ce2>   DW_AT_declaration : 1
+ <1><ce3>: Abbrev Number: 10 (DW_TAG_variable)
+    <ce4>   DW_AT_name        : (indirect string, offset: 0x1ce): rwf_flags
+    <ce8>   DW_AT_decl_file   : 18
+    <ce9>   DW_AT_decl_line   : 435
+    <ceb>   DW_AT_decl_column : 26
+    <cec>   DW_AT_type        : <0xb2b>
+    <cf0>   DW_AT_external    : 1
+    <cf1>   DW_AT_declaration : 1
+ <1><cf2>: Abbrev Number: 10 (DW_TAG_variable)
+    <cf3>   DW_AT_name        : (indirect string, offset: 0x87a): seccomp_filter_flags
+    <cf7>   DW_AT_decl_file   : 18
+    <cf8>   DW_AT_decl_line   : 436
+    <cfa>   DW_AT_decl_column : 26
+    <cfb>   DW_AT_type        : <0xb2b>
+    <cff>   DW_AT_external    : 1
+    <d00>   DW_AT_declaration : 1
+ <1><d01>: Abbrev Number: 10 (DW_TAG_variable)
+    <d02>   DW_AT_name        : (indirect string, offset: 0x2dc): seccomp_ret_action
+    <d06>   DW_AT_decl_file   : 18
+    <d07>   DW_AT_decl_line   : 437
+    <d09>   DW_AT_decl_column : 26
+    <d0a>   DW_AT_type        : <0xb2b>
+    <d0e>   DW_AT_external    : 1
+    <d0f>   DW_AT_declaration : 1
+ <1><d10>: Abbrev Number: 10 (DW_TAG_variable)
+    <d11>   DW_AT_name        : (indirect string, offset: 0x43d): setns_types
+    <d15>   DW_AT_decl_file   : 18
+    <d16>   DW_AT_decl_line   : 438
+    <d18>   DW_AT_decl_column : 26
+    <d19>   DW_AT_type        : <0xb2b>
+    <d1d>   DW_AT_external    : 1
+    <d1e>   DW_AT_declaration : 1
+ <1><d1f>: Abbrev Number: 10 (DW_TAG_variable)
+    <d20>   DW_AT_name        : (indirect string, offset: 0xecb): sg_io_info
+    <d24>   DW_AT_decl_file   : 18
+    <d25>   DW_AT_decl_line   : 439
+    <d27>   DW_AT_decl_column : 26
+    <d28>   DW_AT_type        : <0xb2b>
+    <d2c>   DW_AT_external    : 1
+    <d2d>   DW_AT_declaration : 1
+ <1><d2e>: Abbrev Number: 10 (DW_TAG_variable)
+    <d2f>   DW_AT_name        : (indirect string, offset: 0xc14): socketlayers
+    <d33>   DW_AT_decl_file   : 18
+    <d34>   DW_AT_decl_line   : 440
+    <d36>   DW_AT_decl_column : 26
+    <d37>   DW_AT_type        : <0xb2b>
+    <d3b>   DW_AT_external    : 1
+    <d3c>   DW_AT_declaration : 1
+ <1><d3d>: Abbrev Number: 10 (DW_TAG_variable)
+    <d3e>   DW_AT_name        : (indirect string, offset: 0xe27): socktypes
+    <d42>   DW_AT_decl_file   : 18
+    <d43>   DW_AT_decl_line   : 441
+    <d45>   DW_AT_decl_column : 26
+    <d46>   DW_AT_type        : <0xb2b>
+    <d4a>   DW_AT_external    : 1
+    <d4b>   DW_AT_declaration : 1
+ <1><d4c>: Abbrev Number: 10 (DW_TAG_variable)
+    <d4d>   DW_AT_name        : (indirect string, offset: 0xae9): tcp_state_flags
+    <d51>   DW_AT_decl_file   : 18
+    <d52>   DW_AT_decl_line   : 442
+    <d54>   DW_AT_decl_column : 26
+    <d55>   DW_AT_type        : <0xb2b>
+    <d59>   DW_AT_external    : 1
+    <d5a>   DW_AT_declaration : 1
+ <1><d5b>: Abbrev Number: 10 (DW_TAG_variable)
+    <d5c>   DW_AT_name        : (indirect string, offset: 0x78b): tcp_states
+    <d60>   DW_AT_decl_file   : 18
+    <d61>   DW_AT_decl_line   : 443
+    <d63>   DW_AT_decl_column : 26
+    <d64>   DW_AT_type        : <0xb2b>
+    <d68>   DW_AT_external    : 1
+    <d69>   DW_AT_declaration : 1
+ <1><d6a>: Abbrev Number: 10 (DW_TAG_variable)
+    <d6b>   DW_AT_name        : (indirect string, offset: 0x1119): whence_codes
+    <d6f>   DW_AT_decl_file   : 18
+    <d70>   DW_AT_decl_line   : 444
+    <d72>   DW_AT_decl_column : 26
+    <d73>   DW_AT_type        : <0xb2b>
+    <d77>   DW_AT_external    : 1
+    <d78>   DW_AT_declaration : 1
+ <1><d79>: Abbrev Number: 27 (DW_TAG_enumeration_type)
+    <d7a>   DW_AT_encoding    : 7	(unsigned)
+    <d7b>   DW_AT_byte_size   : 4
+    <d7c>   DW_AT_type        : <0x2b>
+    <d80>   DW_AT_decl_file   : 18
+    <d81>   DW_AT_decl_line   : 505
+    <d83>   DW_AT_decl_column : 14
+    <d84>   DW_AT_sibling     : <0xd9b>
+ <2><d88>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <d89>   DW_AT_name        : (indirect string, offset: 0x9f6): CFLAG_NONE
+    <d8d>   DW_AT_const_value : 0
+ <2><d8e>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <d8f>   DW_AT_name        : (indirect string, offset: 0x91c): CFLAG_ONLY_STATS
+    <d93>   DW_AT_const_value : 1
+ <2><d94>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <d95>   DW_AT_name        : (indirect string, offset: 0xc21): CFLAG_BOTH
+    <d99>   DW_AT_const_value : 2
+ <2><d9a>: Abbrev Number: 0
+ <1><d9b>: Abbrev Number: 28 (DW_TAG_typedef)
+    <d9c>   DW_AT_name        : (indirect string, offset: 0x11c4): cflag_t
+    <da0>   DW_AT_decl_file   : 18
+    <da1>   DW_AT_decl_line   : 509
+    <da3>   DW_AT_decl_column : 3
+    <da4>   DW_AT_type        : <0xd79>
+ <1><da8>: Abbrev Number: 10 (DW_TAG_variable)
+    <da9>   DW_AT_name        : (indirect string, offset: 0xd65): cflag
+    <dad>   DW_AT_decl_file   : 18
+    <dae>   DW_AT_decl_line   : 510
+    <db0>   DW_AT_decl_column : 16
+    <db1>   DW_AT_type        : <0xd9b>
+    <db5>   DW_AT_external    : 1
+    <db6>   DW_AT_declaration : 1
+ <1><db7>: Abbrev Number: 10 (DW_TAG_variable)
+    <db8>   DW_AT_name        : (indirect string, offset: 0x189): Tflag
+    <dbc>   DW_AT_decl_file   : 18
+    <dbd>   DW_AT_decl_line   : 511
+    <dbf>   DW_AT_decl_column : 13
+    <dc0>   DW_AT_type        : <0x539>
+    <dc4>   DW_AT_external    : 1
+    <dc5>   DW_AT_declaration : 1
+ <1><dc6>: Abbrev Number: 10 (DW_TAG_variable)
+    <dc7>   DW_AT_name        : (indirect string, offset: 0x7e7): Tflag_scale
+    <dcb>   DW_AT_decl_file   : 18
+    <dcc>   DW_AT_decl_line   : 512
+    <dce>   DW_AT_decl_column : 12
+    <dcf>   DW_AT_type        : <0x64>
+    <dd3>   DW_AT_external    : 1
+    <dd4>   DW_AT_declaration : 1
+ <1><dd5>: Abbrev Number: 10 (DW_TAG_variable)
+    <dd6>   DW_AT_name        : (indirect string, offset: 0x88f): Tflag_width
+    <dda>   DW_AT_decl_file   : 18
+    <ddb>   DW_AT_decl_line   : 513
+    <ddd>   DW_AT_decl_column : 12
+    <dde>   DW_AT_type        : <0x64>
+    <de2>   DW_AT_external    : 1
+    <de3>   DW_AT_declaration : 1
+ <1><de4>: Abbrev Number: 10 (DW_TAG_variable)
+    <de5>   DW_AT_name        : (indirect string, offset: 0xeb6): iflag
+    <de9>   DW_AT_decl_file   : 18
+    <dea>   DW_AT_decl_line   : 514
+    <dec>   DW_AT_decl_column : 13
+    <ded>   DW_AT_type        : <0x539>
+    <df1>   DW_AT_external    : 1
+    <df2>   DW_AT_declaration : 1
+ <1><df3>: Abbrev Number: 10 (DW_TAG_variable)
+    <df4>   DW_AT_name        : (indirect string, offset: 0x5ce): count_wallclock
+    <df8>   DW_AT_decl_file   : 18
+    <df9>   DW_AT_decl_line   : 515
+    <dfb>   DW_AT_decl_column : 13
+    <dfc>   DW_AT_type        : <0x539>
+    <e00>   DW_AT_external    : 1
+    <e01>   DW_AT_declaration : 1
+ <1><e02>: Abbrev Number: 29 (DW_TAG_structure_type)
+    <e03>   DW_AT_name        : (indirect string, offset: 0x40): path_set_item
+    <e07>   DW_AT_byte_size   : 4
+    <e08>   DW_AT_decl_file   : 18
+    <e09>   DW_AT_decl_line   : 517
+    <e0b>   DW_AT_decl_column : 8
+    <e0c>   DW_AT_sibling     : <0xe21>
+ <2><e10>: Abbrev Number: 22 (DW_TAG_member)
+    <e11>   DW_AT_name        : (indirect string, offset: 0xb9): path
+    <e15>   DW_AT_decl_file   : 18
+    <e16>   DW_AT_decl_line   : 518
+    <e18>   DW_AT_decl_column : 14
+    <e19>   DW_AT_type        : <0x1ed>
+    <e1d>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><e20>: Abbrev Number: 0
+ <1><e21>: Abbrev Number: 29 (DW_TAG_structure_type)
+    <e22>   DW_AT_name        : (indirect string, offset: 0x796): path_set
+    <e26>   DW_AT_byte_size   : 12
+    <e27>   DW_AT_decl_file   : 18
+    <e28>   DW_AT_decl_line   : 522
+    <e2a>   DW_AT_decl_column : 15
+    <e2b>   DW_AT_sibling     : <0xe60>
+ <2><e2f>: Abbrev Number: 22 (DW_TAG_member)
+    <e30>   DW_AT_name        : (indirect string, offset: 0x71a): paths_selected
+    <e34>   DW_AT_decl_file   : 18
+    <e35>   DW_AT_decl_line   : 523
+    <e37>   DW_AT_decl_column : 24
+    <e38>   DW_AT_type        : <0xe60>
+    <e3c>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><e3f>: Abbrev Number: 22 (DW_TAG_member)
+    <e40>   DW_AT_name        : (indirect string, offset: 0x110c): num_selected
+    <e44>   DW_AT_decl_file   : 18
+    <e45>   DW_AT_decl_line   : 524
+    <e47>   DW_AT_decl_column : 9
+    <e48>   DW_AT_type        : <0x146>
+    <e4c>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><e4f>: Abbrev Number: 22 (DW_TAG_member)
+    <e50>   DW_AT_name        : (indirect string, offset: 0xbd1): size
+    <e54>   DW_AT_decl_file   : 18
+    <e55>   DW_AT_decl_line   : 525
+    <e57>   DW_AT_decl_column : 9
+    <e58>   DW_AT_type        : <0x146>
+    <e5c>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><e5f>: Abbrev Number: 0
+ <1><e60>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <e61>   DW_AT_byte_size   : 4
+    <e62>   DW_AT_type        : <0xe02>
+ <1><e66>: Abbrev Number: 10 (DW_TAG_variable)
+    <e67>   DW_AT_name        : (indirect string, offset: 0x115b): global_path_set
+    <e6b>   DW_AT_decl_file   : 18
+    <e6c>   DW_AT_decl_line   : 526
+    <e6e>   DW_AT_decl_column : 3
+    <e6f>   DW_AT_type        : <0xe21>
+    <e73>   DW_AT_external    : 1
+    <e74>   DW_AT_declaration : 1
+ <1><e75>: Abbrev Number: 30 (DW_TAG_enumeration_type)
+    <e76>   DW_AT_name        : (indirect string, offset: 0x1069): xflag_opts
+    <e7a>   DW_AT_encoding    : 7	(unsigned)
+    <e7b>   DW_AT_byte_size   : 4
+    <e7c>   DW_AT_type        : <0x2b>
+    <e80>   DW_AT_decl_file   : 18
+    <e81>   DW_AT_decl_line   : 528
+    <e83>   DW_AT_decl_column : 6
+    <e84>   DW_AT_sibling     : <0xea7>
+ <2><e88>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <e89>   DW_AT_name        : (indirect string, offset: 0xaa0): HEXSTR_NONE
+    <e8d>   DW_AT_const_value : 0
+ <2><e8e>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <e8f>   DW_AT_name        : (indirect string, offset: 0x109e): HEXSTR_NON_ASCII
+    <e93>   DW_AT_const_value : 1
+ <2><e94>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <e95>   DW_AT_name        : (indirect string, offset: 0x964): HEXSTR_ALL
+    <e99>   DW_AT_const_value : 2
+ <2><e9a>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <e9b>   DW_AT_name        : (indirect string, offset: 0x6a5): HEXSTR_NON_ASCII_CHARS
+    <e9f>   DW_AT_const_value : 3
+ <2><ea0>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <ea1>   DW_AT_name        : (indirect string, offset: 0x1126): NUM_HEXSTR_OPTS
+    <ea5>   DW_AT_const_value : 4
+ <2><ea6>: Abbrev Number: 0
+ <1><ea7>: Abbrev Number: 10 (DW_TAG_variable)
+    <ea8>   DW_AT_name        : (indirect string, offset: 0xe90): xflag
+    <eac>   DW_AT_decl_file   : 18
+    <ead>   DW_AT_decl_line   : 541
+    <eaf>   DW_AT_decl_column : 17
+    <eb0>   DW_AT_type        : <0x2b>
+    <eb4>   DW_AT_external    : 1
+    <eb5>   DW_AT_declaration : 1
+ <1><eb6>: Abbrev Number: 10 (DW_TAG_variable)
+    <eb7>   DW_AT_name        : (indirect string, offset: 0xd20): followfork
+    <ebb>   DW_AT_decl_file   : 18
+    <ebc>   DW_AT_decl_line   : 542
+    <ebe>   DW_AT_decl_column : 13
+    <ebf>   DW_AT_type        : <0x539>
+    <ec3>   DW_AT_external    : 1
+    <ec4>   DW_AT_declaration : 1
+ <1><ec5>: Abbrev Number: 10 (DW_TAG_variable)
+    <ec6>   DW_AT_name        : (indirect string, offset: 0x32a): output_separately
+    <eca>   DW_AT_decl_file   : 18
+    <ecb>   DW_AT_decl_line   : 543
+    <ecd>   DW_AT_decl_column : 13
+    <ece>   DW_AT_type        : <0x539>
+    <ed2>   DW_AT_external    : 1
+    <ed3>   DW_AT_declaration : 1
+ <1><ed4>: Abbrev Number: 10 (DW_TAG_variable)
+    <ed5>   DW_AT_name        : (indirect string, offset: 0x23a): stack_trace_enabled
+    <ed9>   DW_AT_decl_file   : 18
+    <eda>   DW_AT_decl_line   : 546
+    <edc>   DW_AT_decl_column : 13
+    <edd>   DW_AT_type        : <0x539>
+    <ee1>   DW_AT_external    : 1
+    <ee2>   DW_AT_declaration : 1
+ <1><ee3>: Abbrev Number: 10 (DW_TAG_variable)
+    <ee4>   DW_AT_name        : (indirect string, offset: 0x693): ptrace_setoptions
+    <ee8>   DW_AT_decl_file   : 18
+    <ee9>   DW_AT_decl_line   : 550
+    <eeb>   DW_AT_decl_column : 17
+    <eec>   DW_AT_type        : <0x2b>
+    <ef0>   DW_AT_external    : 1
+    <ef1>   DW_AT_declaration : 1
+ <1><ef2>: Abbrev Number: 10 (DW_TAG_variable)
+    <ef3>   DW_AT_name        : (indirect string, offset: 0xa8b): max_strlen
+    <ef7>   DW_AT_decl_file   : 18
+    <ef8>   DW_AT_decl_line   : 551
+    <efa>   DW_AT_decl_column : 17
+    <efb>   DW_AT_type        : <0x2b>
+    <eff>   DW_AT_external    : 1
+    <f00>   DW_AT_declaration : 1
+ <1><f01>: Abbrev Number: 10 (DW_TAG_variable)
+    <f02>   DW_AT_name        : (indirect string, offset: 0xac3): os_release
+    <f06>   DW_AT_decl_file   : 18
+    <f07>   DW_AT_decl_line   : 552
+    <f09>   DW_AT_decl_column : 17
+    <f0a>   DW_AT_type        : <0x2b>
+    <f0e>   DW_AT_external    : 1
+    <f0f>   DW_AT_declaration : 1
+ <1><f10>: Abbrev Number: 10 (DW_TAG_variable)
+    <f11>   DW_AT_name        : (indirect string, offset: 0x729): xlat_verbosity
+    <f15>   DW_AT_decl_file   : 18
+    <f16>   DW_AT_decl_line   : 914
+    <f18>   DW_AT_decl_column : 24
+    <f19>   DW_AT_type        : <0xa4e>
+    <f1d>   DW_AT_external    : 1
+    <f1e>   DW_AT_declaration : 1
+ <1><f1f>: Abbrev Number: 30 (DW_TAG_enumeration_type)
+    <f20>   DW_AT_name        : (indirect string, offset: 0x5b1): xlat_style_private_flag_bits
+    <f24>   DW_AT_encoding    : 7	(unsigned)
+    <f25>   DW_AT_byte_size   : 4
+    <f26>   DW_AT_type        : <0x2b>
+    <f2a>   DW_AT_decl_file   : 18
+    <f2b>   DW_AT_decl_line   : 934
+    <f2d>   DW_AT_decl_column : 6
+    <f2e>   DW_AT_sibling     : <0xf4b>
+ <2><f32>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <f33>   DW_AT_name        : (indirect string, offset: 0x2a9): PAF_PRINT_INDICES_BIT
+    <f37>   DW_AT_const_value : 5
+ <2><f38>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <f39>   DW_AT_name        : (indirect string, offset: 0xb88): PAF_ARRAY_TRUNCATED_BIT
+    <f3d>   DW_AT_const_value : 6
+ <2><f3e>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <f3f>   DW_AT_name        : (indirect string, offset: 0x3fd): PXF_DEFAULT_STR_BIT
+    <f43>   DW_AT_const_value : 7
+ <2><f44>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <f45>   DW_AT_name        : (indirect string, offset: 0xd02): SPFF_AUXSTR_MODE_BIT
+    <f49>   DW_AT_const_value : 8
+ <2><f4a>: Abbrev Number: 0
+ <1><f4b>: Abbrev Number: 30 (DW_TAG_enumeration_type)
+    <f4c>   DW_AT_name        : (indirect string, offset: 0xdbc): find_xlat_flag_bits
+    <f50>   DW_AT_encoding    : 7	(unsigned)
+    <f51>   DW_AT_byte_size   : 4
+    <f52>   DW_AT_type        : <0x2b>
+    <f56>   DW_AT_decl_file   : 18
+    <f57>   DW_AT_decl_line   : 1438
+    <f59>   DW_AT_decl_column : 6
+    <f5a>   DW_AT_sibling     : <0xf65>
+ <2><f5e>: Abbrev Number: 26 (DW_TAG_enumerator)
+    <f5f>   DW_AT_name        : (indirect string, offset: 0x9ad): FXL_CASE_SENSITIVE_BIT
+    <f63>   DW_AT_const_value : 0
+ <2><f64>: Abbrev Number: 0
+ <1><f65>: Abbrev Number: 10 (DW_TAG_variable)
+    <f66>   DW_AT_name        : (indirect string, offset: 0xa54): printing_tcp
+    <f6a>   DW_AT_decl_file   : 18
+    <f6b>   DW_AT_decl_line   : 1684
+    <f6d>   DW_AT_decl_column : 20
+    <f6e>   DW_AT_type        : <0x615>
+    <f72>   DW_AT_external    : 1
+    <f73>   DW_AT_declaration : 1
+ <1><f74>: Abbrev Number: 10 (DW_TAG_variable)
+    <f75>   DW_AT_name        : (indirect string, offset: 0x56e): errnoent
+    <f79>   DW_AT_decl_file   : 18
+    <f7a>   DW_AT_decl_line   : 1882
+    <f7c>   DW_AT_decl_column : 26
+    <f7d>   DW_AT_type        : <0x46d>
+    <f81>   DW_AT_external    : 1
+    <f82>   DW_AT_declaration : 1
+ <1><f83>: Abbrev Number: 10 (DW_TAG_variable)
+    <f84>   DW_AT_name        : (indirect string, offset: 0x89b): signalent
+    <f88>   DW_AT_decl_file   : 18
+    <f89>   DW_AT_decl_line   : 1883
+    <f8b>   DW_AT_decl_column : 26
+    <f8c>   DW_AT_type        : <0x46d>
+    <f90>   DW_AT_external    : 1
+    <f91>   DW_AT_declaration : 1
+ <1><f92>: Abbrev Number: 10 (DW_TAG_variable)
+    <f93>   DW_AT_name        : (indirect string, offset: 0xf0c): nerrnos
+    <f97>   DW_AT_decl_file   : 18
+    <f98>   DW_AT_decl_line   : 1884
+    <f9a>   DW_AT_decl_column : 27
+    <f9b>   DW_AT_type        : <0x32>
+    <f9f>   DW_AT_external    : 1
+    <fa0>   DW_AT_declaration : 1
+ <1><fa1>: Abbrev Number: 10 (DW_TAG_variable)
+    <fa2>   DW_AT_name        : (indirect string, offset: 0x10f5): nsignals
+    <fa6>   DW_AT_decl_file   : 18
+    <fa7>   DW_AT_decl_line   : 1885
+    <fa9>   DW_AT_decl_column : 27
+    <faa>   DW_AT_type        : <0x32>
+    <fae>   DW_AT_external    : 1
+    <faf>   DW_AT_declaration : 1
+ <1><fb0>: Abbrev Number: 15 (DW_TAG_array_type)
+    <fb1>   DW_AT_type        : <0x86d>
+    <fb5>   DW_AT_sibling     : <0xfbb>
+ <2><fb9>: Abbrev Number: 17 (DW_TAG_subrange_type)
+ <2><fba>: Abbrev Number: 0
+ <1><fbb>: Abbrev Number: 3 (DW_TAG_const_type)
+    <fbc>   DW_AT_type        : <0xfb0>
+ <1><fc0>: Abbrev Number: 10 (DW_TAG_variable)
+    <fc1>   DW_AT_name        : (indirect string, offset: 0xd7c): sysent0
+    <fc5>   DW_AT_decl_file   : 18
+    <fc6>   DW_AT_decl_line   : 1887
+    <fc8>   DW_AT_decl_column : 28
+    <fc9>   DW_AT_type        : <0xfbb>
+    <fcd>   DW_AT_external    : 1
+    <fce>   DW_AT_declaration : 1
+ <1><fcf>: Abbrev Number: 15 (DW_TAG_array_type)
+    <fd0>   DW_AT_type        : <0x8d4>
+    <fd4>   DW_AT_sibling     : <0xfda>
+ <2><fd8>: Abbrev Number: 17 (DW_TAG_subrange_type)
+ <2><fd9>: Abbrev Number: 0
+ <1><fda>: Abbrev Number: 3 (DW_TAG_const_type)
+    <fdb>   DW_AT_type        : <0xfcf>
+ <1><fdf>: Abbrev Number: 10 (DW_TAG_variable)
+    <fe0>   DW_AT_name        : (indirect string, offset: 0x1151): ioctlent0
+    <fe4>   DW_AT_decl_file   : 18
+    <fe5>   DW_AT_decl_line   : 1888
+    <fe7>   DW_AT_decl_column : 30
+    <fe8>   DW_AT_type        : <0xfda>
+    <fec>   DW_AT_external    : 1
+    <fed>   DW_AT_declaration : 1
+ <1><fee>: Abbrev Number: 10 (DW_TAG_variable)
+    <fef>   DW_AT_name        : (indirect string, offset: 0x46c): personality_names
+    <ff3>   DW_AT_decl_file   : 18
+    <ff4>   DW_AT_decl_line   : 1890
+    <ff6>   DW_AT_decl_column : 26
+    <ff7>   DW_AT_type        : <0x46d>
+    <ffb>   DW_AT_external    : 1
+    <ffc>   DW_AT_declaration : 1
+ <1><ffd>: Abbrev Number: 10 (DW_TAG_variable)
+    <ffe>   DW_AT_name        : (indirect string, offset: 0x8bb): sysent
+    <1002>   DW_AT_decl_file   : 18
+    <1003>   DW_AT_decl_line   : 1893
+    <1005>   DW_AT_decl_column : 29
+    <1006>   DW_AT_type        : <0x9b9>
+    <100a>   DW_AT_external    : 1
+    <100b>   DW_AT_declaration : 1
+ <1><100c>: Abbrev Number: 10 (DW_TAG_variable)
+    <100d>   DW_AT_name        : (indirect string, offset: 0xd17): ioctlent
+    <1011>   DW_AT_decl_file   : 18
+    <1012>   DW_AT_decl_line   : 1894
+    <1014>   DW_AT_decl_column : 31
+    <1015>   DW_AT_type        : <0x101b>
+    <1019>   DW_AT_external    : 1
+    <101a>   DW_AT_declaration : 1
+ <1><101b>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <101c>   DW_AT_byte_size   : 4
+    <101d>   DW_AT_type        : <0x8d4>
+ <1><1021>: Abbrev Number: 10 (DW_TAG_variable)
+    <1022>   DW_AT_name        : (indirect string, offset: 0x8a5): nsyscalls
+    <1026>   DW_AT_decl_file   : 18
+    <1027>   DW_AT_decl_line   : 1900
+    <1029>   DW_AT_decl_column : 17
+    <102a>   DW_AT_type        : <0x2b>
+    <102e>   DW_AT_external    : 1
+    <102f>   DW_AT_declaration : 1
+ <1><1030>: Abbrev Number: 10 (DW_TAG_variable)
+    <1031>   DW_AT_name        : (indirect string, offset: 0xf32): nioctlents
+    <1035>   DW_AT_decl_file   : 18
+    <1036>   DW_AT_decl_line   : 1901
+    <1038>   DW_AT_decl_column : 17
+    <1039>   DW_AT_type        : <0x2b>
+    <103d>   DW_AT_external    : 1
+    <103e>   DW_AT_declaration : 1
+ <1><103f>: Abbrev Number: 15 (DW_TAG_array_type)
+    <1040>   DW_AT_type        : <0x32>
+    <1044>   DW_AT_sibling     : <0x104f>
+ <2><1048>: Abbrev Number: 16 (DW_TAG_subrange_type)
+    <1049>   DW_AT_type        : <0x2b>
+    <104d>   DW_AT_upper_bound : 2
+ <2><104e>: Abbrev Number: 0
+ <1><104f>: Abbrev Number: 3 (DW_TAG_const_type)
+    <1050>   DW_AT_type        : <0x103f>
+ <1><1054>: Abbrev Number: 10 (DW_TAG_variable)
+    <1055>   DW_AT_name        : (indirect string, offset: 0xfb7): nsyscall_vec
+    <1059>   DW_AT_decl_file   : 18
+    <105a>   DW_AT_decl_line   : 1903
+    <105c>   DW_AT_decl_column : 27
+    <105d>   DW_AT_type        : <0x104f>
+    <1061>   DW_AT_external    : 1
+    <1062>   DW_AT_declaration : 1
+ <1><1063>: Abbrev Number: 15 (DW_TAG_array_type)
+    <1064>   DW_AT_type        : <0x9bf>
+    <1068>   DW_AT_sibling     : <0x1073>
+ <2><106c>: Abbrev Number: 16 (DW_TAG_subrange_type)
+    <106d>   DW_AT_type        : <0x2b>
+    <1071>   DW_AT_upper_bound : 2
+ <2><1072>: Abbrev Number: 0
+ <1><1073>: Abbrev Number: 3 (DW_TAG_const_type)
+    <1074>   DW_AT_type        : <0x1063>
+ <1><1078>: Abbrev Number: 10 (DW_TAG_variable)
+    <1079>   DW_AT_name        : (indirect string, offset: 0x7d4): sysent_vec
+    <107d>   DW_AT_decl_file   : 18
+    <107e>   DW_AT_decl_line   : 1904
+    <1080>   DW_AT_decl_column : 35
+    <1081>   DW_AT_type        : <0x1073>
+    <1085>   DW_AT_external    : 1
+    <1086>   DW_AT_declaration : 1
+ <1><1087>: Abbrev Number: 10 (DW_TAG_variable)
+    <1088>   DW_AT_name        : (indirect string, offset: 0x38c): inject_vec
+    <108c>   DW_AT_decl_file   : 18
+    <108d>   DW_AT_decl_line   : 1905
+    <108f>   DW_AT_decl_column : 28
+    <1090>   DW_AT_type        : <0x9c4>
+    <1094>   DW_AT_external    : 1
+    <1095>   DW_AT_declaration : 1
+ <1><1096>: Abbrev Number: 29 (DW_TAG_structure_type)
+    <1097>   DW_AT_name        : (indirect string, offset: 0xe1a): audit_arch_t
+    <109b>   DW_AT_byte_size   : 8
+    <109c>   DW_AT_decl_file   : 18
+    <109d>   DW_AT_decl_line   : 1907
+    <109f>   DW_AT_decl_column : 8
+    <10a0>   DW_AT_sibling     : <0x10c5>
+ <2><10a4>: Abbrev Number: 22 (DW_TAG_member)
+    <10a5>   DW_AT_name        : (indirect string, offset: 0x5a3): arch
+    <10a9>   DW_AT_decl_file   : 18
+    <10aa>   DW_AT_decl_line   : 1908
+    <10ac>   DW_AT_decl_column : 15
+    <10ad>   DW_AT_type        : <0x2b>
+    <10b1>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><10b4>: Abbrev Number: 22 (DW_TAG_member)
+    <10b5>   DW_AT_name        : (indirect string, offset: 0xa3a): flag
+    <10b9>   DW_AT_decl_file   : 18
+    <10ba>   DW_AT_decl_line   : 1909
+    <10bc>   DW_AT_decl_column : 15
+    <10bd>   DW_AT_type        : <0x2b>
+    <10c1>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><10c4>: Abbrev Number: 0
+ <1><10c5>: Abbrev Number: 3 (DW_TAG_const_type)
+    <10c6>   DW_AT_type        : <0x1096>
+ <1><10ca>: Abbrev Number: 15 (DW_TAG_array_type)
+    <10cb>   DW_AT_type        : <0x10c5>
+    <10cf>   DW_AT_sibling     : <0x10da>
+ <2><10d3>: Abbrev Number: 16 (DW_TAG_subrange_type)
+    <10d4>   DW_AT_type        : <0x2b>
+    <10d8>   DW_AT_upper_bound : 2
+ <2><10d9>: Abbrev Number: 0
+ <1><10da>: Abbrev Number: 3 (DW_TAG_const_type)
+    <10db>   DW_AT_type        : <0x10ca>
+ <1><10df>: Abbrev Number: 10 (DW_TAG_variable)
+    <10e0>   DW_AT_name        : (indirect string, offset: 0x99e): audit_arch_vec
+    <10e4>   DW_AT_decl_file   : 18
+    <10e5>   DW_AT_decl_line   : 1912
+    <10e7>   DW_AT_decl_column : 34
+    <10e8>   DW_AT_type        : <0x10da>
+    <10ec>   DW_AT_external    : 1
+    <10ed>   DW_AT_declaration : 1
+ <1><10ee>: Abbrev Number: 31 (DW_TAG_structure_type)
+    <10ef>   DW_AT_byte_size   : 180
+    <10f0>   DW_AT_decl_file   : 20
+    <10f1>   DW_AT_decl_line   : 2
+    <10f2>   DW_AT_decl_column : 9
+    <10f3>   DW_AT_sibling     : <0x13a8>
+ <2><10f7>: Abbrev Number: 9 (DW_TAG_member)
+    <10f8>   DW_AT_name        : (indirect string, offset: 0x1e6): block_ioctl
+    <10fc>   DW_AT_decl_file   : 20
+    <10fd>   DW_AT_decl_line   : 3
+    <10fe>   DW_AT_decl_column : 8
+    <10ff>   DW_AT_type        : <0x13c2>
+    <1103>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><1106>: Abbrev Number: 9 (DW_TAG_member)
+    <1107>   DW_AT_name        : (indirect string, offset: 0xb22): btrfs_ioctl
+    <110b>   DW_AT_decl_file   : 20
+    <110c>   DW_AT_decl_line   : 6
+    <110d>   DW_AT_decl_column : 8
+    <110e>   DW_AT_type        : <0x13c2>
+    <1112>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><1115>: Abbrev Number: 9 (DW_TAG_member)
+    <1116>   DW_AT_name        : (indirect string, offset: 0x76c): evdev_write_ioctl_mpers
+    <111a>   DW_AT_decl_file   : 20
+    <111b>   DW_AT_decl_line   : 9
+    <111c>   DW_AT_decl_column : 8
+    <111d>   DW_AT_type        : <0x13c2>
+    <1121>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><1124>: Abbrev Number: 9 (DW_TAG_member)
+    <1125>   DW_AT_name        : (indirect string, offset: 0x738): get_sock_fprog_size
+    <1129>   DW_AT_decl_file   : 20
+    <112a>   DW_AT_decl_line   : 12
+    <112b>   DW_AT_decl_column : 17
+    <112c>   DW_AT_type        : <0x13ce>
+    <1130>   DW_AT_data_member_location: 2 byte block: 23 c 	(DW_OP_plus_uconst: 12)
+ <2><1133>: Abbrev Number: 9 (DW_TAG_member)
+    <1134>   DW_AT_name        : (indirect string, offset: 0x1b5): fetch_bpf_fprog
+    <1138>   DW_AT_decl_file   : 20
+    <1139>   DW_AT_decl_line   : 15
+    <113a>   DW_AT_decl_column : 10
+    <113b>   DW_AT_type        : <0x13ee>
+    <113f>   DW_AT_data_member_location: 2 byte block: 23 10 	(DW_OP_plus_uconst: 16)
+ <2><1142>: Abbrev Number: 9 (DW_TAG_member)
+    <1143>   DW_AT_name        : (indirect string, offset: 0x98b): fetch_struct_flock
+    <1147>   DW_AT_decl_file   : 20
+    <1148>   DW_AT_decl_line   : 18
+    <1149>   DW_AT_decl_column : 10
+    <114a>   DW_AT_type        : <0x13ee>
+    <114e>   DW_AT_data_member_location: 2 byte block: 23 14 	(DW_OP_plus_uconst: 20)
+ <2><1151>: Abbrev Number: 9 (DW_TAG_member)
+    <1152>   DW_AT_name        : (indirect string, offset: 0xd2b): fetch_struct_flock64
+    <1156>   DW_AT_decl_file   : 20
+    <1157>   DW_AT_decl_line   : 21
+    <1158>   DW_AT_decl_column : 10
+    <1159>   DW_AT_type        : <0x13ee>
+    <115d>   DW_AT_data_member_location: 2 byte block: 23 18 	(DW_OP_plus_uconst: 24)
+ <2><1160>: Abbrev Number: 9 (DW_TAG_member)
+    <1161>   DW_AT_name        : (indirect string, offset: 0x156): fetch_struct_iovec
+    <1165>   DW_AT_decl_file   : 20
+    <1166>   DW_AT_decl_line   : 24
+    <1167>   DW_AT_decl_column : 10
+    <1168>   DW_AT_type        : <0x13ee>
+    <116c>   DW_AT_data_member_location: 2 byte block: 23 1c 	(DW_OP_plus_uconst: 28)
+ <2><116f>: Abbrev Number: 9 (DW_TAG_member)
+    <1170>   DW_AT_name        : (indirect string, offset: 0x57): fetch_keyctl_kdf_params
+    <1174>   DW_AT_decl_file   : 20
+    <1175>   DW_AT_decl_line   : 27
+    <1176>   DW_AT_decl_column : 8
+    <1177>   DW_AT_type        : <0x141a>
+    <117b>   DW_AT_data_member_location: 2 byte block: 23 20 	(DW_OP_plus_uconst: 32)
+ <2><117e>: Abbrev Number: 9 (DW_TAG_member)
+    <117f>   DW_AT_name        : (indirect string, offset: 0x6ca): fetch_struct_mmsghdr
+    <1183>   DW_AT_decl_file   : 20
+    <1184>   DW_AT_decl_line   : 30
+    <1185>   DW_AT_decl_column : 8
+    <1186>   DW_AT_type        : <0x143a>
+    <118a>   DW_AT_data_member_location: 2 byte block: 23 24 	(DW_OP_plus_uconst: 36)
+ <2><118d>: Abbrev Number: 9 (DW_TAG_member)
+    <118e>   DW_AT_name        : (indirect string, offset: 0xe04): sizeof_struct_mmsghdr
+    <1192>   DW_AT_decl_file   : 20
+    <1193>   DW_AT_decl_line   : 33
+    <1194>   DW_AT_decl_column : 17
+    <1195>   DW_AT_type        : <0x13ce>
+    <1199>   DW_AT_data_member_location: 2 byte block: 23 28 	(DW_OP_plus_uconst: 40)
+ <2><119c>: Abbrev Number: 9 (DW_TAG_member)
+    <119d>   DW_AT_name        : (indirect string, offset: 0xba0): fetch_struct_msghdr
+    <11a1>   DW_AT_decl_file   : 20
+    <11a2>   DW_AT_decl_line   : 36
+    <11a3>   DW_AT_decl_column : 8
+    <11a4>   DW_AT_type        : <0x143a>
+    <11a8>   DW_AT_data_member_location: 2 byte block: 23 2c 	(DW_OP_plus_uconst: 44)
+ <2><11ab>: Abbrev Number: 9 (DW_TAG_member)
+    <11ac>   DW_AT_name        : (indirect string, offset: 0x79f): fetch_struct_stat
+    <11b0>   DW_AT_decl_file   : 20
+    <11b1>   DW_AT_decl_line   : 39
+    <11b2>   DW_AT_decl_column : 10
+    <11b3>   DW_AT_type        : <0x146b>
+    <11b7>   DW_AT_data_member_location: 2 byte block: 23 30 	(DW_OP_plus_uconst: 48)
+ <2><11ba>: Abbrev Number: 9 (DW_TAG_member)
+    <11bb>   DW_AT_name        : (indirect string, offset: 0xb4e): fetch_struct_stat64
+    <11bf>   DW_AT_decl_file   : 20
+    <11c0>   DW_AT_decl_line   : 42
+    <11c1>   DW_AT_decl_column : 10
+    <11c2>   DW_AT_type        : <0x146b>
+    <11c6>   DW_AT_data_member_location: 2 byte block: 23 34 	(DW_OP_plus_uconst: 52)
+ <2><11c9>: Abbrev Number: 9 (DW_TAG_member)
+    <11ca>   DW_AT_name        : (indirect string, offset: 0x449): fetch_struct_statfs
+    <11ce>   DW_AT_decl_file   : 20
+    <11cf>   DW_AT_decl_line   : 45
+    <11d0>   DW_AT_decl_column : 10
+    <11d1>   DW_AT_type        : <0x149c>
+    <11d5>   DW_AT_data_member_location: 2 byte block: 23 38 	(DW_OP_plus_uconst: 56)
+ <2><11d8>: Abbrev Number: 9 (DW_TAG_member)
+    <11d9>   DW_AT_name        : (indirect string, offset: 0x8cd): fetch_struct_statfs64
+    <11dd>   DW_AT_decl_file   : 20
+    <11de>   DW_AT_decl_line   : 48
+    <11df>   DW_AT_decl_column : 10
+    <11e0>   DW_AT_type        : <0x14c1>
+    <11e4>   DW_AT_data_member_location: 2 byte block: 23 3c 	(DW_OP_plus_uconst: 60)
+ <2><11e7>: Abbrev Number: 9 (DW_TAG_member)
+    <11e8>   DW_AT_name        : (indirect string, offset: 0x120): fetch_struct_quotastat
+    <11ec>   DW_AT_decl_file   : 20
+    <11ed>   DW_AT_decl_line   : 51
+    <11ee>   DW_AT_decl_column : 10
+    <11ef>   DW_AT_type        : <0x14e1>
+    <11f3>   DW_AT_data_member_location: 2 byte block: 23 40 	(DW_OP_plus_uconst: 64)
+ <2><11f6>: Abbrev Number: 9 (DW_TAG_member)
+    <11f7>   DW_AT_name        : (indirect string, offset: 0x94): hdio_ioctl
+    <11fb>   DW_AT_decl_file   : 20
+    <11fc>   DW_AT_decl_line   : 54
+    <11fd>   DW_AT_decl_column : 8
+    <11fe>   DW_AT_type        : <0x13c2>
+    <1202>   DW_AT_data_member_location: 2 byte block: 23 44 	(DW_OP_plus_uconst: 68)
+ <2><1205>: Abbrev Number: 9 (DW_TAG_member)
+    <1206>   DW_AT_name        : (indirect string, offset: 0xc2c): kd_mpers_ioctl
+    <120a>   DW_AT_decl_file   : 20
+    <120b>   DW_AT_decl_line   : 57
+    <120c>   DW_AT_decl_column : 8
+    <120d>   DW_AT_type        : <0x13c2>
+    <1211>   DW_AT_data_member_location: 2 byte block: 23 48 	(DW_OP_plus_uconst: 72)
+ <2><1214>: Abbrev Number: 9 (DW_TAG_member)
+    <1215>   DW_AT_name        : (indirect string, offset: 0xab8): loop_ioctl
+    <1219>   DW_AT_decl_file   : 20
+    <121a>   DW_AT_decl_line   : 60
+    <121b>   DW_AT_decl_column : 8
+    <121c>   DW_AT_type        : <0x1501>
+    <1220>   DW_AT_data_member_location: 2 byte block: 23 4c 	(DW_OP_plus_uconst: 76)
+ <2><1223>: Abbrev Number: 9 (DW_TAG_member)
+    <1224>   DW_AT_name        : (indirect string, offset: 0x96f): mtd_ioctl
+    <1228>   DW_AT_decl_file   : 20
+    <1229>   DW_AT_decl_line   : 63
+    <122a>   DW_AT_decl_column : 8
+    <122b>   DW_AT_type        : <0x13c2>
+    <122f>   DW_AT_data_member_location: 2 byte block: 23 50 	(DW_OP_plus_uconst: 80)
+ <2><1232>: Abbrev Number: 9 (DW_TAG_member)
+    <1233>   DW_AT_name        : (indirect string, offset: 0xd9e): perf_ioctl
+    <1237>   DW_AT_decl_file   : 20
+    <1238>   DW_AT_decl_line   : 66
+    <1239>   DW_AT_decl_column : 8
+    <123a>   DW_AT_type        : <0x13c2>
+    <123e>   DW_AT_data_member_location: 2 byte block: 23 54 	(DW_OP_plus_uconst: 84)
+ <2><1241>: Abbrev Number: 9 (DW_TAG_member)
+    <1242>   DW_AT_name        : (indirect string, offset: 0x828): print_group_req
+    <1246>   DW_AT_decl_file   : 20
+    <1247>   DW_AT_decl_line   : 69
+    <1248>   DW_AT_decl_column : 9
+    <1249>   DW_AT_type        : <0x151d>
+    <124d>   DW_AT_data_member_location: 2 byte block: 23 58 	(DW_OP_plus_uconst: 88)
+ <2><1250>: Abbrev Number: 9 (DW_TAG_member)
+    <1251>   DW_AT_name        : (indirect string, offset: 0x429): print_kernel_sigset
+    <1255>   DW_AT_decl_file   : 20
+    <1256>   DW_AT_decl_line   : 72
+    <1257>   DW_AT_decl_column : 9
+    <1258>   DW_AT_type        : <0x1534>
+    <125c>   DW_AT_data_member_location: 2 byte block: 23 5c 	(DW_OP_plus_uconst: 92)
+ <2><125f>: Abbrev Number: 9 (DW_TAG_member)
+    <1260>   DW_AT_name        : (indirect string, offset: 0xeaa): printmqattr
+    <1264>   DW_AT_decl_file   : 20
+    <1265>   DW_AT_decl_line   : 75
+    <1266>   DW_AT_decl_column : 9
+    <1267>   DW_AT_type        : <0x1550>
+    <126b>   DW_AT_data_member_location: 2 byte block: 23 60 	(DW_OP_plus_uconst: 96)
+ <2><126e>: Abbrev Number: 9 (DW_TAG_member)
+    <126f>   DW_AT_name        : (indirect string, offset: 0xf90): tprint_msgbuf
+    <1273>   DW_AT_decl_file   : 20
+    <1274>   DW_AT_decl_line   : 78
+    <1275>   DW_AT_decl_column : 9
+    <1276>   DW_AT_type        : <0x156c>
+    <127a>   DW_AT_data_member_location: 2 byte block: 23 64 	(DW_OP_plus_uconst: 100)
+ <2><127d>: Abbrev Number: 9 (DW_TAG_member)
+    <127e>   DW_AT_name        : (indirect string, offset: 0xa06): decode_sg_req_info
+    <1282>   DW_AT_decl_file   : 20
+    <1283>   DW_AT_decl_line   : 81
+    <1284>   DW_AT_decl_column : 8
+    <1285>   DW_AT_type        : <0x1587>
+    <1289>   DW_AT_data_member_location: 2 byte block: 23 68 	(DW_OP_plus_uconst: 104)
+ <2><128c>: Abbrev Number: 9 (DW_TAG_member)
+    <128d>   DW_AT_name        : (indirect string, offset: 0x5de): print_sigevent
+    <1291>   DW_AT_decl_file   : 20
+    <1292>   DW_AT_decl_line   : 84
+    <1293>   DW_AT_decl_column : 9
+    <1294>   DW_AT_type        : <0x159e>
+    <1298>   DW_AT_data_member_location: 2 byte block: 23 6c 	(DW_OP_plus_uconst: 108)
+ <2><129b>: Abbrev Number: 9 (DW_TAG_member)
+    <129c>   DW_AT_name        : (indirect string, offset: 0xbe): print_struct_timeval
+    <12a0>   DW_AT_decl_file   : 20
+    <12a1>   DW_AT_decl_line   : 87
+    <12a2>   DW_AT_decl_column : 9
+    <12a3>   DW_AT_type        : <0x15b0>
+    <12a7>   DW_AT_data_member_location: 2 byte block: 23 70 	(DW_OP_plus_uconst: 112)
+ <2><12aa>: Abbrev Number: 9 (DW_TAG_member)
+    <12ab>   DW_AT_name        : (indirect string, offset: 0x52a): print_struct_timeval_data_size
+    <12af>   DW_AT_decl_file   : 20
+    <12b0>   DW_AT_decl_line   : 90
+    <12b1>   DW_AT_decl_column : 10
+    <12b2>   DW_AT_type        : <0x15cb>
+    <12b6>   DW_AT_data_member_location: 2 byte block: 23 74 	(DW_OP_plus_uconst: 116)
+ <2><12b9>: Abbrev Number: 9 (DW_TAG_member)
+    <12ba>   DW_AT_name        : (indirect string, offset: 0xe71): print_timeval
+    <12be>   DW_AT_decl_file   : 20
+    <12bf>   DW_AT_decl_line   : 93
+    <12c0>   DW_AT_decl_column : 8
+    <12c1>   DW_AT_type        : <0x1587>
+    <12c5>   DW_AT_data_member_location: 2 byte block: 23 78 	(DW_OP_plus_uconst: 120)
+ <2><12c8>: Abbrev Number: 9 (DW_TAG_member)
+    <12c9>   DW_AT_name        : (indirect string, offset: 0x1044): print_timeval_utimes
+    <12cd>   DW_AT_decl_file   : 20
+    <12ce>   DW_AT_decl_line   : 96
+    <12cf>   DW_AT_decl_column : 8
+    <12d0>   DW_AT_type        : <0x1587>
+    <12d4>   DW_AT_data_member_location: 2 byte block: 23 7c 	(DW_OP_plus_uconst: 124)
+ <2><12d7>: Abbrev Number: 9 (DW_TAG_member)
+    <12d8>   DW_AT_name        : (indirect string, offset: 0x101e): sprint_timeval
+    <12dc>   DW_AT_decl_file   : 20
+    <12dd>   DW_AT_decl_line   : 99
+    <12de>   DW_AT_decl_column : 17
+    <12df>   DW_AT_type        : <0x15e6>
+    <12e3>   DW_AT_data_member_location: 3 byte block: 23 80 1 	(DW_OP_plus_uconst: 128)
+ <2><12e7>: Abbrev Number: 9 (DW_TAG_member)
+    <12e8>   DW_AT_name        : (indirect string, offset: 0xa74): print_itimerval
+    <12ec>   DW_AT_decl_file   : 20
+    <12ed>   DW_AT_decl_line   : 102
+    <12ee>   DW_AT_decl_column : 8
+    <12ef>   DW_AT_type        : <0x1587>
+    <12f3>   DW_AT_data_member_location: 3 byte block: 23 84 1 	(DW_OP_plus_uconst: 132)
+ <2><12f7>: Abbrev Number: 9 (DW_TAG_member)
+    <12f8>   DW_AT_name        : (indirect string, offset: 0x801): printrusage
+    <12fc>   DW_AT_decl_file   : 20
+    <12fd>   DW_AT_decl_line   : 105
+    <12fe>   DW_AT_decl_column : 9
+    <12ff>   DW_AT_type        : <0x159e>
+    <1303>   DW_AT_data_member_location: 3 byte block: 23 88 1 	(DW_OP_plus_uconst: 136)
+ <2><1307>: Abbrev Number: 9 (DW_TAG_member)
+    <1308>   DW_AT_name        : (indirect string, offset: 0x146): printsiginfo_at
+    <130c>   DW_AT_decl_file   : 20
+    <130d>   DW_AT_decl_line   : 108
+    <130e>   DW_AT_decl_column : 9
+    <130f>   DW_AT_type        : <0x159e>
+    <1313>   DW_AT_data_member_location: 3 byte block: 23 8c 1 	(DW_OP_plus_uconst: 140)
+ <2><1317>: Abbrev Number: 9 (DW_TAG_member)
+    <1318>   DW_AT_name        : (indirect string, offset: 0x50d): print_siginfo_array
+    <131c>   DW_AT_decl_file   : 20
+    <131d>   DW_AT_decl_line   : 111
+    <131e>   DW_AT_decl_column : 9
+    <131f>   DW_AT_type        : <0x156c>
+    <1323>   DW_AT_data_member_location: 3 byte block: 23 90 1 	(DW_OP_plus_uconst: 144)
+ <2><1327>: Abbrev Number: 9 (DW_TAG_member)
+    <1328>   DW_AT_name        : (indirect string, offset: 0x4be): decode_prstatus_regset
+    <132c>   DW_AT_decl_file   : 20
+    <132d>   DW_AT_decl_line   : 114
+    <132e>   DW_AT_decl_column : 9
+    <132f>   DW_AT_type        : <0x156c>
+    <1333>   DW_AT_data_member_location: 3 byte block: 23 94 1 	(DW_OP_plus_uconst: 148)
+ <2><1337>: Abbrev Number: 9 (DW_TAG_member)
+    <1338>   DW_AT_name        : (indirect string, offset: 0x937): decode_fpregset
+    <133c>   DW_AT_decl_file   : 20
+    <133d>   DW_AT_decl_line   : 117
+    <133e>   DW_AT_decl_column : 9
+    <133f>   DW_AT_type        : <0x156c>
+    <1343>   DW_AT_data_member_location: 3 byte block: 23 98 1 	(DW_OP_plus_uconst: 152)
+ <2><1347>: Abbrev Number: 9 (DW_TAG_member)
+    <1348>   DW_AT_name        : (indirect string, offset: 0x955): decode_pt_regs
+    <134c>   DW_AT_decl_file   : 20
+    <134d>   DW_AT_decl_line   : 120
+    <134e>   DW_AT_decl_column : 9
+    <134f>   DW_AT_type        : <0x159e>
+    <1353>   DW_AT_data_member_location: 3 byte block: 23 9c 1 	(DW_OP_plus_uconst: 156)
+ <2><1357>: Abbrev Number: 9 (DW_TAG_member)
+    <1358>   DW_AT_name        : (indirect string, offset: 0x33c): decode_pt_fpregs
+    <135c>   DW_AT_decl_file   : 20
+    <135d>   DW_AT_decl_line   : 123
+    <135e>   DW_AT_decl_column : 9
+    <135f>   DW_AT_type        : <0x159e>
+    <1363>   DW_AT_data_member_location: 3 byte block: 23 a0 1 	(DW_OP_plus_uconst: 160)
+ <2><1367>: Abbrev Number: 9 (DW_TAG_member)
+    <1368>   DW_AT_name        : (indirect string, offset: 0xa4a): rtc_ioctl
+    <136c>   DW_AT_decl_file   : 20
+    <136d>   DW_AT_decl_line   : 126
+    <136e>   DW_AT_decl_column : 8
+    <136f>   DW_AT_type        : <0x13c2>
+    <1373>   DW_AT_data_member_location: 3 byte block: 23 a4 1 	(DW_OP_plus_uconst: 164)
+ <2><1377>: Abbrev Number: 9 (DW_TAG_member)
+    <1378>   DW_AT_name        : (indirect string, offset: 0x10df): decode_sg_io_v3
+    <137c>   DW_AT_decl_file   : 20
+    <137d>   DW_AT_decl_line   : 129
+    <137e>   DW_AT_decl_column : 8
+    <137f>   DW_AT_type        : <0x1587>
+    <1383>   DW_AT_data_member_location: 3 byte block: 23 a8 1 	(DW_OP_plus_uconst: 168)
+ <2><1387>: Abbrev Number: 9 (DW_TAG_member)
+    <1388>   DW_AT_name        : (indirect string, offset: 0xe9f): sock_ioctl
+    <138c>   DW_AT_decl_file   : 20
+    <138d>   DW_AT_decl_line   : 132
+    <138e>   DW_AT_decl_column : 8
+    <138f>   DW_AT_type        : <0x1501>
+    <1393>   DW_AT_data_member_location: 3 byte block: 23 ac 1 	(DW_OP_plus_uconst: 172)
+ <2><1397>: Abbrev Number: 9 (DW_TAG_member)
+    <1398>   DW_AT_name        : (indirect string, offset: 0x28a): v4l2_ioctl
+    <139c>   DW_AT_decl_file   : 20
+    <139d>   DW_AT_decl_line   : 135
+    <139e>   DW_AT_decl_column : 8
+    <139f>   DW_AT_type        : <0x13c2>
+    <13a3>   DW_AT_data_member_location: 3 byte block: 23 b0 1 	(DW_OP_plus_uconst: 176)
+ <2><13a7>: Abbrev Number: 0
+ <1><13a8>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <13a9>   DW_AT_prototyped  : 1
+    <13aa>   DW_AT_type        : <0x64>
+    <13ae>   DW_AT_sibling     : <0x13c2>
+ <2><13b2>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <13b3>   DW_AT_type        : <0x61b>
+ <2><13b7>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <13b8>   DW_AT_type        : <0x32>
+ <2><13bc>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <13bd>   DW_AT_type        : <0x575>
+ <2><13c1>: Abbrev Number: 0
+ <1><13c2>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <13c3>   DW_AT_byte_size   : 4
+    <13c4>   DW_AT_type        : <0x13a8>
+ <1><13c8>: Abbrev Number: 32 (DW_TAG_subroutine_type)
+    <13c9>   DW_AT_prototyped  : 1
+    <13ca>   DW_AT_type        : <0x2b>
+ <1><13ce>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <13cf>   DW_AT_byte_size   : 4
+    <13d0>   DW_AT_type        : <0x13c8>
+ <1><13d4>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <13d5>   DW_AT_prototyped  : 1
+    <13d6>   DW_AT_type        : <0x539>
+    <13da>   DW_AT_sibling     : <0x13ee>
+ <2><13de>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <13df>   DW_AT_type        : <0x61b>
+ <2><13e3>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <13e4>   DW_AT_type        : <0x575>
+ <2><13e8>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <13e9>   DW_AT_type        : <0xf3>
+ <2><13ed>: Abbrev Number: 0
+ <1><13ee>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <13ef>   DW_AT_byte_size   : 4
+    <13f0>   DW_AT_type        : <0x13d4>
+ <1><13f4>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <13f5>   DW_AT_prototyped  : 1
+    <13f6>   DW_AT_type        : <0x64>
+    <13fa>   DW_AT_sibling     : <0x140e>
+ <2><13fe>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <13ff>   DW_AT_type        : <0x61b>
+ <2><1403>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1404>   DW_AT_type        : <0x569>
+ <2><1408>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1409>   DW_AT_type        : <0x140e>
+ <2><140d>: Abbrev Number: 0
+ <1><140e>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <140f>   DW_AT_byte_size   : 4
+    <1410>   DW_AT_type        : <0x1414>
+ <1><1414>: Abbrev Number: 14 (DW_TAG_structure_type)
+    <1415>   DW_AT_name        : (indirect string, offset: 0x202): strace_keyctl_kdf_params
+    <1419>   DW_AT_declaration : 1
+ <1><141a>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <141b>   DW_AT_byte_size   : 4
+    <141c>   DW_AT_type        : <0x13f4>
+ <1><1420>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <1421>   DW_AT_prototyped  : 1
+    <1422>   DW_AT_type        : <0x64>
+    <1426>   DW_AT_sibling     : <0x143a>
+ <2><142a>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <142b>   DW_AT_type        : <0x61b>
+ <2><142f>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1430>   DW_AT_type        : <0x575>
+ <2><1434>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1435>   DW_AT_type        : <0xf3>
+ <2><1439>: Abbrev Number: 0
+ <1><143a>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <143b>   DW_AT_byte_size   : 4
+    <143c>   DW_AT_type        : <0x1420>
+ <1><1440>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <1441>   DW_AT_prototyped  : 1
+    <1442>   DW_AT_type        : <0x539>
+    <1446>   DW_AT_sibling     : <0x145a>
+ <2><144a>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <144b>   DW_AT_type        : <0x61b>
+ <2><144f>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1450>   DW_AT_type        : <0x575>
+ <2><1454>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1455>   DW_AT_type        : <0x1460>
+ <2><1459>: Abbrev Number: 0
+ <1><145a>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <145b>   DW_AT_byte_size   : 4
+    <145c>   DW_AT_type        : <0x1465>
+ <1><1460>: Abbrev Number: 3 (DW_TAG_const_type)
+    <1461>   DW_AT_type        : <0x145a>
+ <1><1465>: Abbrev Number: 14 (DW_TAG_structure_type)
+    <1466>   DW_AT_name        : (indirect string, offset: 0x1199): strace_stat
+    <146a>   DW_AT_declaration : 1
+ <1><146b>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <146c>   DW_AT_byte_size   : 4
+    <146d>   DW_AT_type        : <0x1440>
+ <1><1471>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <1472>   DW_AT_prototyped  : 1
+    <1473>   DW_AT_type        : <0x539>
+    <1477>   DW_AT_sibling     : <0x148b>
+ <2><147b>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <147c>   DW_AT_type        : <0x61b>
+ <2><1480>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1481>   DW_AT_type        : <0x575>
+ <2><1485>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1486>   DW_AT_type        : <0x1491>
+ <2><148a>: Abbrev Number: 0
+ <1><148b>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <148c>   DW_AT_byte_size   : 4
+    <148d>   DW_AT_type        : <0x1496>
+ <1><1491>: Abbrev Number: 3 (DW_TAG_const_type)
+    <1492>   DW_AT_type        : <0x148b>
+ <1><1496>: Abbrev Number: 14 (DW_TAG_structure_type)
+    <1497>   DW_AT_name        : (indirect string, offset: 0x1175): strace_statfs
+    <149b>   DW_AT_declaration : 1
+ <1><149c>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <149d>   DW_AT_byte_size   : 4
+    <149e>   DW_AT_type        : <0x1471>
+ <1><14a2>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <14a3>   DW_AT_prototyped  : 1
+    <14a4>   DW_AT_type        : <0x539>
+    <14a8>   DW_AT_sibling     : <0x14c1>
+ <2><14ac>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <14ad>   DW_AT_type        : <0x61b>
+ <2><14b1>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <14b2>   DW_AT_type        : <0x575>
+ <2><14b6>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <14b7>   DW_AT_type        : <0x575>
+ <2><14bb>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <14bc>   DW_AT_type        : <0x1491>
+ <2><14c0>: Abbrev Number: 0
+ <1><14c1>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <14c2>   DW_AT_byte_size   : 4
+    <14c3>   DW_AT_type        : <0x14a2>
+ <1><14c7>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <14c8>   DW_AT_prototyped  : 1
+    <14c9>   DW_AT_type        : <0x539>
+    <14cd>   DW_AT_sibling     : <0x14e1>
+ <2><14d1>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <14d2>   DW_AT_type        : <0x61b>
+ <2><14d6>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <14d7>   DW_AT_type        : <0x575>
+ <2><14db>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <14dc>   DW_AT_type        : <0xf1>
+ <2><14e0>: Abbrev Number: 0
+ <1><14e1>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <14e2>   DW_AT_byte_size   : 4
+    <14e3>   DW_AT_type        : <0x14c7>
+ <1><14e7>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <14e8>   DW_AT_prototyped  : 1
+    <14e9>   DW_AT_type        : <0x64>
+    <14ed>   DW_AT_sibling     : <0x1501>
+ <2><14f1>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <14f2>   DW_AT_type        : <0x615>
+ <2><14f6>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <14f7>   DW_AT_type        : <0x32>
+ <2><14fb>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <14fc>   DW_AT_type        : <0x575>
+ <2><1500>: Abbrev Number: 0
+ <1><1501>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <1502>   DW_AT_byte_size   : 4
+    <1503>   DW_AT_type        : <0x14e7>
+ <1><1507>: Abbrev Number: 24 (DW_TAG_subroutine_type)
+    <1508>   DW_AT_prototyped  : 1
+    <1509>   DW_AT_sibling     : <0x151d>
+ <2><150d>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <150e>   DW_AT_type        : <0x61b>
+ <2><1512>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1513>   DW_AT_type        : <0x575>
+ <2><1517>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1518>   DW_AT_type        : <0x6b>
+ <2><151c>: Abbrev Number: 0
+ <1><151d>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <151e>   DW_AT_byte_size   : 4
+    <151f>   DW_AT_type        : <0x1507>
+ <1><1523>: Abbrev Number: 24 (DW_TAG_subroutine_type)
+    <1524>   DW_AT_prototyped  : 1
+    <1525>   DW_AT_sibling     : <0x1534>
+ <2><1529>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <152a>   DW_AT_type        : <0x615>
+ <2><152e>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <152f>   DW_AT_type        : <0x575>
+ <2><1533>: Abbrev Number: 0
+ <1><1534>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <1535>   DW_AT_byte_size   : 4
+    <1536>   DW_AT_type        : <0x1523>
+ <1><153a>: Abbrev Number: 24 (DW_TAG_subroutine_type)
+    <153b>   DW_AT_prototyped  : 1
+    <153c>   DW_AT_sibling     : <0x1550>
+ <2><1540>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1541>   DW_AT_type        : <0x61b>
+ <2><1545>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1546>   DW_AT_type        : <0x575>
+ <2><154a>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <154b>   DW_AT_type        : <0x540>
+ <2><154f>: Abbrev Number: 0
+ <1><1550>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <1551>   DW_AT_byte_size   : 4
+    <1552>   DW_AT_type        : <0x153a>
+ <1><1556>: Abbrev Number: 24 (DW_TAG_subroutine_type)
+    <1557>   DW_AT_prototyped  : 1
+    <1558>   DW_AT_sibling     : <0x156c>
+ <2><155c>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <155d>   DW_AT_type        : <0x61b>
+ <2><1561>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1562>   DW_AT_type        : <0x575>
+ <2><1566>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1567>   DW_AT_type        : <0x575>
+ <2><156b>: Abbrev Number: 0
+ <1><156c>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <156d>   DW_AT_byte_size   : 4
+    <156e>   DW_AT_type        : <0x1556>
+ <1><1572>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <1573>   DW_AT_prototyped  : 1
+    <1574>   DW_AT_type        : <0x64>
+    <1578>   DW_AT_sibling     : <0x1587>
+ <2><157c>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <157d>   DW_AT_type        : <0x61b>
+ <2><1581>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1582>   DW_AT_type        : <0x575>
+ <2><1586>: Abbrev Number: 0
+ <1><1587>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <1588>   DW_AT_byte_size   : 4
+    <1589>   DW_AT_type        : <0x1572>
+ <1><158d>: Abbrev Number: 24 (DW_TAG_subroutine_type)
+    <158e>   DW_AT_prototyped  : 1
+    <158f>   DW_AT_sibling     : <0x159e>
+ <2><1593>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1594>   DW_AT_type        : <0x61b>
+ <2><1598>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <1599>   DW_AT_type        : <0x575>
+ <2><159d>: Abbrev Number: 0
+ <1><159e>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <159f>   DW_AT_byte_size   : 4
+    <15a0>   DW_AT_type        : <0x158d>
+ <1><15a4>: Abbrev Number: 24 (DW_TAG_subroutine_type)
+    <15a5>   DW_AT_prototyped  : 1
+    <15a6>   DW_AT_sibling     : <0x15b0>
+ <2><15aa>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <15ab>   DW_AT_type        : <0x1f8>
+ <2><15af>: Abbrev Number: 0
+ <1><15b0>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <15b1>   DW_AT_byte_size   : 4
+    <15b2>   DW_AT_type        : <0x15a4>
+ <1><15b6>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <15b7>   DW_AT_prototyped  : 1
+    <15b8>   DW_AT_type        : <0x539>
+    <15bc>   DW_AT_sibling     : <0x15cb>
+ <2><15c0>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <15c1>   DW_AT_type        : <0x1f8>
+ <2><15c5>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <15c6>   DW_AT_type        : <0x152>
+ <2><15ca>: Abbrev Number: 0
+ <1><15cb>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <15cc>   DW_AT_byte_size   : 4
+    <15cd>   DW_AT_type        : <0x15b6>
+ <1><15d1>: Abbrev Number: 19 (DW_TAG_subroutine_type)
+    <15d2>   DW_AT_prototyped  : 1
+    <15d3>   DW_AT_type        : <0x1ed>
+    <15d7>   DW_AT_sibling     : <0x15e6>
+ <2><15db>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <15dc>   DW_AT_type        : <0x61b>
+ <2><15e0>: Abbrev Number: 20 (DW_TAG_formal_parameter)
+    <15e1>   DW_AT_type        : <0x575>
+ <2><15e5>: Abbrev Number: 0
+ <1><15e6>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <15e7>   DW_AT_byte_size   : 4
+    <15e8>   DW_AT_type        : <0x15d1>
+ <1><15ec>: Abbrev Number: 4 (DW_TAG_typedef)
+    <15ed>   DW_AT_name        : (indirect string, offset: 0x1f2): struct_printers
+    <15f1>   DW_AT_decl_file   : 20
+    <15f2>   DW_AT_decl_line   : 138
+    <15f3>   DW_AT_decl_column : 3
+    <15f4>   DW_AT_type        : <0x10ee>
+ <1><15f8>: Abbrev Number: 3 (DW_TAG_const_type)
+    <15f9>   DW_AT_type        : <0x15ec>
+ <1><15fd>: Abbrev Number: 11 (DW_TAG_variable)
+    <15fe>   DW_AT_name        : (indirect string, offset: 0x222): printers
+    <1602>   DW_AT_decl_file   : 20
+    <1603>   DW_AT_decl_line   : 139
+    <1604>   DW_AT_decl_column : 31
+    <1605>   DW_AT_type        : <0x160b>
+    <1609>   DW_AT_external    : 1
+    <160a>   DW_AT_declaration : 1
+ <1><160b>: Abbrev Number: 7 (DW_TAG_pointer_type)
+    <160c>   DW_AT_byte_size   : 4
+    <160d>   DW_AT_type        : <0x15f8>
+ <1><1611>: Abbrev Number: 33 (DW_TAG_union_type)
+    <1612>   DW_AT_name        : (indirect string, offset: 0x1059): sigval
+    <1616>   DW_AT_byte_size   : 4
+    <1617>   DW_AT_decl_file   : 21
+    <1618>   DW_AT_decl_line   : 24
+    <1619>   DW_AT_decl_column : 7
+    <161a>   DW_AT_sibling     : <0x1637>
+ <2><161e>: Abbrev Number: 34 (DW_TAG_member)
+    <161f>   DW_AT_name        : (indirect string, offset: 0xdd0): sival_int
+    <1623>   DW_AT_decl_file   : 21
+    <1624>   DW_AT_decl_line   : 26
+    <1625>   DW_AT_decl_column : 7
+    <1626>   DW_AT_type        : <0x64>
+ <2><162a>: Abbrev Number: 34 (DW_TAG_member)
+    <162b>   DW_AT_name        : (indirect string, offset: 0x74c): sival_ptr
+    <162f>   DW_AT_decl_file   : 21
+    <1630>   DW_AT_decl_line   : 27
+    <1631>   DW_AT_decl_column : 9
+    <1632>   DW_AT_type        : <0xf1>
+ <2><1636>: Abbrev Number: 0
+ <1><1637>: Abbrev Number: 4 (DW_TAG_typedef)
+    <1638>   DW_AT_name        : (indirect string, offset: 0xfec): __sigval_t
+    <163c>   DW_AT_decl_file   : 21
+    <163d>   DW_AT_decl_line   : 30
+    <163e>   DW_AT_decl_column : 22
+    <163f>   DW_AT_type        : <0x1611>
+ <1><1643>: Abbrev Number: 31 (DW_TAG_structure_type)
+    <1644>   DW_AT_byte_size   : 8
+    <1645>   DW_AT_decl_file   : 22
+    <1646>   DW_AT_decl_line   : 56
+    <1647>   DW_AT_decl_column : 2
+    <1648>   DW_AT_sibling     : <0x166b>
+ <2><164c>: Abbrev Number: 9 (DW_TAG_member)
+    <164d>   DW_AT_name        : (indirect string, offset: 0xebc): si_pid
+    <1651>   DW_AT_decl_file   : 22
+    <1652>   DW_AT_decl_line   : 58
+    <1653>   DW_AT_decl_column : 14
+    <1654>   DW_AT_type        : <0xcd>
+    <1658>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><165b>: Abbrev Number: 9 (DW_TAG_member)
+    <165c>   DW_AT_name        : (indirect string, offset: 0xf2b): si_uid
+    <1660>   DW_AT_decl_file   : 22
+    <1661>   DW_AT_decl_line   : 59
+    <1662>   DW_AT_decl_column : 14
+    <1663>   DW_AT_type        : <0xa2>
+    <1667>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><166a>: Abbrev Number: 0
+ <1><166b>: Abbrev Number: 31 (DW_TAG_structure_type)
+    <166c>   DW_AT_byte_size   : 12
+    <166d>   DW_AT_decl_file   : 22
+    <166e>   DW_AT_decl_line   : 63
+    <166f>   DW_AT_decl_column : 2
+    <1670>   DW_AT_sibling     : <0x16a2>
+ <2><1674>: Abbrev Number: 9 (DW_TAG_member)
+    <1675>   DW_AT_name        : (indirect string, offset: 0xca1): si_tid
+    <1679>   DW_AT_decl_file   : 22
+    <167a>   DW_AT_decl_line   : 65
+    <167b>   DW_AT_decl_column : 10
+    <167c>   DW_AT_type        : <0x64>
+    <1680>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><1683>: Abbrev Number: 9 (DW_TAG_member)
+    <1684>   DW_AT_name        : (indirect string, offset: 0xd8e): si_overrun
+    <1688>   DW_AT_decl_file   : 22
+    <1689>   DW_AT_decl_line   : 66
+    <168a>   DW_AT_decl_column : 10
+    <168b>   DW_AT_type        : <0x64>
+    <168f>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><1692>: Abbrev Number: 9 (DW_TAG_member)
+    <1693>   DW_AT_name        : (indirect string, offset: 0xa6a): si_sigval
+    <1697>   DW_AT_decl_file   : 22
+    <1698>   DW_AT_decl_line   : 67
+    <1699>   DW_AT_decl_column : 17
+    <169a>   DW_AT_type        : <0x1637>
+    <169e>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><16a1>: Abbrev Number: 0
+ <1><16a2>: Abbrev Number: 31 (DW_TAG_structure_type)
+    <16a3>   DW_AT_byte_size   : 12
+    <16a4>   DW_AT_decl_file   : 22
+    <16a5>   DW_AT_decl_line   : 71
+    <16a6>   DW_AT_decl_column : 2
+    <16a7>   DW_AT_sibling     : <0x16d9>
+ <2><16ab>: Abbrev Number: 9 (DW_TAG_member)
+    <16ac>   DW_AT_name        : (indirect string, offset: 0xebc): si_pid
+    <16b0>   DW_AT_decl_file   : 22
+    <16b1>   DW_AT_decl_line   : 73
+    <16b2>   DW_AT_decl_column : 14
+    <16b3>   DW_AT_type        : <0xcd>
+    <16b7>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><16ba>: Abbrev Number: 9 (DW_TAG_member)
+    <16bb>   DW_AT_name        : (indirect string, offset: 0xf2b): si_uid
+    <16bf>   DW_AT_decl_file   : 22
+    <16c0>   DW_AT_decl_line   : 74
+    <16c1>   DW_AT_decl_column : 14
+    <16c2>   DW_AT_type        : <0xa2>
+    <16c6>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><16c9>: Abbrev Number: 9 (DW_TAG_member)
+    <16ca>   DW_AT_name        : (indirect string, offset: 0xa6a): si_sigval
+    <16ce>   DW_AT_decl_file   : 22
+    <16cf>   DW_AT_decl_line   : 75
+    <16d0>   DW_AT_decl_column : 17
+    <16d1>   DW_AT_type        : <0x1637>
+    <16d5>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><16d8>: Abbrev Number: 0
+ <1><16d9>: Abbrev Number: 31 (DW_TAG_structure_type)
+    <16da>   DW_AT_byte_size   : 20
+    <16db>   DW_AT_decl_file   : 22
+    <16dc>   DW_AT_decl_line   : 79
+    <16dd>   DW_AT_decl_column : 2
+    <16de>   DW_AT_sibling     : <0x172e>
+ <2><16e2>: Abbrev Number: 9 (DW_TAG_member)
+    <16e3>   DW_AT_name        : (indirect string, offset: 0xebc): si_pid
+    <16e7>   DW_AT_decl_file   : 22
+    <16e8>   DW_AT_decl_line   : 81
+    <16e9>   DW_AT_decl_column : 14
+    <16ea>   DW_AT_type        : <0xcd>
+    <16ee>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><16f1>: Abbrev Number: 9 (DW_TAG_member)
+    <16f2>   DW_AT_name        : (indirect string, offset: 0xf2b): si_uid
+    <16f6>   DW_AT_decl_file   : 22
+    <16f7>   DW_AT_decl_line   : 82
+    <16f8>   DW_AT_decl_column : 14
+    <16f9>   DW_AT_type        : <0xa2>
+    <16fd>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><1700>: Abbrev Number: 9 (DW_TAG_member)
+    <1701>   DW_AT_name        : (indirect string, offset: 0x92d): si_status
+    <1705>   DW_AT_decl_file   : 22
+    <1706>   DW_AT_decl_line   : 83
+    <1707>   DW_AT_decl_column : 10
+    <1708>   DW_AT_type        : <0x64>
+    <170c>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><170f>: Abbrev Number: 9 (DW_TAG_member)
+    <1710>   DW_AT_name        : (indirect string, offset: 0x11b6): si_utime
+    <1714>   DW_AT_decl_file   : 22
+    <1715>   DW_AT_decl_line   : 84
+    <1716>   DW_AT_decl_column : 19
+    <1717>   DW_AT_type        : <0xd9>
+    <171b>   DW_AT_data_member_location: 2 byte block: 23 c 	(DW_OP_plus_uconst: 12)
+ <2><171e>: Abbrev Number: 9 (DW_TAG_member)
+    <171f>   DW_AT_name        : (indirect string, offset: 0x4f1): si_stime
+    <1723>   DW_AT_decl_file   : 22
+    <1724>   DW_AT_decl_line   : 85
+    <1725>   DW_AT_decl_column : 19
+    <1726>   DW_AT_type        : <0xd9>
+    <172a>   DW_AT_data_member_location: 2 byte block: 23 10 	(DW_OP_plus_uconst: 16)
+ <2><172d>: Abbrev Number: 0
+ <1><172e>: Abbrev Number: 31 (DW_TAG_structure_type)
+    <172f>   DW_AT_byte_size   : 8
+    <1730>   DW_AT_decl_file   : 22
+    <1731>   DW_AT_decl_line   : 97
+    <1732>   DW_AT_decl_column : 3
+    <1733>   DW_AT_sibling     : <0x1756>
+ <2><1737>: Abbrev Number: 9 (DW_TAG_member)
+    <1738>   DW_AT_name        : (indirect string, offset: 0x9d1): _lower
+    <173c>   DW_AT_decl_file   : 22
+    <173d>   DW_AT_decl_line   : 99
+    <173e>   DW_AT_decl_column : 13
+    <173f>   DW_AT_type        : <0xf1>
+    <1743>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><1746>: Abbrev Number: 9 (DW_TAG_member)
+    <1747>   DW_AT_name        : (indirect string, offset: 0xf05): _upper
+    <174b>   DW_AT_decl_file   : 22
+    <174c>   DW_AT_decl_line   : 100
+    <174d>   DW_AT_decl_column : 13
+    <174e>   DW_AT_type        : <0xf1>
+    <1752>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><1755>: Abbrev Number: 0
+ <1><1756>: Abbrev Number: 35 (DW_TAG_union_type)
+    <1757>   DW_AT_byte_size   : 8
+    <1758>   DW_AT_decl_file   : 22
+    <1759>   DW_AT_decl_line   : 94
+    <175a>   DW_AT_decl_column : 6
+    <175b>   DW_AT_sibling     : <0x1778>
+ <2><175f>: Abbrev Number: 34 (DW_TAG_member)
+    <1760>   DW_AT_name        : (indirect string, offset: 0x462): _addr_bnd
+    <1764>   DW_AT_decl_file   : 22
+    <1765>   DW_AT_decl_line   : 101
+    <1766>   DW_AT_decl_column : 7
+    <1767>   DW_AT_type        : <0x172e>
+ <2><176b>: Abbrev Number: 34 (DW_TAG_member)
+    <176c>   DW_AT_name        : (indirect string, offset: 0xf2): _pkey
+    <1770>   DW_AT_decl_file   : 22
+    <1771>   DW_AT_decl_line   : 103
+    <1772>   DW_AT_decl_column : 14
+    <1773>   DW_AT_type        : <0x70>
+ <2><1777>: Abbrev Number: 0
+ <1><1778>: Abbrev Number: 31 (DW_TAG_structure_type)
+    <1779>   DW_AT_byte_size   : 16
+    <177a>   DW_AT_decl_file   : 22
+    <177b>   DW_AT_decl_line   : 89
+    <177c>   DW_AT_decl_column : 2
+    <177d>   DW_AT_sibling     : <0x17af>
+ <2><1781>: Abbrev Number: 9 (DW_TAG_member)
+    <1782>   DW_AT_name        : (indirect string, offset: 0xf64): si_addr
+    <1786>   DW_AT_decl_file   : 22
+    <1787>   DW_AT_decl_line   : 91
+    <1788>   DW_AT_decl_column : 12
+    <1789>   DW_AT_type        : <0xf1>
+    <178d>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><1790>: Abbrev Number: 9 (DW_TAG_member)
+    <1791>   DW_AT_name        : (indirect string, offset: 0x816): si_addr_lsb
+    <1795>   DW_AT_decl_file   : 22
+    <1796>   DW_AT_decl_line   : 93
+    <1797>   DW_AT_decl_column : 16
+    <1798>   DW_AT_type        : <0x51>
+    <179c>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><179f>: Abbrev Number: 9 (DW_TAG_member)
+    <17a0>   DW_AT_name        : (indirect string, offset: 0x3ab): _bounds
+    <17a4>   DW_AT_decl_file   : 22
+    <17a5>   DW_AT_decl_line   : 104
+    <17a6>   DW_AT_decl_column : 10
+    <17a7>   DW_AT_type        : <0x1756>
+    <17ab>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><17ae>: Abbrev Number: 0
+ <1><17af>: Abbrev Number: 31 (DW_TAG_structure_type)
+    <17b0>   DW_AT_byte_size   : 8
+    <17b1>   DW_AT_decl_file   : 22
+    <17b2>   DW_AT_decl_line   : 108
+    <17b3>   DW_AT_decl_column : 2
+    <17b4>   DW_AT_sibling     : <0x17d7>
+ <2><17b8>: Abbrev Number: 9 (DW_TAG_member)
+    <17b9>   DW_AT_name        : (indirect string, offset: 0x19d): si_band
+    <17bd>   DW_AT_decl_file   : 22
+    <17be>   DW_AT_decl_line   : 110
+    <17bf>   DW_AT_decl_column : 21
+    <17c0>   DW_AT_type        : <0xba>
+    <17c4>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><17c7>: Abbrev Number: 9 (DW_TAG_member)
+    <17c8>   DW_AT_name        : (indirect string, offset: 0xb48): si_fd
+    <17cc>   DW_AT_decl_file   : 22
+    <17cd>   DW_AT_decl_line   : 111
+    <17ce>   DW_AT_decl_column : 10
+    <17cf>   DW_AT_type        : <0x64>
+    <17d3>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><17d6>: Abbrev Number: 0
+ <1><17d7>: Abbrev Number: 31 (DW_TAG_structure_type)
+    <17d8>   DW_AT_byte_size   : 12
+    <17d9>   DW_AT_decl_file   : 22
+    <17da>   DW_AT_decl_line   : 116
+    <17db>   DW_AT_decl_column : 2
+    <17dc>   DW_AT_sibling     : <0x180e>
+ <2><17e0>: Abbrev Number: 9 (DW_TAG_member)
+    <17e1>   DW_AT_name        : (indirect string, offset: 0x583): _call_addr
+    <17e5>   DW_AT_decl_file   : 22
+    <17e6>   DW_AT_decl_line   : 118
+    <17e7>   DW_AT_decl_column : 12
+    <17e8>   DW_AT_type        : <0xf1>
+    <17ec>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><17ef>: Abbrev Number: 9 (DW_TAG_member)
+    <17f0>   DW_AT_name        : (indirect string, offset: 0x8e3): _syscall
+    <17f4>   DW_AT_decl_file   : 22
+    <17f5>   DW_AT_decl_line   : 119
+    <17f6>   DW_AT_decl_column : 10
+    <17f7>   DW_AT_type        : <0x64>
+    <17fb>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><17fe>: Abbrev Number: 9 (DW_TAG_member)
+    <17ff>   DW_AT_name        : (indirect string, offset: 0x7ce): _arch
+    <1803>   DW_AT_decl_file   : 22
+    <1804>   DW_AT_decl_line   : 120
+    <1805>   DW_AT_decl_column : 19
+    <1806>   DW_AT_type        : <0x2b>
+    <180a>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><180d>: Abbrev Number: 0
+ <1><180e>: Abbrev Number: 35 (DW_TAG_union_type)
+    <180f>   DW_AT_byte_size   : 116
+    <1810>   DW_AT_decl_file   : 22
+    <1811>   DW_AT_decl_line   : 51
+    <1812>   DW_AT_decl_column : 5
+    <1813>   DW_AT_sibling     : <0x1878>
+ <2><1817>: Abbrev Number: 34 (DW_TAG_member)
+    <1818>   DW_AT_name        : (indirect string, offset: 0xf26): _pad
+    <181c>   DW_AT_decl_file   : 22
+    <181d>   DW_AT_decl_line   : 53
+    <181e>   DW_AT_decl_column : 6
+    <181f>   DW_AT_type        : <0x1878>
+ <2><1823>: Abbrev Number: 34 (DW_TAG_member)
+    <1824>   DW_AT_name        : (indirect string, offset: 0xb6f): _kill
+    <1828>   DW_AT_decl_file   : 22
+    <1829>   DW_AT_decl_line   : 60
+    <182a>   DW_AT_decl_column : 6
+    <182b>   DW_AT_type        : <0x1643>
+ <2><182f>: Abbrev Number: 34 (DW_TAG_member)
+    <1830>   DW_AT_name        : (indirect string, offset: 0x47e): _timer
+    <1834>   DW_AT_decl_file   : 22
+    <1835>   DW_AT_decl_line   : 68
+    <1836>   DW_AT_decl_column : 6
+    <1837>   DW_AT_type        : <0x166b>
+ <2><183b>: Abbrev Number: 36 (DW_TAG_member)
+    <183c>   DW_AT_name        : _rt
+    <1840>   DW_AT_decl_file   : 22
+    <1841>   DW_AT_decl_line   : 76
+    <1842>   DW_AT_decl_column : 6
+    <1843>   DW_AT_type        : <0x16a2>
+ <2><1847>: Abbrev Number: 34 (DW_TAG_member)
+    <1848>   DW_AT_name        : (indirect string, offset: 0xa61): _sigchld
+    <184c>   DW_AT_decl_file   : 22
+    <184d>   DW_AT_decl_line   : 86
+    <184e>   DW_AT_decl_column : 6
+    <184f>   DW_AT_type        : <0x16d9>
+ <2><1853>: Abbrev Number: 34 (DW_TAG_member)
+    <1854>   DW_AT_name        : (indirect string, offset: 0x864): _sigfault
+    <1858>   DW_AT_decl_file   : 22
+    <1859>   DW_AT_decl_line   : 105
+    <185a>   DW_AT_decl_column : 6
+    <185b>   DW_AT_type        : <0x1778>
+ <2><185f>: Abbrev Number: 34 (DW_TAG_member)
+    <1860>   DW_AT_name        : (indirect string, offset: 0xa2a): _sigpoll
+    <1864>   DW_AT_decl_file   : 22
+    <1865>   DW_AT_decl_line   : 112
+    <1866>   DW_AT_decl_column : 6
+    <1867>   DW_AT_type        : <0x17af>
+ <2><186b>: Abbrev Number: 34 (DW_TAG_member)
+    <186c>   DW_AT_name        : (indirect string, offset: 0xf6c): _sigsys
+    <1870>   DW_AT_decl_file   : 22
+    <1871>   DW_AT_decl_line   : 121
+    <1872>   DW_AT_decl_column : 6
+    <1873>   DW_AT_type        : <0x17d7>
+ <2><1877>: Abbrev Number: 0
+ <1><1878>: Abbrev Number: 15 (DW_TAG_array_type)
+    <1879>   DW_AT_type        : <0x64>
+    <187d>   DW_AT_sibling     : <0x1888>
+ <2><1881>: Abbrev Number: 16 (DW_TAG_subrange_type)
+    <1882>   DW_AT_type        : <0x2b>
+    <1886>   DW_AT_upper_bound : 28
+ <2><1887>: Abbrev Number: 0
+ <1><1888>: Abbrev Number: 31 (DW_TAG_structure_type)
+    <1889>   DW_AT_byte_size   : 128
+    <188a>   DW_AT_decl_file   : 22
+    <188b>   DW_AT_decl_line   : 36
+    <188c>   DW_AT_decl_column : 9
+    <188d>   DW_AT_sibling     : <0x18ce>
+ <2><1891>: Abbrev Number: 9 (DW_TAG_member)
+    <1892>   DW_AT_name        : (indirect string, offset: 0x383): si_signo
+    <1896>   DW_AT_decl_file   : 22
+    <1897>   DW_AT_decl_line   : 38
+    <1898>   DW_AT_decl_column : 9
+    <1899>   DW_AT_type        : <0x64>
+    <189d>   DW_AT_data_member_location: 2 byte block: 23 0 	(DW_OP_plus_uconst: 0)
+ <2><18a0>: Abbrev Number: 9 (DW_TAG_member)
+    <18a1>   DW_AT_name        : (indirect string, offset: 0x521): si_errno
+    <18a5>   DW_AT_decl_file   : 22
+    <18a6>   DW_AT_decl_line   : 40
+    <18a7>   DW_AT_decl_column : 9
+    <18a8>   DW_AT_type        : <0x64>
+    <18ac>   DW_AT_data_member_location: 2 byte block: 23 4 	(DW_OP_plus_uconst: 4)
+ <2><18af>: Abbrev Number: 9 (DW_TAG_member)
+    <18b0>   DW_AT_name        : (indirect string, offset: 0x195): si_code
+    <18b4>   DW_AT_decl_file   : 22
+    <18b5>   DW_AT_decl_line   : 42
+    <18b6>   DW_AT_decl_column : 9
+    <18b7>   DW_AT_type        : <0x64>
+    <18bb>   DW_AT_data_member_location: 2 byte block: 23 8 	(DW_OP_plus_uconst: 8)
+ <2><18be>: Abbrev Number: 9 (DW_TAG_member)
+    <18bf>   DW_AT_name        : (indirect string, offset: 0xa19): _sifields
+    <18c3>   DW_AT_decl_file   : 22
+    <18c4>   DW_AT_decl_line   : 123
+    <18c5>   DW_AT_decl_column : 9
+    <18c6>   DW_AT_type        : <0x180e>
+    <18ca>   DW_AT_data_member_location: 2 byte block: 23 c 	(DW_OP_plus_uconst: 12)
+ <2><18cd>: Abbrev Number: 0
+ <1><18ce>: Abbrev Number: 4 (DW_TAG_typedef)
+    <18cf>   DW_AT_name        : (indirect string, offset: 0x3bb): siginfo_t
+    <18d3>   DW_AT_decl_file   : 22
+    <18d4>   DW_AT_decl_line   : 124
+    <18d5>   DW_AT_decl_column : 5
+    <18d6>   DW_AT_type        : <0x1888>
+ <1><18da>: Abbrev Number: 15 (DW_TAG_array_type)
+    <18db>   DW_AT_type        : <0x1f3>
+    <18df>   DW_AT_sibling     : <0x18ea>
+ <2><18e3>: Abbrev Number: 16 (DW_TAG_subrange_type)
+    <18e4>   DW_AT_type        : <0x2b>
+    <18e8>   DW_AT_upper_bound : 64
+ <2><18e9>: Abbrev Number: 0
+ <1><18ea>: Abbrev Number: 3 (DW_TAG_const_type)
+    <18eb>   DW_AT_type        : <0x18da>
+ <1><18ef>: Abbrev Number: 10 (DW_TAG_variable)
+    <18f0>   DW_AT_name        : (indirect string, offset: 0xf8): _sys_siglist
+    <18f4>   DW_AT_decl_file   : 23
+    <18f5>   DW_AT_decl_line   : 286
+    <18f7>   DW_AT_decl_column : 26
+    <18f8>   DW_AT_type        : <0x18ea>
+    <18fc>   DW_AT_external    : 1
+    <18fd>   DW_AT_declaration : 1
+ <1><18fe>: Abbrev Number: 10 (DW_TAG_variable)
+    <18ff>   DW_AT_name        : (indirect string, offset: 0x97f): sys_siglist
+    <1903>   DW_AT_decl_file   : 23
+    <1904>   DW_AT_decl_line   : 287
+    <1906>   DW_AT_decl_column : 26
+    <1907>   DW_AT_type        : <0x18ea>
+    <190b>   DW_AT_external    : 1
+    <190c>   DW_AT_declaration : 1
+ <1><190d>: Abbrev Number: 37 (DW_TAG_variable)
+    <190e>   DW_AT_name        : (indirect string, offset: 0xf74): mpers_target_var
+    <1912>   DW_AT_decl_file   : 24
+    <1913>   DW_AT_decl_line   : 22
+    <1914>   DW_AT_decl_column : 11
+    <1915>   DW_AT_type        : <0x18ce>
+    <1919>   DW_AT_external    : 1
+    <191a>   DW_AT_location    : 5 byte block: 3 20 0 0 0 	(DW_OP_addr: 20)
+ <1><1920>: Abbrev Number: 0
+
