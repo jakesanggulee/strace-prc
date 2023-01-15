@@ -82,6 +82,7 @@ bool debug_flag;
 
 
 bool trace_prc = false;
+char dump_prc_file[1024];
 
 bool Tflag;
 int Tflag_scale = 1000;
@@ -2280,7 +2281,7 @@ init(int argc, char *argv[])
 		GETOPT_PRC,
 	};
 	static const struct option longopts[] = {
-		{ "prc",            no_argument, 0, GETOPT_PRC },
+		{ "prc",            required_argument, 0, GETOPT_PRC },
 		{ "columns",		required_argument, 0, 'a' },
 		{ "output-append-mode",	no_argument,	   0, 'A' },
 		{ "detach-on",		required_argument, 0, 'b' },
@@ -2390,19 +2391,27 @@ init(int argc, char *argv[])
 			break;
 
                 case GETOPT_PRC:
-                        trace_prc = true;
+		        strcpy(dump_prc_file, optarg);
+
+			if (strlen(dump_prc_file) == 0){
+				printf("Using default PrC dump file: dump.prc");
+			}
+
+
+			trace_prc = true;
                         stack_trace_enabled = true;
                         qflag_short = 2;;
 
-
+			followfork = true;
 			qualify_decode_pid("comm");
+
 
                         Tflag = 1;
                         Tflag_width = 6;
-                        Tflag_scale = str2timescale_optarg(optarg,
-                                                           &Tflag_width);
-                        if (Tflag_scale < 0)
-                                error_opt_arg(c, lopt, optarg);
+                  //      Tflag_scale = str2timescale_optarg(optarg,
+                    //                                       &Tflag_width);
+                   //     if (Tflag_scale < 0)
+                    //            error_opt_arg(c, lopt, optarg);
                         break;
 
 

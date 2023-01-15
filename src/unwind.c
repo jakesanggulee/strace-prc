@@ -299,6 +299,7 @@ extern bool trace_prc;
 FILE* prc_fd = NULL;
 char buf[1024];
 char buf2[4096];
+char * dump_prc_file;
 
 /*
  * printing stack
@@ -315,7 +316,7 @@ unwind_tcb_print(struct tcb *tcp)
 		if (trace_prc == true){
 
 			if (prc_fd  == NULL ){	
-				prc_fd = fopen("./PRC_OUT", "w");	
+				prc_fd = fopen(dump_prc_file, "w");	
 			}
 
                 	prc = 0;
