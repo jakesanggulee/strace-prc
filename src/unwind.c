@@ -299,8 +299,7 @@ extern bool trace_prc;
 FILE* prc_fd = NULL;
 char buf[1024];
 char buf2[4096];
-char * dump_prc_file;
-
+extern char  dump_prc_file[1024];
 /*
  * printing stack
  */
@@ -316,7 +315,17 @@ unwind_tcb_print(struct tcb *tcp)
 		if (trace_prc == true){
 
 			if (prc_fd  == NULL ){	
-				prc_fd = fopen(dump_prc_file, "w");	
+
+				printf("dump file name is %s" , dump_prc_file);
+				fflush(stdout);
+
+
+				prc_fd = fopen(dump_prc_file, "w");
+				
+				if ( prc_fd == NULL ){
+					printf("Failed to open File descriptor\n");
+					fflush(stdout);
+				}	
 			}
 
                 	prc = 0;
