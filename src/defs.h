@@ -327,6 +327,8 @@ struct tcb {
 	char comm[PROC_COMM_LEN];
 
 	unsigned long start_prc;
+	char pre_comm[PROC_COMM_LEN];
+
 
 };
 

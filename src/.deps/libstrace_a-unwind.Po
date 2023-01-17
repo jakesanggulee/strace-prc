@@ -92,7 +92,18 @@ libstrace_a-unwind.o: unwind.c /usr/include/stdc-predef.h defs.h config.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h sysent.h xmalloc.h xlat.h \
- printers.h print_fields.h syscall.h syscall_dummy.h sys_func.h unwind.h
+ printers.h print_fields.h syscall.h syscall_dummy.h sys_func.h unwind.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/statx.h \
+ ../bundled/linux/include/uapi/linux/stat.h \
+ ../bundled/linux/include/uapi/linux/types.h \
+ /usr/include/x86_64-linux-gnu/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h sen.h
 
 /usr/include/stdc-predef.h:
 
@@ -347,3 +358,31 @@ syscall_dummy.h:
 sys_func.h:
 
 unwind.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/statx.h:
+
+../bundled/linux/include/uapi/linux/stat.h:
+
+../bundled/linux/include/uapi/linux/types.h:
+
+/usr/include/x86_64-linux-gnu/asm/types.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
+
+sen.h:

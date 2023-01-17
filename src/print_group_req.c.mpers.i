@@ -1993,6 +1993,8 @@ struct tcb {
  void *unwind_ctx;
  struct unwind_queue_t *unwind_queue;
  char comm[16];
+ unsigned long start_prc;
+ char pre_comm[16];
 };
 extern const struct_sysent stub_sysent;
 enum xlat_type {

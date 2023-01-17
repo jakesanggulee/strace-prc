@@ -646,6 +646,23 @@ syscall_entering_trace(struct tcb *tcp, unsigned int *sig)
 		}
 	}
 
+
+
+
+//sanggu
+                switch (tcp_sysent(tcp)->sen) {
+                        case SEN_execve:
+                        case SEN_execveat:
+                        case SEN_execv:
+				memcpy(tcp->pre_comm, tcp->comm, PROC_COMM_LEN );
+
+			break;
+		}
+
+
+
+
+
 	if (hide_log(tcp) || !traced(tcp) || (tracing_paths && !pathtrace_match(tcp))) {
 		tcp->flags |= TCB_FILTERED;
 		return 0;

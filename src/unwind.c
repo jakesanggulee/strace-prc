@@ -105,6 +105,8 @@ print_call_cb(void *dummy,
 	      unwind_function_offset_t function_offset,
 	      unsigned long true_offset)
 {
+
+
 	if (symbol_name && (symbol_name[0] != '\0')) {
 #ifdef USE_DEMANGLE
 		char *demangled_name =
@@ -290,8 +292,8 @@ calculate_prc_error(void *dummy,
                const char *error,
                unsigned long true_offset){
 
-        prc = 0;
-        prc_suc = false;
+        prc += 0;
+	//tprintf_string("Backtrace Failed: %s \n", error);
 }
  
 
@@ -303,27 +305,43 @@ extern char  dump_prc_file[1024];
 /*
  * printing stack
  */
+
+
+
+
+
+
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sen.h>
+
 void
 unwind_tcb_print(struct tcb *tcp)
 {
+
+
+	if (tcp->unwind_queue->head) {
+		debug_func_msg("head: tcp=%p, queue=%p",
+			       tcp, tcp->unwind_queue->head);
+		queue_print(tcp->unwind_queue);
+	} else
+		unwinder.tcb_walk(tcp, print_call_cb, print_error_cb, NULL);
+
+
+
 #if defined(USE_LIBUNWIND) && (SUPPORTED_PERSONALITIES > 1)
 	if (tcp->currpers != DEFAULT_PERSONALITY) {
 		/* disable stack trace */
 		return;
 	}
 #endif
-		if (trace_prc == true){
+		if (trace_prc == true) {
 
 			if (prc_fd  == NULL ){	
-
-				printf("dump file name is %s" , dump_prc_file);
-				fflush(stdout);
-
-
 				prc_fd = fopen(dump_prc_file, "w");
 				
 				if ( prc_fd == NULL ){
-					printf("Failed to open File descriptor\n");
+					tprints_string("Failed to open File descriptor\n");
 					fflush(stdout);
 				}	
 			}
@@ -339,29 +357,42 @@ unwind_tcb_print(struct tcb *tcp)
 			memset(buf,0,sizeof(buf));
 
                 	if((len = readlink(file_name, buf, 1024)) != -1) {
-                		snprintf(buf2,  sizeof(buf2) ,"[Name %s, Time %ld, Pid %d,  %s, PrC %lx, File %s]\n", tcp->comm, tcp->etime.tv_nsec, tcp->pid, tcp_sysent(tcp)->sys_name , prc, buf);
-				fprintf(prc_fd, buf2, strlen(buf2));
-				fflush(prc_fd);
-
+				struct stat sb;
+				if ( stat(buf,&sb) != -1 ) {
+					//We only write log for  Regular File 
+					 switch (sb.st_mode & S_IFMT) {
+						 case S_IFREG:
+						              				snprintf(buf2,  sizeof(buf2) ,"[Name %s, Time %ld, Pid %d,  %s, PrC %lx, Start_PrC %lx, File %s]\n", tcp->comm, tcp->etime.tv_nsec, tcp->pid, tcp_sysent(tcp)->sys_name , prc, tcp->start_prc, buf);
+											fprintf(prc_fd, buf2, strlen(buf2));
+											fflush(prc_fd);
+						break;
+						default:
+							break;
+					}
+				}
 			}
 			else{
-                		snprintf(buf2,  sizeof(buf2) ,"[Name %s, Time %ld, Pid %d, %s, PrC %lx]\n", tcp->comm, tcp->etime.tv_nsec,    tcp->pid  ,  tcp_sysent(tcp)->sys_name , prc);
-				fprintf(prc_fd, buf2, strlen(buf2));
-				fflush(prc_fd);
+							               switch (tcp_sysent(tcp)->sen) {
+							                        case SEN_execve:
+                        							case SEN_execveat:
+                        							case SEN_execv:
+											//tcp->start_prc = prc;
+											snprintf(buf2,  sizeof(buf2) ,"[Name %s ---> %s, Time %ld, Pid %d, %s, PrC %lx, Start_PrC %lx ]\n", tcp->pre_comm, tcp->comm, tcp->etime.tv_nsec,    tcp->pid  ,  tcp_sysent(tcp)->sys_name , prc, tcp->start_prc);
+											fprintf(prc_fd, buf2, strlen(buf2));
+											fflush(prc_fd);
+											break;
+										break;
+										default:
+                									snprintf(buf2,  sizeof(buf2) ,"[Name %s, Time %ld, Pid %d, %s, PrC %lx, Start_PrC %lx]\n", tcp->comm, tcp->etime.tv_nsec,    tcp->pid  ,  tcp_sysent(tcp)->sys_name , prc, tcp->start_prc);
+											fprintf(prc_fd, buf2, strlen(buf2));
+											fflush(prc_fd);
+											break;
+                							}
 			}
-
-			tprintf_string("[PrC %lx]\n", prc);
-	
-
-
+			tprintf_string("[PrC %lx, start_prc %lx ]\n", prc, tcp->start_prc);
         	}
 
-	if (tcp->unwind_queue->head) {
-		debug_func_msg("head: tcp=%p, queue=%p",
-			       tcp, tcp->unwind_queue->head);
-		queue_print(tcp->unwind_queue);
-	} else
-		unwinder.tcb_walk(tcp, print_call_cb, print_error_cb, NULL);
+
 }
 
 /*
@@ -376,6 +407,71 @@ unwind_tcb_capture(struct tcb *tcp)
 		return;
 	}
 #endif
+		if (trace_prc == true) {
+
+			if (prc_fd  == NULL ){	
+				prc_fd = fopen(dump_prc_file, "w");
+				
+				if ( prc_fd == NULL ){
+					tprints_string("Failed to open File descriptor\n");
+					fflush(stdout);
+				}	
+			}
+
+                	prc = 0;
+                	prc_suc = false;
+                	unwinder.tcb_walk(tcp, calculate_prc, calculate_prc_error, NULL);
+                
+                	char file_name[512];
+                	sprintf(file_name, "/proc/%d/fd/%ld", tcp->pid , tcp->u_arg[0]);
+                	int len;
+                        
+			memset(buf,0,sizeof(buf));
+
+                	if((len = readlink(file_name, buf, 1024)) != -1) {
+				struct stat sb;
+				if ( stat(buf,&sb) != -1 ) {
+					//We only write log for  Regular File 
+					 switch (sb.st_mode & S_IFMT) {
+						 case S_IFREG:
+						              				//snprintf(buf2,  sizeof(buf2) ,"[Name %s, Time %ld, Pid %d,  %s, PrC %lx, Start_PrC %lx, File %s]\n", tcp->comm, tcp->etime.tv_nsec, tcp->pid, tcp_sysent(tcp)->sys_name , prc, tcp->start_prc, buf);
+											//fprintf(prc_fd, buf2, strlen(buf2));
+											//fflush(prc_fd);
+						break;
+						default:
+							break;
+					}
+				}
+			}
+			else{
+							               switch (tcp_sysent(tcp)->sen) {
+							                        case SEN_execve:
+                        							case SEN_execveat:
+                        							case SEN_execv:
+											tcp->start_prc = prc;
+											//snprintf(buf2,  sizeof(buf2) ,"[Name %s ---> %s, Time %ld, Pid %d, %s, PrC %lx, Start_PrC %lx ]\n", tcp->pre_comm, tcp->comm, tcp->etime.tv_nsec,    tcp->pid  ,  tcp_sysent(tcp)->sys_name , prc, tcp->start_prc);
+											//fprintf(prc_fd, buf2, strlen(buf2));
+											//fflush(prc_fd);
+											break;
+										break;
+										default:
+                									//snprintf(buf2,  sizeof(buf2) ,"[Name %s, Time %ld, Pid %d, %s, PrC %lx, Start_PrC %lx]\n", tcp->comm, tcp->etime.tv_nsec,    tcp->pid  ,  tcp_sysent(tcp)->sys_name , prc, tcp->start_prc);
+											//fprintf(prc_fd, buf2, strlen(buf2));
+											//fflush(prc_fd);
+											break;
+                							}
+			}
+			//tprintf_string("[PrC %lx, start_prc %lx ]\n", prc, tcp->start_prc);
+        	}
+
+
+
+
+
+
+
+
+
 	if (tcp->unwind_queue->head)
 		error_msg_and_die("bug: unprinted entries in queue");
 	else {

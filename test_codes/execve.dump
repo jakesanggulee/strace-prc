@@ -1,0 +1,3 @@
+[Name strace ---> execve, Time 820963569, Pid 133893, execve, PrC 1100, Start_PrC 1100 ]
+[Name execve ---> execve, Time 820963569, Pid 133893, execve, PrC 10951e, Start_PrC 10951e ]
+[Name execve ---> write, Time 870669475, Pid 133893, execve, PrC 1100, Start_PrC 1100 ]

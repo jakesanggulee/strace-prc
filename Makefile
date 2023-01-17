@@ -365,8 +365,8 @@ STRIP =
 VALGRIND = 
 VALGRIND_ENABLED = no
 VERSION = UNKNOWN
-WARN_CFLAGS =  -Wall -Wextra -Wno-missing-field-initializers -Wno-unused-parameter -Wdate-time -Wformat-security -Wimplicit-fallthrough=5 -Winit-self -Wlogical-op -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wtrampolines -Wundef -Wwrite-strings -Werror
-WARN_CFLAGS_FOR_BUILD =  -Wall -Wextra -Wno-missing-field-initializers -Wno-unused-parameter -Wdate-time -Wformat-security -Wimplicit-fallthrough=5 -Winit-self -Wlogical-op -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wtrampolines -Wundef -Wwrite-strings -Werror
+WARN_CFLAGS = 
+WARN_CFLAGS_FOR_BUILD = 
 abs_builddir = /root/strace-prc
 abs_srcdir = /root/strace-prc
 abs_top_builddir = /root/strace-prc
